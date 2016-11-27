@@ -1,0 +1,707 @@
+/* Homepage 19
+ ================================================================*/
+
+.homepage-19, .homepage-19 h1, .homepage-19 .h1, .homepage-19 h2, .homepage-19 .h2, .homepage-19 h3, .homepage-19 .h3, .homepage-19 h4, .homepage-19 .h4 {
+	font-family: "Pt Sans Narrow";
+}
+.homepage-19 h1, .homepage-19 .h1 {
+	font-size: 60px;
+}
+.homepage-19 h2, .homepage-19 .h2 {
+	font-size: 45px;
+}
+.homepage-19 h3, .homepage-19 .h3 {
+	font-size: 30px;
+}
+.homepage-19 p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color:#6b6b70;
+}
+.homepage-19 #slider {
+	width: 100%;
+	position: relative;
+}
+.homepage-19 .banner-slider {
+	width: 100%;
+}
+.homepage-19 .banner-slider ul {
+	list-style: none;
+}
+.homepage-19 .banner-slider li {
+	overflow: hidden;
+}
+.homepage-19 .banner-slider img {
+	margin: auto;
+	display: block;
+	max-width: inherit;
+}
+.homepage-19 .banner-slider .layer1 {
+	font-size: 70px;
+	color: #fff;
+	display: block;
+	font-family: 'Damion';
+	font-style: normal;
+	line-height: 0.6;
+	padding-left: 70px;
+}
+.homepage-19 .banner-slider .layer2 {
+	font-size: 100px;
+	color: #fff;
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: 700;
+	white-space: nowrap;
+	letter-spacing: 0.02em;
+	font-family: 'PT Sans Narrow';
+}
+.homepage-19 {
+	background: #f6f6f6;
+}
+.homepage-19 #wrapper {
+	overflow: hidden;
+}
+.tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
+	border-left: none;
+	position: static;
+	left: 0;
+	top: auto;
+}
+.vet-call-wrapper {
+	position: absolute;
+	width: 100%;
+	text-align: right;
+	right: 0;
+	bottom: auto;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	z-index: 99;
+}
+.vet-call-btn {
+	display: inline-block;
+	font-size: 25px;
+	margin-top: 168px;
+	position: relative;
+	z-index: 200;
+}
+.vet-call-btn .vet-phone-no {
+	font-size: 28px;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 12px
+}
+.vet-call-btn .phone-btn {
+	display: inline-block;
+	padding: 16px;
+	text-align: center;
+	width: 77px;
+	height: 74px;
+}
+.vet-call-btn {
+	background: #fefefe;
+}
+.vet-call-btn .phone-btn i {
+	font-size: 35px;
+	color: #fff;
+	line-height: 1.2;
+}
+.vet-call-text {
+	display: inline-block;
+	padding: 0 20px;
+}
+.homepage-19 .banner-slider .h1 {
+	font-size: 70px;
+	font-family: 'Damion';
+	margin-left: 80px;
+}
+.homepage-19 .banner-slider .tp-caption span {
+	font-size: 100px;
+	line-height: 0.8;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding: 0;
+	letter-spacing: -1px;
+}
+.tparrows.hidearrows {
+	opacity: 1;
+}
+/* Vet Clinic
+ ---------------------------------------------------*/
+.vet-clinic {
+	padding: 90px 0;
+}
+.vet-clinic h2 {
+	text-align: center;
+}
+.homepage-19 .org-info {
+	padding-bottom: 0px;
+	width: 100%;
+}
+.homepage-19 .org-info .org-title {
+	padding: 50px 20px 20px;
+	text-align: center;
+}
+.homepage-19 .org-info p {
+	padding-top: 33px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 80%;
+    color: #6b6b70;
+    margin: 0 auto;
+}
+.homepage-19 .org-info .services {
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 78px;
+}
+.homepage-19 .services figure {
+	display: block;
+}
+.homepage-19 .services figure img {
+	width: 100%
+}
+.homepage-19 .org-info .services .one, .homepage-19 .org-info .services .two, .homepage-19 .org-info .services .three, .homepage-19 .org-info .services .four {
+	margin: 30px 0;
+	overflow: hidden;
+	position: relative;
+}
+.homepage-19 .org-info h4 {
+	text-transform: uppercase;
+}
+.homepage-19 .org-info i {
+	margin: 30px 0;
+	display: block;
+}
+.homepage-19 .org-info i img {
+	max-width: inherit;
+}
+.homepage-19 .org-info .services .one:after, .homepage-19 .org-info .services .two:after, .homepage-19 .org-info .services .three:after, .homepage-19 .org-info .services .four:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 5px;
+	width: 100%;
+	content: '';
+}
+.homepage-19 .org-info .services .one:after, .homepage-19 .vet-clinic .one figcaption {
+	background: #a8ca07;
+}
+.homepage-19 .org-info .services .two:after, .homepage-19 .vet-clinic .two figcaption {
+	background: #17ad76
+}
+.homepage-19 .org-info .services .three:after, .homepage-19 .vet-clinic .three figcaption {
+	background: #ffa93a;
+}
+.homepage-19 .org-info .services .four:after, .homepage-19 .vet-clinic .four figcaption {
+	background: #ef3533;
+}
+.homepage-19 .vet-clinic figure figcaption {
+	color: #fff;
+	font-size: 22px;
+	padding: 35px 30px;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.1;
+}
+/* Summer Program
+ --------------------------------------*/
+.homepage-19 .event-info {
+	position: relative;
+	width: 100%;
+	background: no-repeat center top;
+	background-image: url(../img/bg-trans.png);
+}
+.homepage-19 .event-info figure {
+	margin-top: 45px;
+}
+.homepage-19 .event-info .text {
+	padding: 60px 50px 0px;
+	text-align: center;
+	background: #f6f6f6;
+	height: 357px;
+}
+.homepage-19 .event-info p {
+	font-size: 18px;
+}
+.homepage-19 .event-info .btn-default {
+	margin-top: 36px;
+	display: inline-block;
+}
+.homepage-19 .event-info .text {
+	margin-top: 110px;
+}
+.homepage-19 .summer-program .bg {
+	margin-bottom: 268px;
+}
+/*
+ Pet News
+ -----------------------------*/
+.homepage-19 .recent-info {
+	padding: 52px 0 43px;
+	width: 100%;
+	overflow: hidden;
+}
+.homepage-19 .recent-info .owl-wrapper {
+	position: relative;
+}
+.homepage-19 .recent-info .owl-carousel {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-top: -38px;
+}
+.homepage-19 .recent-info .owl-item {
+	float: left;
+	position: relative;
+	padding: 0 15px;
+	margin-top: 42px;
+}
+.homepage-19 .recent-info .owl-controls {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: auto;
+	padding: 0 50px;
+	overflow: hidden;
+}
+.homepage-19 .recent-info .owl-buttons {
+	top: 0;
+}
+.homepage-19 .recent-info .owl-pagination {
+	padding: 0 20px;
+	list-style: none;
+	overflow: hidden;
+}
+.homepage-19 .recent-info .owl-page {
+	float: left;
+}
+.homepage-19 .recent-info .owl-numbers {
+	padding: 0 5px;
+	display: block;
+	line-height: 48px;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow';
+	color: #22272e;
+	cursor: pointer;
+}
+.homepage-19 .recent-info .owl-prev, .homepage-19 .recent-info .owl-next {
+	background: url("../img/icons2.png") no-repeat 12px -29px;
+	cursor: pointer;
+	display: table;
+	height: 48px;
+	left: 0;
+	position: absolute;
+	text-indent: -9999px;
+	top: 0;
+	width: 49px;
+}
+.homepage-19 .recent-info .owl-next {
+	left: auto;
+	right: 0px;
+	background-position: 12px -60px;
+}
+.homepage-19 .recent-info .owl-wrapper-outer {
+	border-top: 1px solid #eaebec;
+	margin: 0;
+	margin-top: 66px;
+	overflow: hidden;
+}
+.homepage-19 .recent-info figure {
+	margin-top: 20px;
+}
+.homepage-19 .recent-info figure img {
+	width: 100%;
+}
+.homepage-19 .recent-info .text {
+	padding: 30px 15px;
+	margin: -68px 50px 0;
+	text-align: center;
+	position: relative;
+	z-index: 99;
+	background: none;
+}
+.homepage-19 .recent-info .text i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 123px;
+	width: 100%;
+	background: #f6f6f6;
+	z-index: -1;
+}
+.homepage-19 .recent-info h3 a {
+	color: #22272e;
+	font-weight: normal;
+}
+.homepage-19 .recent-info h3 a:hover {
+	text-decoration: none;
+}
+.homepage-19 .btn-primary:hover {
+	text-decoration: none;
+}
+.homepage-19 .recent-info .date {
+	padding: 0 15px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 31px;
+	display: inline-block;
+	font-family: 'PT Sans Narrow';
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+.homepage-19 .recent-info .more {
+	padding: 20px 0;
+	text-align: center;
+	border-top: 1px solid #eaebec;
+}
+.homepage-19 .btn-primary {
+	padding: 8px 8px 0;
+}
+.homepage-19 .btn-primary:hover {
+	background: none;
+	color: #2b343f;
+}
+.homepage-19 .recent-info h3 > a {
+	font-family: inherit;
+}
+.homepage-19 .arrow-right {
+	vertical-align: top;
+	margin-top: 0;
+}
+/*
+ 1.5) Goal Info Section
+ -----------------------------*/
+.homepage-19 .goals-info {
+	overflow: hidden;
+	width: 100%;
+	background: #ececec;
+}
+.homepage-19 .goals-info figure img {
+	display: block;
+	margin: auto;
+}
+.homepage-19 .goals-info .text {
+	padding: 50px 0 20px;
+	margin-top: 45px;
+}
+.homepage-19 .goals-info .intro {
+	padding: 0 0 36px 38px;
+	margin: 50px 0 20px;
+	position: relative;
+	border-bottom: 1px solid #eaebec;
+}
+.homepage-19 .goals-info .intro:after {
+	position: absolute;
+	top: 7px;
+	left: -2px;
+	width: 3px;
+	height: 64%;
+	content: "";
+}
+.homepage-19 .goals-info .text p {
+	font-size: 18px;
+	color: #6b6b70;
+}
+.homepage-19 .goals-info .btn-primary {
+	font-family: 'Lato';
+	font-weight: 900;
+	font-size: 13px;
+	letter-spacing: none;
+}
+.homepage-19 .goals-info .pet-img {
+	margin: 18px -35px;
+}
+/*
+ 1.6) Team Info Section
+ -----------------------------*/
+.homepage-19 .team-info {
+	padding: 106px 0 40px;
+	width: 100%;
+	background: #f6f6f6;
+}
+.homepage-19 .team-info .team {
+	overflow: hidden;
+}
+.homepage-19 .team-info .owl-carousel {
+	padding-top: 55px;
+	margin: -15px 15px 0;
+	position: relative;
+	width: 100%;
+	border-top: 1px solid #eaebec;
+}
+.homepage-19 .team-info .owl-buttons {
+	position: absolute;
+	top: -84px;
+	right: 34px;
+}
+.homepage-19 .team-info .owl-prev, .homepage-19 .team-info .owl-next {
+	margin: 0 1px;
+	text-indent: -9999px;
+	display: inline-block;
+	width: 49px;
+	height: 48px;
+	background: #f2f2f2 url(../img/icons2.png) no-repeat;
+	cursor: pointer;
+}
+.homepage-19 .team-info .owl-prev {
+	background-position: 12px -30px;
+}
+.homepage-19 .team-info .owl-next {
+	background-position: 12px -60px;
+}
+.homepage-19 .team-info .text {
+	padding: 20px 10px;
+}
+.homepage-19 .team-info h4 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.homepage-19 .team-info h4 a {
+	color: #22272e;
+	font-weight: bold;
+	font-family: inherit;
+}
+.homepage-19 .team-info h4 a:hover {
+	text-decoration: none;
+}
+.homepage-19 .team-info span {
+	font-size: 15px;
+}
+.homepage-19 .team-info .owl-item {
+	float: left;
+	text-align: center;
+}
+.homepage-19 .team-info figure {
+	overflow: hidden;
+	width: 165px;
+	height: 167px;
+	margin: 0 auto 12px;
+	position: relative;
+}
+.homepage-19 .team-info figure img {
+	max-width: inherit;
+}
+.homepage-19 .team-info p {
+	font-size: 16px
+}
+.homepage-19 .team-info .owl-wrapper-outer {
+	width: 100%;
+}
+.homepage-19 .team-info .social-icons {
+	list-style: none;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.homepage-19 .team-info .social-icons li {
+	float: none;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	border-radius: 100%;
+	margin: 0 4px;
+}
+.homepage-19 .team-info .social-icons a {
+	color: #fff;
+	font-size: 18px;
+	width: 42px;
+	height: 42px;
+	display: table;
+	cursor: pointer;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.homepage-19 .team-info .social-icons a:hover, .homepage-19 .team-info .social-icons a:focus {
+	text-decoration: none;
+}
+.homepage-19 .team-info .social-icons i {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+.homepage-19 .team-info .info {
+	width: 100%;
+	padding: 20px;
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	z-index: 999;
+	margin-bottom: -41px;
+}
+.homepage-19 .effect-3 .share-icon:after {
+	background: #fff;
+}
+.homepage-19 .team-info .info li {
+	transform: translateY(250%);
+	-webkit-transform: translateY(250%);
+}
+.homepage-19 .team-info .info li:nth-child(1) {
+	animation: icon-animation-back 0.4s ease-in-out 0.3s backwards;
+	-webkit-animation: icon-animation-back 0.4s ease-in-out 0.3s backwards;
+}
+.homepage-19 .team-info .info li:nth-child(2) {
+	animation: icon-animation-back 0.4s ease-in-out 0.2s backwards;
+	-webkit-animation: icon-animation-back 0.2s ease-in-out 0.2s backwards;
+}
+.homepage-19 .team-info .info li:nth-child(3) {
+	animation: icon-animation-back 0.4s ease-in-out 0s backwards;
+	-webkit-animation: icon-animation-back 0.4s ease-in-out 0s backwards;
+}
+.homepage-19 .team-info .item:hover li:nth-child(1) {
+	animation: icon-animation 0.4s linear 0s forwards;
+	-webkit-animation: icon-animation 0.4s linear 0s forwards;
+}
+.homepage-19 .team-info .item:hover li:nth-child(2) {
+	animation: icon-animation 0.4s linear 0.1s forwards;
+	-webkit-animation: icon-animation 0.4s linear 0.1s forwards;
+}
+.homepage-19 .team-info .item:hover li:nth-child(3) {
+	animation: icon-animation 0.4s linear 0.2s forwards;
+	-webkit-animation: icon-animation 0.4s linear 0.2s forwards;
+}
+ @keyframes icon-animation-back {
+0% {
+transform:translateY(0);
+opacity:1;
+}
+80% {
+transform:translateY(-150%);
+opacity:0;
+}
+100% {
+transform:translateY(150%);
+opacity:0;
+}
+}
+ @-webkit-keyframes icon-animation-back {
+0% {
+transform:translateY(0);
+opacity:1;
+}
+80% {
+transform:translateY(-150%);
+opacity:0;
+}
+100% {
+transform:translateY(150%);
+opacity:0;
+}
+}
+ @keyframes icon-animation {
+0% {
+transform:translateY(150%);
+}
+90% {
+transform:translateY(-10%);
+}
+100% {
+transform:translateY(0);
+}
+}
+ @-webkit-keyframes icon-animation {
+0% {
+transform:translateY(150%);
+}
+80% {
+transform:translateY(-10%);
+}
+100% {
+transform:translateY(0);
+}
+}
+/*
+ 1.8) Subscription Info Section
+ -----------------------------*/
+.homepage-19 .subscription {
+	width: 100%;
+	padding-top: 0px;
+}
+.homepage-19 .subscription .bg {
+	background: url(../img/line-2.jpg) repeat-x center top;
+}
+.homepage-19 .subscription .about-me {
+	width: 100%;
+	overflow: hidden;
+	background: #fefefe;
+	display: table;
+}
+.homepage-19 .subscription figure {
+	width: 100%;
+	height: 241px;
+	overflow: hidden;
+}
+.homepage-19 .subscription figure img {
+	max-width: inherit;
+	float: left;
+}
+.homepage-19 .subscription .text {
+	padding-left: 38px;
+	margin: 72px 0 50px;
+	text-align: left;
+	position: relative;
+}
+.homepage-19 .subscription .txt {
+	padding-left: 0px;
+	float: none;
+	display: table-cell;
+	vertical-align: bottom;
+}
+.homepage-19 .subscription .subscription-heading {
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+}
+.homepage-19 .subscription .text:after {
+	position: absolute;
+	top: 15px;
+	left: -2px;
+	width: 3px;
+	height: 80%;
+	content: "";
+}
+.homepage-19 .subscription .sub-me {
+	padding: 42px 0 30px;
+	overflow: hidden;
+}
+.homepage-19 .subscription h2 {
+	color: #fff;
+}
+.homepage-19 .subscription-field {
+	margin-top: 20px;
+	position: relative;
+}
+.homepage-19 .subscription-input {
+	background: #fff;
+	border: none;
+	float: left;
+	font-size: 18px;
+	height: 48px;
+	padding: 0 190px 0 18px;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+.homepage-19 .subscription .btn-default {
+	border: none;
+	width: 170px;
+	height: 48px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#home-carousel .flex-control-nav {
+	display: none;
+}
+.homepage-19 .btn-primary:hover, .homepage-19 .btn-primary:focus, .homepage-19 .btn-primary:active {
+	background: transparent;
+}

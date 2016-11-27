@@ -1,0 +1,1050 @@
+/* Homepage 5
+ ============================================*/
+
+.homepage-5 h1, .homepage-5 h2, .homepage-5 h3, .homepage-5 h4, .homepage-5 h5, .homepage-5 h6, .homepage-5 .h1, .homepage-5 .h2, .homepage-5 .h3, .homepage-5 .h4, .homepage-5 .h5, .homepage-5 .h6 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.2;
+}
+.homepage-5 h1, .homepage-5 .h1 {
+	font-size: 60px;
+}
+.homepage-5 h2, .homepage-5 .h2 {
+	font-size: 60px;
+}
+.homepage-5 h3, .homepage-5 .h3 {
+	font-size: 40px;
+	font-family: 'Yellowtail';
+}
+.homepage-5 h4, .homepage-5 .h4 {
+	font-size: 30px;
+}
+.homepage-5 p {
+	font-size: 18px;
+	line-height: 1.6;
+	color: #6b6b70;
+}
+.homepage-5 .date {
+	font-family:'PT Sans Narrow', sans-serif;
+}
+.homepage-5 .paging {
+	margin: 20px 0;
+	text-align: center;
+}
+.homepage-5 .paging ul {
+	padding: 0 10px;
+	list-style: none;
+	display: inline-block;
+}
+.homepage-5 .paging li {
+	display: inline-block;
+}
+.homepage-5 .paging a {
+	padding: 0 5px;
+	line-height: 48px;
+	color: #22272e;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow';
+}
+.homepage-5 .paging a:hover {
+	text-decoration: none;
+}
+.homepage-5 .paging .pre, .paging .next {
+	width: 49px;
+	height: 48px;
+	display: inline-block;
+	background: #f6f4f4;
+}
+.homepage-5 .paging .pre:hover i, .paging .next:hover i {
+	color: #f6f4f4;
+}
+.homepage-5 .date {
+	padding: 0 8px;
+	font-size: 16px;
+	letter-spacing: -0.05em;
+	line-height: 31px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight:400;
+	display: inline-block;
+}
+/*
+ 1.1) Banner Section
+ -----------------------------*/
+.homepage-5 #slider {
+	width: 100%;
+	overflow: hidden;
+}
+/*slider*/
+.homepage-5 .slider {
+	position: relative;
+	width: 100%;/* height: 818px; */
+}
+.homepage-5 .slider ul {
+	list-style: none;
+}
+.homepage-5 .slider #home-slider li {
+	position: relative;
+	overflow: hidden;
+}
+.homepage-5 .slider #home-slider figure {
+	margin: 0 -100px 0 0;
+	display: block;
+}
+.homepage-5 .slider #home-slider figure img {
+	margin: auto;
+	display: block;
+	max-width: inherit;
+}
+.homepage-5 .slider .hero-banner {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+.homepage-5 .slider .hero-banner .container, .slider .hero-banner .row {
+	height: 100%;
+}
+.homepage-5 .slider .hero-text {
+	display: table;
+	position: relative;
+	height: 100%;
+}
+.homepage-5 .slider .inner {
+	padding: 70px 0 0 13px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.homepage-5 .slider span {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	display: block;
+}
+.homepage-5 .slider .title {
+	margin-left: -5px;
+	font-size: 95px;
+	line-height: 90px;
+	display: block;
+	font-family: 'Yellowtail';
+	font-weight: 400;
+	text-transform: inherit;
+	letter-spacing: 0.05em;
+}
+.homepage-5 .slider .hero-text a {
+	margin-top: 50px;
+	display: inline-block;
+}
+.homepage-5 .slider #home-carousel {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	width: 350px;
+	margin-left: -569px;
+}
+.homepage-5 .slider #home-carousel li {
+	margin-right: 5px;
+}
+.homepage-5 .slider #home-carousel li img {
+	border-bottom: 5px solid transparent;
+}
+.homepage-5 .slider .flex-prev, .slider .flex-next {
+	position: absolute;
+	left: -60px;
+	top: 50%;
+	margin-top: -38px;
+	text-indent: -9999px;
+	display: block;
+	width: 49px;
+	height: 48px;
+	background: url(../img/icons5.png) no-repeat;
+	z-index: 99;
+	cursor: pointer;
+}
+.homepage-5 .slider .flex-prev {
+	background-position: 8px -90px;
+}
+.homepage-5 .slider .flex-next {
+	left: auto;
+	right: -60px;
+	background-position: 8px -120px;
+}
+.homepage-5 .slider .progressbar-container {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 5px;
+	width: 100%;
+	background: #e2dddd;
+}
+.homepage-5 .slider .progressbar {
+	height: 5px;
+	width: 50%;
+}
+/*
+ 1.2) mission Info
+ -----------------------------*/
+.homepage-5 .mission-info {
+	padding-bottom: 64px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.homepage-5 .mission-info .title {
+	padding: 90px 20px 40px;
+	overflow: hidden;
+}
+.homepage-5 .mission-info .title p {
+	padding-top: 40px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.homepage-5 .mission-info .inner {
+	padding:0 0 30px;
+	border-top: 5px solid transparent;
+}
+.homepage-5 .mission-info figure {
+	padding-top: 3px;
+}
+.homepage-5 .mission-info h3 {
+	padding: 33px 0 20px;
+	letter-spacing: 0.04em;
+}
+/*
+ 1.3) blog Info
+ -----------------------------*/
+.homepage-5 .blog-info {
+	padding-bottom: 90px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	border-top: 5px solid transparent;
+}
+.homepage-5 .blog-info:after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 220px;
+	background: url(../img/cloud.png) repeat-x center -5px;
+}
+.homepage-5 .blog-info .container {
+	position: relative;
+	z-index: 99;
+}
+.homepage-5 .blog-info .title {
+	padding: 90px 0 25px;
+	overflow: hidden;
+}
+.homepage-5 .blog-info h2 {
+	color: #fff;
+}
+.homepage-5 .blog-info .inner {
+	padding: 25px 15px;
+}
+.homepage-5 .blog-info .text {
+	margin: -68px 50px 0;
+	padding: 40px 40px 20px;
+	position: relative;
+	background: #fff;
+}
+.homepage-5 .blog-info cite {
+	padding: 0 20px;
+	display: inline-block;
+	font-size: 22px;
+	font-family: 'Yellowtail';
+	font-style: normal;
+	color: #aca8a8;
+}
+.homepage-5 .blog-info h4 {
+	padding-top: 25px;
+	line-height: 1.3;
+}
+.homepage-5 .blog-info h4 a:hover {
+	text-decoration: none;
+}
+.homepage-5 .blog-info .owl-wrapper-outer {
+	overflow: hidden;
+}
+.homepage-5 .blog-info .owl-item {
+	float: left;
+}
+.homepage-5 .blog-info figure img {
+	max-width: inherit;
+	width: 100%;
+}
+.homepage-5 .blog-info .owl-controls {
+	padding: 0 50px;
+	position: relative;
+	display: table;
+	margin: -10px auto 20px;
+}
+.homepage-5 .blog-info .owl-pagination {
+	padding: 0 10px;
+	list-style: none;
+	display: inline-block;
+}
+.homepage-5 .blog-info .owl-page {
+	display: inline-block;
+	cursor: pointer;
+}
+.homepage-5 .blog-info .owl-numbers {
+	padding: 0 5px;
+	display: block;
+	line-height: 48px;
+	color: #22272e;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow';
+}
+.homepage-5 .blog-info .owl-numbers:hover {
+	text-decoration: none;
+}
+.homepage-5 .blog-info .owl-prev, .homepage-5 .blog-info .owl-next {
+	text-indent: -9999px;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 49px;
+	height: 48px;
+	display: inline-block;
+	background: #f6f4f4 url(../img/icons5.png) no-repeat 12px -29px;
+}
+.homepage-5 .blog-info .owl-next {
+	left: auto;
+	right: 0px;
+	background-position: 12px -59px;
+}
+.homepage-5 .owl-buttons {
+	position: static;
+	width: auto;
+}
+.homepage-5 .blog-info .item {
+	margin-bottom: 0;
+}
+/*
+ 1.4) events Info
+ -----------------------------*/
+.homepage-5 .events-info {
+	padding-bottom: 113px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	border-top: 5px solid #f1e2ca;
+	background: url(../img/event-bg.jpg) repeat-x center 0;
+	background-size: cover;
+}
+.homepage-5 .events-info .title {
+	padding: 92px 0 16px;
+	overflow: hidden;
+}
+.homepage-5 .events-info .inner {
+	padding: 27px 0 20px;
+	margin-top: 30px;
+	background: #fff;
+	border: 4px solid transparent;
+}
+.homepage-5 .events-info .month {
+	padding: 0 8px;
+	text-align: left;
+	min-width: 111px;
+	font-size: 16px;
+	letter-spacing: -0.05em;
+	line-height: 31px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight:400;
+	display: inline-block;
+	font-family: 'PT Sans Narrow';
+}
+.homepage-5 .events-info h4 {
+	padding: 17px 0 5px;
+	font-size: 65px;
+	line-height: 1;
+}
+.homepage-5 .events-info cite {
+	display: block;
+	font-size: 25px;
+	font-family: 'Yellowtail';
+	font-style: normal;
+	color: #aca8a8;
+}
+.homepage-5 .events-info small {
+	padding-top: 36px;
+	display: block;
+	font-size: 16px;
+	font-family: 'PT Sans Narrow';
+	font-weight: 700;
+	color: #22272e;
+}
+.homepage-5 .events-info .owl-wrapper-outer {
+	overflow: hidden;
+}
+.homepage-5 .events-info .owl-item {
+	float: left;
+}
+.homepage-5 .events-info .item {
+	margin: 0 15px;
+	cursor: pointer;
+}
+/*
+ 1.5) news Info
+ -----------------------------*/
+.homepage-5 .news-info {
+	padding-bottom: 74px;
+	position: relative;
+	width: 100%;
+	padding-top: 0;
+}
+.homepage-5 .news-info .title {
+	padding: 95px 0 19px;
+	text-align: center;
+	overflow: hidden;
+}
+.homepage-5 .news-info .inner {
+	margin: 30px 0;
+	overflow: hidden;
+	border-top: 5px solid #e7e3e3;
+	background: #f2f2f2;
+}
+.homepage-5 .news-info figure {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	width: 213px;
+}
+.homepage-5 .news-info figure img {
+	height: 100%;
+}
+.homepage-5 .news-info .text {
+	padding: 35px 35px 7px;
+	overflow: hidden;
+}
+.homepage-5 .news-info p {
+	font-size: 18px;
+	line-height: 1.3;
+}
+.homepage-5 .news-info h4 {
+	margin: 15px 0 0;
+}
+.homepage-5 .news-info h4 a:hover {
+	text-decoration: none;
+}
+.homepage-5 .news-info .owl-wrapper-outer {
+	overflow: hidden;
+}
+.homepage-5 .news-info .owl-item {
+	float: left;
+}
+.homepage-5 .news-info .item {
+	margin: 0 15px;
+	cursor: pointer;
+}
+.homepage-5 .news-info figure img {
+	max-width: inherit;
+	width: 100%;
+}
+.homepage-5 .news-info .owl-controls {
+	padding: 0 50px;
+	position: relative;
+	display: table;
+	margin: 38px auto;
+}
+.homepage-5 .news-info .owl-pagination {
+	padding: 0 10px;
+	list-style: none;
+	display: inline-block;
+}
+.homepage-5 .news-info .owl-page {
+	display: inline-block;
+	cursor: pointer;
+}
+.homepage-5 .news-info .owl-numbers {
+	padding: 0 5px;
+	display: block;
+	line-height: 48px;
+	color: #22272e;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow';
+}
+.homepage-5 .news-info .owl-numbers:hover {
+	text-decoration: none;
+}
+.homepage-5 .news-info .owl-prev, .homepage-5 .news-info .owl-next {
+	text-indent: -9999px;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 49px;
+	height: 48px;
+	display: inline-block;
+	background: #f6f4f4 url(../img/icons5.png) no-repeat 12px -29px;
+}
+.homepage-5 .news-info .owl-next {
+	left: auto;
+	right: 0px;
+	background-position: 12px -59px;
+}
+.homepage-5 .news-info h2 {
+	margin-bottom: 0;
+}
+/*
+ 1.6) audio Info
+ -----------------------------*/
+.homepage-5 .audio-info {
+	padding-bottom: 268px;
+	position: relative;
+	width: 100%;
+	background: #f2f2f2;
+}
+.homepage-5 .audio-info .title {
+	padding: 95px 0 46px;
+	text-align: center;
+	overflow: hidden;
+}
+.homepage-5 .audio-info .inner {
+	padding: 8px 20px;
+	margin-top: 5px;
+	display: table;
+	width: 100%;
+	overflow: hidden;
+	background: #eae9e9;
+}
+.homepage-5 .audio-info .intro, .audio-info .btns {
+	display: table-cell;
+	vertical-align: middle;
+}
+.homepage-5 .audio-info .btns {
+	text-align: right;
+	width: 115px;
+}
+.homepage-5 .audio-info .btns .fa {
+	margin-left: 3px;
+	font-size: 10px;
+	width: 27px;
+	height: 27px;
+	background: #fff;
+	line-height: 27px;
+	text-align: center;
+	cursor: pointer;
+	padding-left:2px;
+}
+.homepage-5 .audio-info .btns .fa.fa-play{
+	padding-left: 3px;
+}
+.homepage-5 .audio-info .btns .fa:hover, .homepage-5 .audio-info .btns .fa.active {
+	color: #fff;
+}
+.homepage-5 .audio-info h4, .audio-info cite {
+	display: inline-block;
+	vertical-align: middle;
+}
+.homepage-5 .audio-info h4 {
+	padding-right: 10px;
+}
+.homepage-5 .audio-info cite {
+	font-size: 22px;
+	color: #aca8a8;
+	font-family: 'Yellowtail';
+	font-style: normal;
+}
+.homepage-5 .audio-info .time {
+	padding-right: 10px;
+	position: relative;
+	top: 1px;
+	font-size: 18px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.homepage-5 .audio-info .pre, .audio-info .next {
+	background: #e4e3e3;
+}
+.homepage-5 .audio-info .bx-controls {
+	padding: 0 50px;
+	position: relative;
+	display: table;
+	margin: 35px auto 0;
+}
+.homepage-5 .audio-info .bx-pager {
+	padding: 0 10px;
+	list-style: none;
+	display: inline-block;
+}
+.homepage-5 .audio-info .bx-pager-item {
+	display: inline-block;
+	cursor: pointer;
+}
+.homepage-5 .audio-info .bx-pager-link {
+	padding: 0 5px;
+	display: block;
+	line-height: 48px;
+	color: #22272e;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow';
+}
+.homepage-5 .audio-info .bx-pager-link:hover, .audio-info .bx-pager-link.active {
+	text-decoration: none;
+}
+.homepage-5 .audio-info .bx-prev, .audio-info .bx-next {
+	text-indent: -9999px;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 49px;
+	height: 48px;
+	display: inline-block;
+	background: #e4e3e3 url(../img/icons5.png) no-repeat 12px -29px;
+}
+.homepage-5 .audio-info .bx-next {
+	left: auto;
+	right: 0px;
+	background-position: 12px -59px;
+}
+/*
+ 1.7) Subscription Section
+ -----------------------------*/
+.homepage-5 .subscription {
+	background-image: url("../img/cloud2.png");
+	background-position: left -133px;
+	background-repeat: repeat-x;
+	width: 100%;
+}
+.homepage-5 .subscription .about-me {
+	margin-top: -172px;
+	display: table;
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+}
+.homepage-5 .subscription figure {
+	width: 240px;
+	overflow: hidden;
+	float: left;
+}
+.homepage-5 .subscription .text {
+	overflow: hidden;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	position: relative;
+	background: #fff;
+}
+.homepage-5 .subscription .text h3 {
+	padding: 0 180px 0 40px;
+	line-height: 1;
+	margin-left: 75px;
+	display: block;
+	border-left: 3px solid;
+}
+.homepage-5 .subscription .sub-me {
+	padding: 38px 0 48px;
+	overflow: hidden;
+}
+.homepage-5 .subscription h2 {
+	margin-top: 12px;
+	color: #fff;
+	font-size: 50px;
+}
+.homepage-5 .subscription-field {
+	margin-top: 20px;
+	position: relative;
+}
+.homepage-5 .subscription-input {
+	background: #fff;
+	border: none;
+	float: left;
+	font-size: 18px;
+	height: 48px;
+	padding: 0 190px 0 18px;
+	width: 100%;
+}
+.homepage-5 .subscription .btn-default {
+	border: none;
+	width: 170px;
+	height: 48px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.homepage-5 .owl-carousel {
+	overflow: hidden;
+}
+.homepage-5 .blog-info:after {
+	height: 491px;
+}
+.homepage-5 #home-slider .flex-control-paging, .homepage-5 #home-slider .flex-direction-nav {
+	display: none;
+}
+.homepage-5 .slider .progressbar-container {
+	bottom: 5px;
+}
+/* Homepage 5 one (Church two)
+ ------------------------------*/
+.homepage-5.church-two #content {
+	padding-top: 134px;
+}
+.homepage-5.church-two p {
+	color: #6b6b70;
+	font-size: 18px;
+	line-height: 1.6;
+}
+.homepage-5.church-two .text, .homepage-5.church-two .text h4, .homepage-5.church-two .text p {
+	font-family: "Lato", sans-serif;
+}
+.homepage-5.church-two .mission-info {
+	position: relative;
+	padding-top: 98px;
+}
+.church-two .mission-info:after {
+	content: '';
+	height: 5px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 75%;
+	background: #e2dddd;
+}
+.church-two .mission-info:before {
+	content: '';
+	height: 5px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 25%;
+}
+.church-shop-info .church-info-cont {
+	margin-right: 5px;
+}
+.church-shop-info .podcasts-info {
+	margin-left: 5px;
+}
+.church-info-cont .shop-info {
+	border-bottom: 5px solid;
+	padding-bottom: 29px;
+}
+.podcasts-info-cont {
+	border-bottom: 5px solid;
+}
+.church-shop-info h1 {
+	text-align: left;
+}
+.shop-info-cont strong {
+	font-size: 20px;
+	font-family: lato;
+	display: inline-block;
+	color: #1f2328;
+	font-weight: 400;
+	margin-right: 18px;
+	position: relative;
+	top: 3px;
+}
+.shop-info .btn {
+	background: #ffffff;
+	border: 1px solid #bcbcbc;
+	width: 273px;
+	border-radius: 0;
+	position: relative;
+	text-align: left;
+	padding: 13px 17px;
+	font-family: lato;
+	font-size: 20px;
+	color: #828287;
+	font-weight: 400;
+}
+.church-shop-info .caret {
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid;
+	color: #000000;
+}
+.church-shop-info .btn .select-arrow {
+	position: absolute;
+	left: auto;
+	top: 11px;
+	right: 18px;
+}
+.church-shop-info .dropdown-menu {
+	min-width: 274px;
+}
+.preview-part li {
+	list-style: none;
+	display: inline-block;
+	background: #dedede;
+	height: 57px;
+	width: 57px;
+	position: relative;
+	margin-bottom: 0;
+}
+.preview-part li.row-box {
+	margin-left: 7px;
+}
+.preview-part li a.preview-btn {
+	background: url(../img/preview-part.png) no-repeat;
+	width: 26px;
+	height: 26px;
+	display: block;
+	width: 26px;
+	position: absolute;
+	top: 15px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.preview-part li.grid-box .preview-btn {
+	background: url(../img/preview-part-active.png) no-repeat;
+}
+.shop-info-cont {
+	float: left;
+}
+.preview-part {
+	float: right;
+	line-height: 0;
+}
+.church-information {
+	margin-top: 45px;
+}
+.homepage-5 .podcasts-info-cont h2 {
+	font-size: 40px;
+	text-align: left;
+	padding-bottom: 34px;
+	margin-top: 4px;
+}
+.church-wrap {
+	text-align: left;
+}
+.mission-info.church-shop-info .inner > figure {
+	float: left;
+	padding-top: 0;
+}
+.church .text {
+	float: left;
+	background: #f2f2f2;
+	min-height: 212px;
+	padding: 33px 35px 31px;
+	width: 71.41%;
+}
+.church .text h4 {
+	margin-bottom: 10px;
+}
+.church .text p {
+	line-height: 1.4;
+	margin-bottom: 21px;
+}
+.church .text span {
+	font-family: 'PT Sans Narrow';
+	font-size: 18px;
+	display: inline-block;
+	padding: 6px 11px;
+	background: #ffffff;
+	position: relative;
+}
+.church .text .buy-widget .to-cart {
+	padding: 5px 8px 4px;
+	vertical-align: top;
+}
+.church .cart {
+	background: url(../img/church-cart.png) no-repeat;
+	display: inline-block;
+	height: 19px;
+	width: 19px;
+	position: absolute;
+	top: 8px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.homepage-5 .mission-info .church-wrap {
+	padding: 0;
+	margin-top: 70px;
+	text-align: left;
+}
+.church-wrap li {
+	list-style: none;
+	margin-bottom: 0;
+}
+.church-wrap li:last-child .inner.church {
+	padding-bottom: 0;
+}
+.homepage-5 .mission-info .inner.church {
+	padding-top: 0;
+	border-top: 5px solid #e7e3e3;
+}
+.podcast-wrap {
+	margin-top: 70px;
+}
+.homepage-5 .mission-info .inner.podcast-info {
+	border-top: none;
+	padding: 12.1px 15px 12px;
+	background: #eeeded;
+}
+.homepage-5 .mission-info .podcast-wrap li {
+	margin-bottom: 15px;
+	list-style: none;
+}
+.homepage-5 .mission-info .podcast-wrap li:last-child {
+	margin-bottom: 0;
+}
+.podcast-info .intro {
+	float: left;
+	text-align: left;
+	width: 210px;
+}
+.podcast-info .intro h4 {
+	font-size: 18px;
+	color: #22272e;
+	font-family: lato;
+}
+.podcast-info .intro cite {
+	font-family: "Yellowtail";
+	font-size: 16px;
+	color: #aca8a8;
+	font-style: normal;
+}
+.podcast-info .intro .time {
+	font-size: 14px;
+	color: #6b6b70;
+	margin-right: 7px;
+	opacity: 0;
+}
+.podcast-info .btns {
+	float: right;
+	width: 92px;
+}
+.church-two .podcast-info {
+	position: relative;
+}
+.church-two .audioplayer-time {
+	display: block;
+	padding-left: 6px;
+}
+.church-two .audioplayer {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+}
+.audioplayer-playpause {
+	right: 0;
+	left: auto;
+	width: 93px;
+	height: 44px;
+	margin-top: 11px;
+	right: 14px
+}
+.audioplayer-volume, .audioplayer-bar, .audioplayer-time-duration {
+	display: none !important;
+}
+.audioplayer {
+	background: none;
+}
+.audioplayer-time {
+	bottom: 17px;
+	top: auto;
+	left: 0;
+	text-shadow: none;
+	color: #6b6b70;
+	font-size: 14px;
+	margin-right: 7px;
+	height: auto;
+}
+.audioplayer-playpause:hover, .audioplayer-playpause:focus {
+	background-color: transparent !important;
+}
+.audioplayer:not(.audioplayer-mini) .audioplayer-playpause {
+	border: none;
+}
+.audioplayer-playpause * {
+	opacity: 0;
+}
+.audioplayer-playpause:before {
+	background: #ffffff none repeat scroll 0 0;
+	display: inline-block;
+	height: 42px;
+	position: relative;
+	width: 42px;
+	content: "\f04c";
+	font-family: 'FontAwesome';
+}
+.audioplayer-playpause:after {
+	background: #ffffff none repeat scroll 0 0;
+	display: inline-block;
+	height: 42px;
+	position: relative;
+	width: 42px;
+	content: "\f04b";
+	font-family: 'FontAwesome';
+}
+.btns a {
+	height: 42px;
+	width: 42px;
+	background: #ffffff;
+	display: inline-block;
+	position: relative;
+	margin-left: 2px;
+}
+.btns a.active {
+	z-index: 99;
+}
+.btns a i {
+	color: #a7a9ac;
+	position: absolute;
+	top: 15px;
+	left: 6px;
+	right: 0;
+	margin: 0 auto;
+}
+.church-shop-info .btns a i{
+	left: 4px;
+	top: 13px;
+}
+.church-shop-info .btns a i.fa-pause{
+	top:13px;
+	left: 4px;
+}
+.btns a.active i {
+	color: #ffffff;
+}
+.church-information .more-info {
+	text-align: center;
+	margin-top: 41px;
+}
+.church-information .more-info a {
+	font-size: 13px;
+	color: #ffffff;
+	padding: 14px 25px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.church-information .podcasts-info .more-info a {
+	padding: 14px 30px;
+}
+.church-information .more-info a:hover {
+	text-decoration: none;
+}
+.church-shop-info {
+	margin-bottom: 48px;
+}
+.church-two .subscription-area {
+	background: #f2f2f2;
+	padding-top: 283px;
+}
+.church-two .subscription {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.church-wrap.gallery-items .gallery-item:nth-child(even) {
+	float: right;
+}
+.church-wrap li.gallery-item{
+	padding-bottom:0;
+	}

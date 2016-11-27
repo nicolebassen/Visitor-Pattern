@@ -1,0 +1,374 @@
+/* Homepage 20
+ ==================================================*/
+.homepage-20, .homepage-20 h2, .homepage-20 .h2, .homepage-20, .homepage-20 h3, .homepage-20 .h3, .homepage-20 .img-description h3, .homepage-20 .h4, .homepage-20 h4, .homepage-20 .subscription-field .btn-sale {
+	font-family: "Pt Sans Narrow";
+}
+.homepage-20 h1 > a, .homepage-20 .h1 > a, .homepage-20 h2 > a, .homepage-20 .h2 > a, .homepage-20 h3 > a, .homepage-20 .h3 > a, .homepage-20 h4 > a, .homepage-20 .h4 > a, .homepage-20 h5 > a, .homepage-20 .h5 > a {
+	font-family: inherit;
+	font-weight: 400;
+}
+.homepage-20 {
+	background: #f6f6f6;
+}
+.homepage-20 h2, .homepage-20 .h2 {
+	font-size: 40px;
+}
+.homepage-20 h3, .homepage-20 .h3 {
+	font-size: 30px;
+	font-weight: normal;
+}
+.homepage-20 p {
+	font-family: 'Lato', sans-serif;
+}
+.homepage-20 .owl-carousel .owl-item {
+	float: left;
+}
+/* Blog Banner
+ -------------------------------*/
+
+.homepage-20 .shop-slider.large .owl-carousel .owl-wrapper-outer {
+	margin: 0;
+	overflow: hidden;
+}
+.homepage-20 .blog-banner .owl-pagination {
+	text-align: center;
+}
+.homepage-20 .blog-banner .owl-page {
+	background: #e1e1e1;
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+	border-radius: 100%;
+	margin: 0 3px;
+}
+.homepage-20 .blog-banner figure {
+	position: relative;
+}
+.homepage-20 .blog-banner figcaption {
+	width: 100%;
+	background: rgba(34,41,50,0.8);
+	padding: 32px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.homepage-20 .blog-banner figcaption h3, .homepage-20 .blog-banner figcaption p, .homepage-20 .blog-banner figcaption h3 a {
+	color: #fff;
+}
+.homepage-20 .blog-banner figcaption h3 a {
+	font-family: inherit;
+}
+.homepage-20 .blog-banner figcaption h3 a:hover {
+	text-decoration: none;
+}
+.homepage-20 .blog-banner figcaption h3 {
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.homepage-20 .blog-banner figcaption p a {
+	display: inline-block;
+	margin: 0 10px;
+}
+.homepage-20 .blog-banner figcaption p a:hover {
+	transform: translateX(5px);
+	-webkit-transform: translateX(5px);
+}
+.homepage-20 .blog-banner .owl-controls {
+	margin: 16px 0 63px
+}
+.blog-banner .owl-buttons {
+	display: none;
+}
+.blog-banner .arrow-right {
+	margin-top: 3px;
+}
+/* page blog slider
+ -----------------------------------*/
+.page-blog-sec-slider {
+	position: relative;
+}
+.page-blog-sec-slider .flex-direction-nav {
+	position: absolute;
+	left: 0;
+	top: 120px;
+	width: 100%;
+	z-index: 100;
+}
+.page-blog-sec-slider .flex-direction-nav li {
+	float: left;
+}
+.page-blog-sec-slider .flex-direction-nav li a {
+	width: 49px;
+	height: 49px;
+	background-color: #f6f6f6;
+	overflow: hidden;
+	text-indent: -999px;
+	display: block;
+}
+.page-blog-sec-slider .flex-direction-nav li a {
+	background-image: url("../img/pre-icon.png");
+	background-position: 21px 20px;
+	background-repeat: no-repeat;
+}
+.page-blog-sec-slider .flex-direction-nav li+ li {
+	float: right;
+}
+.page-blog-sec-slider .flex-direction-nav li+ li a {
+	background-image: url("../img/next-icon.png");
+}
+.page-blog-sec-slider .flex-direction-nav li .flex-prev {
+}
+.blog-tags {
+	overflow: hidden;
+	padding-top: 17px;
+}
+.homepage-20 .blog-tags li {
+	display: inline-block;
+	list-style: none;
+}
+.homepage-20 .blog-tags li a {
+	font-size: 13px;
+	color: #2b343f;
+	text-transform: uppercase;
+	background: #f0f0f0;
+	font-weight: bold;
+	padding: 5px 14px;
+}
+.homepage-20 .blog-tags li a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.homepage-20 .page-blog-sec .img-description {
+	text-align: left;
+	background: #fff;
+	padding: 40px 40px 15px;
+}
+.page-blog-sec .img-description h3 {
+	margin-bottom: 15px
+}
+.blog-more {
+	color: #2b343f;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+}
+.blog-more:hover {
+	color: #2b343f;
+	text-decoration: none;
+}
+.page-blog-sec .blog-more {
+	float: right;
+}
+.blog-more i {
+	margin-left: 14px;
+}
+.page-blog-sec .blog-more:hover {
+	text-decoration: none;
+}
+.homepage-20 .blog-article-widget .social-share {
+	float: left;
+}
+.page-blog-sec figure {
+	position: relative;
+}
+.page-blog-sec figure > .date-caption {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.date-caption {
+	background: #efefef none repeat scroll 0 0;
+	color: #22272e;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	padding-right: 15px;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.date-caption i {
+	color: #ffffff;
+	display: inline-block;
+	height: 40px;
+	margin-right: 10px;
+	padding-top: 13px;
+	text-align: center;
+	vertical-align: middle;
+	width: 40px;
+}
+.page-blog-sec {
+	margin-bottom: 64px;
+}
+.homepage-20 .social-share li {
+	font-size: 13px;
+}
+.page-blog-sec .quote-article {
+	font-size: 30px;
+	line-height: 1.4;
+	margin-bottom: 0;
+	padding: 32px 69px 44px 43px;
+}
+.homepage-20 .description .img-description {
+	padding: 55px 40px 15px
+}
+.homepage-20 .description {
+	min-height: 343px;
+	position: relative;
+}
+.homepage-20 .description .blog-article-widget {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+}
+.homepage-20 .description .social-share {
+	margin-bottom: 0;
+	margin-right: 20px
+}
+.homepage-20 .page-blog-sec.description .social-share li {
+	vertical-align: top;
+	margin-top: 15px;
+	line-height: 1;
+}
+.homepage-20 .page-blog-thumb.small {
+	overflow: hidden;
+}
+.homepage-20 .page-blog-thumb.small figure {
+	border-left: 3px solid rgba(0, 0, 0, 0);
+	float: left;
+	padding-left: 10px;
+	width: 48%;
+}
+.homepage-20 .popular-blog .img-description {
+	overflow: hidden;
+	text-align: left;
+	float: right;
+	width: 47%;
+}
+.homepage-20 .page-blog-thumb h4 > a {
+	font-family: inherit;
+}
+.page-blog-sec .video-btn {
+	color: #1d1f23;
+}
+.page-blog-sec .video-btn:hover .fa {
+	color: #fff;
+}
+.video-fig {
+	padding: 36px 29px;
+	background: #fff;
+}
+.homepage-20 .video-fig .social-share {
+	margin-bottom: 0;
+}
+/* Aside
+ ---------------------------*/
+.homepage-20 .aside .h3 {
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+.homepage-20 .aside .page-blog-thumb.small .social-share li + li {
+	margin-top: 7px;
+}
+.homepage-20 .aside .page-blog-thumb.small .social-share li {
+	margin-bottom: 5px;
+}
+.homepage-20 .blog-archive li {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+}
+.homepage-20 .h3 a, .homepage-20 h3 a, .homepage-20 .h4 a, .homepage-20 h4 a {
+	color: #22272e;
+}
+.blog-archive > h4 {
+	margin-bottom: 12px;
+}
+.homepage-20 .aside h4 {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 0;
+	margin-top: -3px;
+}
+.homepage-20 .blog-archive > ul {
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+.homepage-20 .blog-archive {
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 8px;
+	margin-bottom: 27px;
+}
+.homepage-20 .blog-archive+ .blog-more {
+	margin-bottom: 56px;
+	display: block;
+}
+.popular-blog > ul > li {
+	border-bottom: 1px solid #e0e0e0;
+	list-style: outside none none;
+	margin-bottom: 20px;
+	min-height: 78px;
+	padding-bottom: 4px;
+}
+.popular-blog > ul > li:last-child {
+	border-bottom: none;
+}
+.popular-blog li .img-description {
+	overflow: hidden;
+	text-align: left;
+}
+.popular-blog li .page-blog-thumb {
+	float: none;
+	width: auto;
+}
+.homepage-20 .page-recent-comments li .page-blog-thumb {
+	padding-left: 10px;
+	border-left: 3px solid transparent
+}
+/* Subscription
+ ---------------------------------*/
+.homepage-20 .subscription {
+	padding-top: 60px;
+}
+.homepage-20 .subscription h2 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.homepage-20 #content {
+	margin-bottom: 94px;
+}
+.homepage-20 .subscription input {
+	font-size: 18px;
+}
+.homepage-20 .subscription-field .btn-sale {
+	background: #e1e1e1;
+	font-size: 20px;
+	color: #1d2025;
+}
+.homepage-20 .subscription-field .btn-sale i {
+	background: #f0f0f0;
+	display: inline-block;
+	height: 35px;
+	line-height: 1.8;
+	margin-left: 50px;
+	margin-top: 7px;
+	text-align: center;
+	vertical-align: top;
+	width: 35px;
+}
+.homepage-20 .subscription-field .btn-sale i .fa {
+	color: #1d1f23
+}
+.homepage-20 .subscription-field .btn-sale:hover {
+	color: #fff;
+}
+.homepage-20 #slider {
+	padding-top: 134px;
+}

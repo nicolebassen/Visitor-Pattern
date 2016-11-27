@@ -1,0 +1,951 @@
+/* Homepage 17
+ ==============================================================*/
+.homepage-17, .homepage-17 h1, .homepage-17 .h1, .homepage-17 h2, .homepage-17 .h2, .homepage-17 h3, .homepage-17 .h3, .homepage-17 .img-description h3, .homepage-17 .img-description .h3 .homepage-17 h4, 
+.autodealer-two .btn-group .select-text,.autodealer-two .hotel-booking-form .btn-default,.autodealer-two .catalog-sort label,.homepage-17 .h4, .homepage-17 .resto-info .btn-group .btn, .homepage-17 .price-meter-wrap, .homepage-17 .resto-info .btn-default, .dealer-promotion h2 a, .homepage-17 h2 a, .homepage-17 .auto-app-info .btn {
+	font-family: "PT Sans Narrow";
+}
+.homepage-17 h1, .homepage-17 .h1 {
+	font-size: 60px;
+}
+.homepage-17 h2, .homepage-17 .h2 {
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.homepage-17 h2 a {
+	float: none;
+}
+.homepage-17 h3, .homepage-17 .h3 {
+	font-size: 30px;
+}
+.homepage-17 h4, .homepage-17 .h4 {
+	font-size: 20px;
+}
+.homepage-17 .quote-wrap > i, .quote-wrap .icon-block{
+	padding-top: 58px;
+}
+/* Slider
+ ---------------------------*/
+
+.homepage-17 #slider {
+	position: relative;
+}
+.auto-tab-list li {
+	list-style: none;
+	display: inline-block;
+	padding: 20px 40px;
+	line-height: 1;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+.auto-tab-list li > a, .auto-tab-list li > a:hover {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+.mid {
+	display: block;
+}
+.mid + .mid {
+	display: none;
+}
+.homepage-17 .resto-info {
+	position: absolute;
+	width: 100%;
+	padding: 0 0 53px;
+	z-index: 10;
+	bottom: -56px;
+}
+.auto-tab-list {
+	display: inline-block;
+	position: relative;
+	top: -59px;
+}
+.homepage-17 .resto-info .btn-group {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.homepage-17 .resto-info .btn-group .btn {
+	padding: 13px;
+}
+.homepage-17 .resto-info .btn .caret {
+	position: absolute;
+	right: 15px;
+	top: 26px;
+	color: #282d35;
+}
+.homepage-17 .autodealer-slide .slides li img{
+ 	width: 100%;
+}
+.homepage-17 .price-meter {
+	height: 6px;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+.homepage-17 .price-meter:after, .homepage-17 .price-meter:before, .homepage-17 .price-meter-wrap .min-price, .homepage-17 .price-meter-wrap .max-price {
+	position: absolute;
+	content: "";
+	width: 14px;
+	height: 14px;
+	border-radius: 100%;
+	background: #fff;
+	top: -5px;
+	cursor: pointer;
+}
+.homepage-17 .price-meter:before, .homepage-17 .price-meter-wrap .min-price {
+	left: 0;
+}
+.homepage-17 .price-meter:after, .homepage-17 .price-meter-wrap .max-price {
+	right: 0;
+}
+.homepage-17 .price-meter-wrap {
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 34px;
+	position: relative;
+}
+.homepage-17 .price-meter-wrap .min-price, .homepage-17 .price-meter-wrap .max-price {
+	color: #fff;
+	font-weight: 300;
+	bottom: -14px;
+	background: none;
+	top: auto;
+	font-weight: 300;
+	width: auto;
+}
+.homepage-17 .resto-info .btn-default {
+	height: 56px;
+	font-size: 20px;
+	line-height: 2.6
+}
+.homepage-17 .autodealer-slide .flex-direction-nav {
+	top: 60%;
+	left: 0;
+	margin: 0 auto;
+	max-width: 1070px;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	width: 100%;
+	z-index: 10;
+}
+.homepage-17 .autodealer-slide .flex-direction-nav li, .homepage-17 .autodealer-slide .flex-direction-nav li a {
+	display: inline-block;
+}
+/* Car dealership
+ ------------------------------*/
+.car-dealership {
+	background: #f5f5f5;
+	padding: 120px 0 54px;
+}
+.homepage-17 .car-dealership h3 {
+	text-transform: uppercase;
+	margin-bottom: 13px;
+}
+.dealer-article-wrap {
+	background: #fff;
+}
+.car-dealership .quote-wrap {
+	margin: 0;
+	background: #fff;
+}
+.homepage-17 .owl-wrapper-outer {
+	margin: 0;
+}
+.hand-svg .svg {
+	width: 73px;
+	height: 48px;
+}
+.wallet .svg {
+	width: 82px;
+	height: 57px;
+}
+.hotel-booking-form {
+	float: right;
+	padding: 38px;
+	margin-top: 147px;
+}
+.hotel-booking-form h3 {
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+/*  Recent Listing
+ -----------------------------------*/
+.car-listing {
+	border-top: 1px solid #e3e3e3;
+	padding: 67px 0;
+}
+.car-listing h2 {
+	margin-bottom: 49px;
+}
+.milage-svg .svg {
+	width: 20px;
+	height: 20px;
+}
+.milage-svg {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.car-milage-wrap {
+	font-weight: bold;
+}
+.recent-listing figcaption {
+	min-height: 150px;
+	padding: 14px 20px;
+	position: relative;
+	background: #fff;
+}
+.time-elapsed {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.car-milage-wrap {
+	padding: 10px 0;
+	border-top: 1px solid #eaeaea;
+}
+figcaption .car-milage-wrap {
+	position: absolute;
+	width: 83%;
+	bottom: -2px;
+	left: 0;
+	margin: 0 24px;
+}
+.car-price {
+	font-size: 18px;
+}
+.car-milage {
+	font-size: 14px;
+}
+.recent-listing {
+	padding-bottom: 11px;
+	background: #f5f5f5;
+}
+.homepage-17 .pagination li:first-child a, .homepage-17 .pagination li:last-child a, .homepage-17 .owl-buttons > div, .homepage-17 .autodealer-slide .flex-direction-nav li a {
+	background-color: #ebebeb;
+	overflow: hidden;
+	text-indent: -999px;
+}
+.homepage-17 .autodealer-slide .flex-direction-nav li a {
+	width: 49px;
+	height: 49px;
+	background-repeat: no-repeat;
+	background-position: 22px 21px;
+	overflow: hidden;
+	text-indent: -99px;
+	margin: 0.5px;
+	color: transparent;
+}
+.homepage-17 .owl-buttons > div.owl-prev,.homepage-17 .owl-buttons > div.owl-next{
+	background-position:center 21px;
+	}
+.homepage-17 .pagination li:first-child a, .homepage-17 .pagination li:last-child a {
+	text-indent: 0;
+}
+.homepage-17 .pagination > li > a {
+	font-weight: bold;
+	color: #22272e;
+}
+.homepage-17 .owl-buttons > div.owl-prev, .homepage-17 .autodealer-slide .flex-direction-nav li a.flex-prev {
+	background-image: url(../img/pre-icon.png);
+}
+.homepage-17 .owl-buttons > div.owl-next, .homepage-17 .autodealer-slide .flex-direction-nav li a.flex-next {
+	background-image: url(../img/next-icon.png);
+	position: static;
+}
+.recent-listing .slide-wrap h4 a {
+	font-family: "PT Sans Narrow";
+}
+.recent-listing .slide-wrap h4 a:hover {
+	text-decoration: none;
+}
+/* Car Search Banner
+ ------------------------------------*/
+
+.car-banner {
+	background: url(../img/car-dealer-bg.jpg) center top no-repeat;
+	min-height: 390px;
+	padding: 73px 0;
+	color: #fff;
+	background-attachment: fixed;
+	background-size:cover;
+}
+.car-banner h2 {
+	color: #fff;
+	text-transform: none;
+}
+.car-banner .sub-heading {
+	display: block;
+	font-size: 30px;
+	line-height: 1;
+	margin-bottom: 63px;
+}
+.car-banner .btn {
+	width: auto;
+	font-size: 18px;
+	display: inline-block;
+	font-family: "PT Sans Narrow";
+}
+/* Car Sale
+ ----------------------------*/
+
+.dealer-list a {
+	color: #404042;
+	letter-spacing:0.5px;
+}
+.dealer-list li {
+	border-left: 1px solid #ccccce;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1;
+	margin-bottom: 16px;
+	padding: 0 7px;
+}
+.car-description h4 {
+	margin-bottom: 5px;
+	font-family: inherit;
+}
+.car-description h4 a:hover {
+	text-decoration: none;
+}
+.car-sale h2 {
+	margin-bottom: 55px;
+}
+.car-sale {
+	background: #f5f5f5;
+	padding: 72px 0 32px;
+}
+.car-description {
+	padding: 32px 40px 0;
+}
+.car-properties {
+	margin-bottom: 13px;
+}
+.car-properties, .car-properties li span {
+	display: inline-block;
+}
+.car-properties li {
+	font-size: 14px;
+	color: #1f2328;
+	list-style: none;
+	margin-bottom: 0;
+}
+.dealer-list li:first-child {
+	padding-left: 0;
+	border-left: none;
+}
+.car-for-sale > figure {
+	float: left;
+}
+.car-for-sale > .car-description {
+	overflow: hidden;
+	background: #fff;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:0.5px;
+}
+.car-properties li span {
+	padding-right: 29px;
+	margin-right: 21px;
+	border-bottom: 1px solid #eaeaea;
+	font-weight: bold;
+	line-height: 1.8;
+}
+.car-properties li:last-child span {
+	border-bottom: none;
+}
+.car-for-sale {
+	margin-bottom: 50px;
+}
+.homepage-17 .pagination {
+	text-align: center;
+}
+/* Makes*/
+.car-make-list li:hover {
+	cursor: pointer;
+}
+.car-make-list {
+	background: #fff;
+	margin-bottom: 15px;
+	padding: 30px;
+}
+.car-make-list li {
+	border-bottom: 1px solid #eaeaea;
+	color: #1f2328;
+	font-size: 14px;
+	font-weight: bold;
+	list-style: outside none none;
+	margin-bottom: 1px;
+	padding-bottom: 2px;
+}
+.car-make-list li:last-child {
+	border-bottom: none;
+}
+.makes a {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+	padding-left: 34px;
+}
+.car-make-list li span {
+	float: right;
+	color: #88888d;
+}
+.makes {
+	padding-bottom: 73px;
+	margin-bottom: 73px;
+	border-bottom: 1px solid #e2e2e2;
+}
+/* Popular Cars*/
+
+.popular-cars li {
+	list-style: none;
+	overflow: hidden;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e2e2e2;
+	margin-bottom: 30px;
+}
+.popular-cars figure {
+	float: left;
+	position: relative;
+	padding-left: 15px;
+}
+.popular-cars figure:before {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 3px;
+	height: 100%;
+	content: "";
+}
+.popular-cars li h4 {
+	color: #262a2e;
+	line-height: 1;
+	margin-top: 0;
+	overflow: hidden;
+	padding: 0 2px 0 28px;
+	margin-bottom: 0;
+	font-family: inherit;
+}
+.popular-cars li h4 a {
+	font-size: 14px;
+	display: block;
+	font-weight: bold;
+	margin-top: 14px;
+}
+.popular-cars li h4 a:hover {
+	text-decoration: none;
+}
+/* Dealer Promotion
+ ------------------------------------*/
+.dealer-promotion {
+	background: #eaeaea;
+	min-height: 403px;
+	margin-bottom: 0;
+}
+.dealer-promotion h2 {
+	text-transform: none;
+	margin-bottom: 45px;
+}
+.dealer-promotion h2 a {
+	float: none;
+	font-size: inherit;
+}
+.auto-description {
+	padding: 98px 0px 0px;
+}
+.auto-description label {
+	font-size: 18px;
+	display: block;
+	margin-bottom: 7px;
+	font-family: 'Lato',sans-serif;
+	color:#6b6b70;
+}
+.dealer-promotion .auto-description blockquote {
+	margin-top: 0;
+	font-size: 14px;
+	border-left: 3px solid;
+	margin-left: 10px;
+}
+.dealer-promotion .form-field {
+	position: relative;
+	background: #fff;
+}
+.dealer-promotion .form-field input {
+	border: none;
+	font-size: 20px;
+	padding: 14px 15px 7px;
+}
+.dealer-promotion .form-field button {
+	background: none;
+	border: none;
+	font-size: 18px;
+	position: absolute;
+	right: 10px;
+	top: 18px;
+}
+/* Auto Blog Video
+ ----------------------------------------*/
+.auto-blog-video h2 {
+	font-weight: bold;
+	margin-bottom: 53px;
+}
+.auto-blog-video {
+	padding: 50px 0 82px;
+	background: #f5f5f5;
+}
+.auto-blog-video .img-description {
+	text-align: left;
+	padding: 36px 40px 20px;
+	background: #fff;
+}
+.auto-blog-video .img-description h3 {
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.auto-blog-video .img-description p {
+	font-family: 'Lato', sans-serif;
+}
+.auto-blog-video .img-description .social-share {
+	text-align: left;
+}
+.auto-blog-video .img-description .social-share a i {
+	font-size: 14px;
+	margin: 0 1px;
+}
+.auto-blog-video .img-description .social-share li + li {
+	margin-top: 8px;
+}
+.auto-blog-video .video-btn {
+	opacity: 0.9
+}
+/*  Auto App
+ ----------------------------------------*/
+.auto-app {
+	background: #eaeaea;
+}
+.auto-app .btn {
+	display: inline-block;
+	width: auto;
+	font-size: 20px;
+}
+.auto-app-info {
+	padding-top: 98px;
+}
+.homepage-17 .auto-app-info h2 {
+	margin-bottom: 28px;
+}
+.homepage-17 h2 a, .homepage-17 .h2 a {
+	font-size: inherit;
+	text-transform: none;
+	font-weight: normal;
+}
+.homepage-17 h2 a:hover, .homepage-17 .h2 a:hover {
+	text-decoration: none;
+}
+.homepage-17 .get-auto-app figure {
+	position: relative;
+	overflow: hidden;
+}
+.homepage-17 .get-auto-app figure img {
+	display: block;
+	width: 100%;
+	max-width: inherit;
+}
+.homepage-17 .get-auto-app .img-big {
+	max-width: 426px;
+	float: right;
+	background: url(../img/apps-img-auto1.png) no-repeat center top;
+	background-size: 100% auto;
+}
+.homepage-17 .get-auto-app .img-big figure {
+	display: block;
+	padding: 54px 46px 0 53px;
+}
+.homepage-17 .get-auto-app .img-small {
+	max-width: 202 px;
+	position: absolute;
+	top: 113px;
+	left: 64px;
+	background: url(../img/apps-img-auto2.png) no-repeat center top;
+	background-size: 100% auto;
+}
+.homepage-17 .get-auto-app .img-small figure {
+	display: block;
+	padding: 57px 27px 0 26px;
+}
+.homepage-17 .get-auto-app {
+	padding-right: 0;
+	padding-top: 30px;
+}
+.homepage-17 .auto-app-info {
+	background: url(../img/search-bg.png) 41px 38px no-repeat;
+	min-height: 314px
+}
+/* Subscription
+ -------------------------------*/
+.homepage-17 .subscription h2 {
+	font-size: 40px;
+	text-transform: capitalize;
+	color: #fff;
+}
+.homepage-17 .subscription {
+	padding: 52px 0;
+}
+.homepage-17 .subscription input {
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+}
+.homepage-17 blockquote {
+	border-left: none;
+	padding-left: 20px;
+	padding-top: 0px;
+}
+.homepage-17  .car-dealership blockquote {
+	padding-top:41px;
+}
+/*  Homepage17 (one)
+ =================================================================*/
+.homepage-17.one .content {
+	padding-top: 134px;
+}
+.homepage-17.one .car-sale .car-result-menu {
+	list-style-type: none;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: solid 1px #e3e3e3;
+}
+.homepage-17.one .car-sale .car-result-menu li {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 10px;
+	margin-bottom: 0;
+}
+.homepage-17.one .car-sale .car-result-menu li a {
+	background-color: #ebebeb;
+	color: #ee3537;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 18px 22px;
+	display: block;
+}
+.homepage-17.one .car-sale .car-result-menu li a:hover {
+	color: #ebebeb;
+	text-decoration: none;
+}
+.homepage-17.one .catalog-header {
+	border-bottom: none;
+}
+.homepage-17.one .hotel-booking-form {
+	margin-top: 0;
+}
+.homepage-17.one .catalog-wrapper {
+	margin-bottom: 55px;
+}
+.homepage-17.one .car-price.pull-left {
+	color: #ee3537;
+}
+.homepage-17.one .hotel-booking-form {
+	background-color: #ee3537;
+}
+.homepage-17.one .btn-group {
+	width: 100%;
+}
+.homepage-17.one .btn.dropdown-toggle {
+	width: 100%;
+	text-align: left;
+}
+.homepage-17.one .btn.btn-default.btn-effect {
+	background-color: #ce3134;
+}
+.homepage-17.one .form-field {
+	margin-bottom: 10px;
+}
+.homepage-17.one .hotel-booking-form {
+	float: none;
+	margin-bottom: 100px;
+}
+.homepage-17.one .ui-widget-header {
+	background-color: #bb3436;
+}
+.homepage-17.one .pagination .active a {
+	color: #ee3537;
+}
+.homepage-17.one .pagination li a:hover {
+	color: #ee3537;
+}
+.homepage-17.one .makes > a {
+	color: #ee3537;
+}
+.homepage-17.one .car-price {
+	color: #ee3537;
+}
+.homepage-17.one .popular-cars .active {
+/*background-color: #ee3537;*/
+}
+/*
+ Auto dealer 2
+ -----------------------------*/
+
+.autodealer .autodealer-slider li, .autodealer .sliderbar li {
+	list-style: none;
+}
+.autodealer .sliderbar .owl-item li {
+	margin-right: 10px;
+	margin-bottom: 12.5px;
+}
+.autodealer #sync2, .autodealer #sync1 {
+	background: #ffffff;
+}
+.autodealer .sliderbar .owl-item li img {
+	height: 79px;
+}
+.autodealer .sliderbar .owl-item:last-child li {
+	margin-right: 0;
+}
+.autodealer .owl-buttons {
+	display: none;
+}
+.autodealer .autodealer-slider .owl-item li.item {
+	margin-bottom: 12px !important;
+}
+.autodealer .vehicle-info {
+	background: #ffffff;
+	padding: 41px 36px 11px;
+	min-height: 264px;
+}
+.autodealer .vehicle-info p, .autodealer .vehicle-info span, .btc-motor-cont span, .contact-link span {
+	font-family: Lato;
+	color: #88888d;
+}
+.autodealer .slider-cont {
+	margin-bottom: 60px;
+}
+.autodealer .info-wrap {
+	margin-bottom: 60px;
+}
+.autodealer .vehicle-info h3, .contact-details-wrap h3 {
+	font-weight: 400;
+}
+.autodealer .contact-details-wrap {
+	padding: 36px 39px 50px;
+	background: #ffffff;
+}
+.autodealer .btn.submit-button, .autodealer .hotel-booking-form .btn {
+	margin-top: 12px;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow';
+}
+.autodealer .btc-motor-img {
+	float: left;
+	width: 17%;
+	margin-right: 25px;
+}
+.autodealer .btc-motor-cont {
+	float: left;
+	width: 75%;
+}
+.autodealer .btc-motor-cont h4 {
+	margin-bottom: 7px;
+	font-family: 'PT Sans Narrow';
+	color: #1d2025;
+}
+.autodealer .location {
+	list-style: none;
+}
+.autodealer .location a {
+	display: inline-block;
+	margin-right: 14px;
+}
+.autodealer .map-wrap {
+	margin-bottom: 14px;
+	padding-top: 51%;
+	position: relative;
+}
+.autodealer #map-view {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.autodealer .slider-cont {
+	width: 66%;
+	float: left;
+}
+.autodealer .slider-info-wrap {
+	width: 34%;
+	float: left;
+	background: #ffffff;
+	padding: 1px 34px 37px;
+}
+.autodealer .slider-info li:first-child strong {
+	border-right: 1px solid #ccccce;
+	padding: 0px 10px;
+	font-weight: 700;
+	color: #88888d;
+	font-size: 14px;
+}
+.autodealer .slider-info li:first-child strong:last-child {
+	border-right: none;
+}
+.autodealer .slider-info li:first-child strong:first-child {
+	padding-left: 0;
+}
+.slider-info li {
+	list-style: none;
+	padding: 20px 0;
+	margin-bottom: 0;
+	border-bottom: 1px solid #e5e5e5;
+	position: relative;
+}
+.autodealer .slider-info li:last-child span {
+	font-weight: 700;
+	font-family: 'PT Sans Narrow';
+}
+.autodealer .slider-info li:last-child .car-deal-price {
+	font-size: 30px;
+}
+.autodealer .slider-info li:last-child .car-milage {
+	margin-top: 15px;
+}
+.autodealer .slider-info li:last-child strong {
+	float: right;
+	margin-top: 11px;
+	font-size: 14px;
+	color: #88888d;
+}
+.autodealer .slider-info li span {
+	width: 109px;
+	display: inline-block;
+	font-family: lato;
+	color: #88888d;
+}
+.homepage-17.one.autodealer .catalog-wrapper {
+	margin-bottom: 0;
+}
+.autodealer .catalog-wrapper h2 {
+	float: left;
+	font-weight: 700;
+	font-size: 30px;
+	color: #1f2328;
+}
+.autodealer .catalog-wrapper strong {
+	float: right;
+	margin-top: 23px;
+	font-size: 14px;
+	color: #88888d;
+}
+.autodealer .slider-info .print-icon:after {
+	background: url("../img/print.png") no-repeat center center;
+	content: "";
+	height: 14px;
+	right: 0;
+	position: absolute;
+	top: 27px;
+	width: 14px;
+}
+.autodealer .meter-icon {
+	background: url("../img/meter-icon.png") no-repeat;
+	width: 20px;
+	height: 12px;
+	right: 67px;
+	top: 36px;
+	position: absolute;
+}
+.autodealer .hotel-booking-form h3 {
+	margin-bottom: 19px;
+}
+.autodealer .hotel-booking-form .btn.btn-default.btn-effect, .autodealer .slider-info-wrap .btn.btn-default.btn-effect {
+	margin-top: 25px;
+}
+.autodealer.homepage-17.one .form-field {
+	margin-bottom: 3px;
+}
+.autodealer .vehicle-info p {
+	margin-bottom: 0px;
+}
+.car-for-sale > figure {
+	display: block;
+}
+
+.auto-blog-video .h3>a
+{color:inherit;
+text-transform: uppercase;}
+
+.autodealer-two .catalog-sort .select-div
+{font-family: 'Lato',sans-serif;
+font-size: 18px;}
+
+.autodealer-two .catalog-sort .select-div
+{width:343px;
+border:none;}
+
+.autodealer-two .catalog-sort label
+{font-size: 20px;
+font-weight: 400;}
+
+.car-for-sale-wrapper
+{padding: 0;}
+
+.autodealer-two .hotel-booking-form h3
+{text-transform: uppercase;
+font-weight: 600;
+margin-bottom: 25px;}
+
+.autodealer-two .btn-group .select-text,.autodealer-two .hotel-booking-form .btn-default
+{font-size: 20px;}
+
+.autodealer-two .hotel-booking-form .btn-default
+{width:100%;
+padding: 2px 15px;
+height: 54px;}
+
+.autodealer-two .hotel-booking-form
+{padding: 30px;}
+
+.autodealer-two .hotel-booking-form #amount,.autodealer-two .hotel-booking-form  #amount1
+{bottom:-31px}
+.homepage-17 #video-blog-list .owl-controls{
+    position: absolute;
+    top:-94px;
+        right: 15px;
+	}
+.homepage-17 #video-blog-list .owl-pagination{
+	    position: absolute;
+		    top: 12px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;	
+		}
+.homepage-17 #video-blog-list  .owl-buttons {
+    position: static;
+    width: 200px;
+     text-align: left;
+}
+.homepage-17 #video-blog-list .owl-next{
+	position:absolute;
+	right:0;
+	top:0;
+	}
+.homepage-17 #video-blog-list .owl-prev{
+	position:absolute;
+	left:0;
+	top:0;
+	}
+.homepage-17 #video-blog-list .owl-numbers {
+    padding: 12px 5px;
+    font-size: 17px;
+    background: none;
+    font-weight: bold;
+    color: #22272e;
+	cursor:pointer;
+}
+.homepage-17 .auto-blog-video .h3 {
+ padding-left:15px;	
+	}			

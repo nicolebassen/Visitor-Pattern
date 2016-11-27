@@ -1,0 +1,586 @@
+/* Homepage 14
+ =========================================================*/
+
+.homepage-14 h1, .homepage-14 .h1, .homepage-14 h2, .homepage-14 .h2, .homepage-14 h3, .homepage-14 .h3, .homepage-14 h4, 
+.homepage-14 .h4, .homepage-14 .inner span, .team-status strong, .team-status .number-count small, .game-schedule-table td, 
+.homepage-14 .schedule-info-wrapper .flex-control-paging a, .homepage-14 .img-description h3, .homepage-14 .article-content .social-share li,
+ .new-game-season .btn-default, .sport-twitter-widget blockquote, .homepage-14 .subscription input, .homepage-14 .img-description h3 > a,.share-panel .social-share a {
+	font-family: "PT Sans Narrow";
+}
+.homepage-14 em {
+	font-family: "Damion", sans-serif;
+	font-style: normal;
+}
+.homepage-14 h2, .homepage-14 .h2 {
+	margin-bottom: 53px;
+	font-size: 50px;
+}
+.homepage-14 h4, .homepage-14 .h4 {
+	font-size: 20px;
+}
+.homepage-14 {
+	color: #22272e
+}
+.homepage-14 .thumb-small .slides figure img {
+	display: block;
+}
+.homepage-14 .banner {
+	position: relative;
+}
+.homepage-14 .slider .hero-banner {
+	bottom: auto;
+	left: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	width: 100%;
+	z-index: 1;
+}
+.homepage-14 .slider .hero-text {
+	position: relative;
+	display: table;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+.homepage-14 .slider .container, .slider .row {
+	display: table;
+	height: 100%;
+}
+.homepage-14 .slider .img-style {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.homepage-14 .slider .text {
+	display: table-cell;
+	vertical-align: middle;
+}
+.homepage-14 .thumb-slider-section {
+	width: 438px;
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	margin: 0 0 0 -620px;
+}
+.homepage-14 .banner .thumb-small {
+	padding: 0 50px;
+	z-index: 10;
+	position: relative;
+}
+.homepage-14 .thumb-small ul {
+	list-style: none;
+}
+.homepage-14 .thumb-small .slides li {
+	overflow: hidden;
+	margin-right: 8px;
+	
+}
+.homepage-14 .thumb-small .slides figure {
+	width: 165px;
+}
+.homepage-14 .thumb-small .slides li img {
+	margin: auto;
+	width: 100%;
+}
+.homepage-14 .thumb-small .slides li.flex-active-slide figure {
+	border-color: #fff;
+}
+.homepage-14 .thumb-small .flex-prev, .homepage-14 .thumb-small .flex-next {
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+	border-radius: 50%;
+	text-indent: -9999px;
+	background-image: url("../img/icons7.png");
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 34px;
+	width: 34px;
+	background-position: 10px 13px;
+}
+.homepage-14 .thumb-small .flex-prev {
+	left: 0px;
+}
+.homepage-14 .thumb-small .flex-next {
+	right: 0px;
+	background-position: 12px -17px;
+}
+.homepage-14 .big-slider li {
+	position: relative;
+	margin-bottom: 0;
+}
+.homepage-14 .inner {
+	text-align: left;
+	display: inline-block;
+	padding-left: 46px;
+}
+.homepage-14 .inner em, .homepage-14 .inner .h1, .homepage-14 .inner span {
+	display: block;
+	color: #fff;
+}
+.homepage-14 .inner em {
+	font-size: 70px;
+	font-style: normal;
+	margin-left: -46px;
+}
+.homepage-14 .inner .h1 {
+	font-size: 250px;
+	font-weight: bold;
+	line-height: 0.8;
+	margin-bottom: 13px;
+}
+.homepage-14 .inner span {
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 11px;
+}
+/*  Meet Our Team
+ ------------------------------*/
+.sport-team {
+	background: #f2f2f2;
+	padding-bottom: 41px;
+	padding-top: 97px;
+}
+.sport-team .org-info {
+	width: auto;
+}
+.sport-team .org-info .service-block:after {
+	display: none;
+}
+.sport-team-box .service-desc-box {
+	padding: 23px 41px;
+	background: #ffffff;
+}
+.sport-team-box .service-desc-box h3 {
+	font-family: pt sans narrow;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 0;
+	text-align: left;
+	text-transform: uppercase;
+}
+.sport-team-box .service-desc-box .btn-basic {
+	margin-top: 16px;
+	display: block;
+	line-height: 2px;
+}
+/*  Team Status
+ -----------------------------*/
+.team-status {
+	background: url(../img/team-status-banner.jpg) center top no-repeat;
+	min-height: 317px;
+	padding: 96px 0;
+	background-attachment: fixed;
+}
+.team-status strong {
+	font-size: 90px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 1;
+}
+.team-status .number-count small {
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+}
+.team-status .number-count.third {
+	padding-left: 40px;
+}
+/* Sports News
+ ---------------------------*/
+.homepage-14 .recent-info {
+	padding: 95px 0 44px;
+	width: 100%;
+	overflow: hidden;
+}
+.homepage-14 .recent-info .owl-wrapper {
+	position: relative;
+}
+.homepage-14 .recent-info .owl-carousel {
+	position: relative;
+	width: 100%;
+	margin-top: -25px;
+}
+.homepage-14 .recent-info .owl-item {
+	float: left;
+	position: relative;
+	padding: 0 15px;
+}
+.homepage-14 .recent-info .owl-controls {
+	position: absolute;
+	right: 8px;
+	top: -61px;
+	width: auto;
+	padding: 0 50px;
+	overflow: hidden;
+}
+.homepage-14 .recent-info .owl-pagination {
+	padding: 0 20px;
+	list-style: none;
+	overflow: hidden;
+}
+.homepage-14 .recent-info .owl-page {
+	float: left;
+}
+.homepage-14 .recent-info .owl-numbers {
+	padding: 0 5px;
+	display: block;
+	line-height: 48px;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow';
+	color: #22272e;
+	cursor: pointer;
+}
+.homepage-14 .recent-info .owl-prev, .recent-info .owl-next, .schedule-info-wrapper .flex-direction-nav .flex-prev, .schedule-info-wrapper .flex-direction-nav .flex-next, .sport-widget-wrap .flex-direction-nav a {
+	background: url("../img/icons2.png") no-repeat scroll 12px -28px #f6f6f6;
+	cursor: pointer;
+	display: table;
+	height: 48px;
+	left: 0;
+	position: absolute;
+	right: auto;
+	text-indent: -9999px;
+	top: 0;
+	width: 49px;
+}
+.homepage-14 .recent-info .owl-next {
+	left: auto;
+	right: 0px;
+	background-image: url(../img/arrow-right.png);
+	background-position: 12px 20px;
+	background-color: #f6f6f6;
+}
+.homepage-14 .recent-info .owl-wrapper-outer {
+	margin: 5px 0 0;
+	overflow: hidden;
+}
+.homepage-14 .recent-info figure {
+	margin-top: 20px;
+}
+.homepage-14 .recent-info figure img {
+	width: 100%;
+}
+.homepage-14 .recent-info .text {
+	padding: 30px 36px 34px;
+	margin: -68px 50px 0;
+	text-align: center;
+	position: relative;
+	z-index: 99;
+	background: #fff;
+}
+.homepage-14 .recent-info h3 {
+	font-size: 30px;
+	font-weight: normal;
+}
+.homepage-14 .recent-info h3 a {
+	color: #22272e;
+	font-family: "PT Sans Narrow";
+}
+.homepage-14 .recent-info h3 a:hover {
+	text-decoration: none;
+}
+.homepage-14 .btn-primary:hover {
+	text-decoration: none;
+}
+.homepage-14 .recent-info .date {
+	padding: 0 15px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 31px;
+	display: inline-block;
+	font-family: 'PT Sans Narrow';
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+.homepage-14 .recent-info .more {
+	padding: 20px 0;
+	text-align: center;
+	border-top: 1px solid #eaebec;
+}
+.homepage-14 .recent-info .owl-buttons {
+	top: 0;
+}
+.homepage-14 .btn-primary:hover {
+	background: none;
+}
+/* Game Info Widget
+ ------------------------------*/
+.game-info-widget {
+	padding: 97px 0 59px;
+	background: #f2f2f2;
+}
+.game-schedule-table {
+	width: 100%;
+	margin-bottom: 37px;
+}
+.game-schedule-table td {
+	background: #ffffff;
+	border-bottom: 8px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	box-sizing: initial;
+	color: #22272e;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 6px 11px;
+	text-transform: uppercase;
+	vertical-align: middle
+}
+.game-schedule-table td.game-date {
+	width: 22.5%;
+	padding-left: 18px;
+}
+.game-schedule-table td.game-time {
+	width: 23%;
+	padding-left: 18px;
+}
+.game-schedule-table td.game-ticket {
+	width: 14%;
+}
+.game-schedule-table td.game-team img {
+	margin: 0 8px;
+	
+}
+.game-schedule-table td:first-child, .game-schedule-table td:last-child {
+	text-align: center;
+}
+.game-schedule-table td:last-child {
+	color: #939393;
+	font-size: 16px;
+}
+.game-info-widget h2 {
+	margin-bottom: 49px;
+	
+}
+.game-info-widget h4 {
+	color: #939393;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight:700;
+}
+.homepage-14 .schedule-info-wrapper .flex-direction-nav, .homepage-14 .schedule-info-wrapper .flex-control-paging, .sport-widget-wrap .flex-direction-nav {
+	top: 11px;
+	right: 9px;
+	position: absolute;
+	width: 200px;
+	z-index: 1;
+}
+.homepage-14 .schedule-info-wrapper .flex-direction-nav {
+	left: auto;
+}
+.homepage-14 .schedule-info-wrapper .flex-control-paging {
+	right: 59px;
+	text-align: center;
+	width: 92px;
+	z-index: 10;
+}
+.homepage-14 .schedule-info-wrapper .flex-direction-nav a {
+	position: static;
+	background-color: #e7e7e7;
+}
+.homepage-14 .schedule-info-wrapper .flex-direction-nav > li, .homepage-14 .schedule-info-wrapper .flex-control-paging li {
+	display: inline-block;
+}
+.homepage-14 .schedule-info-wrapper .flex-direction-nav > li:last-child {
+	float: right;
+}
+.homepage-14 .schedule-info-wrapper.arrow-position .flex-direction-nav .flex-next {
+	background-position: 12px -59px;
+}
+.homepage-14 .schedule-info-wrapper.arrow-position .flex-direction-nav .flex-prev{
+	background-position: 12px -29px;
+}
+.homepage-14 .schedule-info-wrapper .flex-control-paging a {
+	color: #22272e;
+	display: block;
+	font-size: 20px;
+	margin: 8px 5px;
+}
+.homepage-14 .schedule-info-wrapper .flex-control-paging a:hover {
+	text-decoration: none;
+}
+.homepage-14 .article-content .video-btn {
+	opacity: 0.9
+}
+.homepage-14 .img-description h3 {
+	font-size: 30px;
+	font-weight: normal;
+	margin-top: 32px 0 7px;
+}
+.homepage-14 .article-content .video-btn .fa-play {
+	color: #22272e;
+}
+.homepage-14 .article-content:hover .video-btn .fa-play {
+	color: #fff;
+}
+.homepage-14 .article-content .img-description {
+	padding: 29px 33px 15px;
+	text-align: left;
+}
+.homepage-14 .article-content .img-description p {
+	font-size: 19px;
+	line-height: 1.7;
+}
+.homepage-14 .article-content .share-panel {
+	border-top: 1px solid #f2f2f2;
+	padding: 5px 30px;
+}
+.homepage-14 .article-content .share-panel ul {
+	margin-bottom: 4px;
+	float: none;
+	text-align: left;
+}
+.homepage-14 .article-content .social-share li + li {
+	margin-top: 8px;
+	line-height: 1.2;
+	margin-left: 57px;
+}
+.homepage-14 .article-content .social-share li {
+	text-transform: uppercase;
+}
+.homepage-14 .article-content {
+	background: #fff;
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+}
+/* New Game Season
+ ----------------------------------*/
+.new-game-season {
+	background: url(../img/season-banner.jpg) center top no-repeat;
+	color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 62px;
+	padding-bottom: 62px;
+	min-height: 391px;
+	background-attachment: fixed;
+}
+.new-game-season em {
+	font-size: 70px;
+}
+.new-game-season em, .new-game-season .h1 {
+	display: block;
+	line-height: 1;
+}
+.new-game-season .h1 {
+	font-size: 90px;
+	padding-left: 58px;
+	text-transform: uppercase;
+	margin-bottom: 42px;
+	color: #fff;
+	font-weight: bold;
+}
+.new-game-season .btn-default {
+	display: inline-block;
+}
+/* Game Update
+ -------------------------------------- */
+.game-update {
+	padding: 96px 0 108px;
+	background: #f2f2f2;
+}
+.sport-twitter-widget {
+	padding-bottom: 23px;
+	padding-top: 45px;
+	background: #fff;
+}
+.sport-twitter-widget blockquote {
+	border-left: 0 none;
+	color: #22272e;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: -45px;
+	padding-left: 0;
+	text-transform: uppercase;
+	width: 90%;
+}
+.sport-twitter-widget blockquote a {
+	color: #22272e;
+}
+.sport-twitter-widget blockquote a:hover {
+	text-decoration: none;
+}
+.sport-twitter-widget blockquote span {
+	color: #939393;
+	font-size: 16px;
+	margin-top: 18px;
+	display: block;
+}
+.twitter-logo {
+	text-align: center;
+}
+.twitter-logo .fa {
+	font-size: 45px;
+	margin-top: 17px;
+}
+.homepage-14 .game-update h2 {
+	margin-bottom: 44px;
+}
+.sport-widget-wrap {
+	position: relative
+}
+.sport-widget-wrap .flex-direction-nav {
+	position: absolute;
+	right: 0;
+	left: auto;
+	top: -89px;
+	width: 102px;
+	z-index: 1;
+}
+.sport-widget-wrap .flex-direction-nav li {
+	display: inline-block;
+}
+.sport-widget-wrap .flex-direction-nav li a {
+	position: static;
+	background-color: #e7e7e7;
+}
+.sport-widget-wrap .flex-direction-nav li a.flex-next {
+	background-position: 12px -58px;
+}
+.sport-widget-wrap .flex-direction-nav li:last-child {
+	float: right;
+}
+/* Subscription
+ ---------------------------*/
+
+.homepage-14 .subscription h2 {
+	font-size: 45px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.homepage-14 .subscription input {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.homepage-14 .subscription {
+	padding-top: 60px;
+}
+/*  Hover */
+.homepage-14 .thumb-small .slides li figure {
+	border: 2px solid transparent;
+}
+.icon-box-image.org-info .sport-team-box .service-list-box {
+	padding-bottom: 0;
+}
+.homepage-14 .arrow-right {
+	vertical-align: top;
+	margin-top: 0;
+}
+.homepage-14 .img-description h3 a {
+	font-weight: 400;
+}
+.homepage-14 .sport-team h2
+{margin-bottom: 30px;}
+
+.share-panel .social-share a,.new-game-season .btn-default
+{font-size: 16px;}
+
+

@@ -1,0 +1,471 @@
+/* Homepage 18
+ =================================================================*/
+.homepage-18, .homepage-18 h1, .homepage-18 .h1, .homepage-18 h2, .homepage-18 .h2, .homepage-18 h3, .homepage-18 .h3, .homepage-18 h4, .homepage-18 .h4, .homepage-18 .new-products .catalog-wrap, .homepage-18 .new-products .catalog-description h5, .homepage-18 .btn-sale {
+	font-family: "PT Sans Narrow";
+}
+.homepage-18 h2, .homepage-18 .h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.homepage-18 h3, .homepage-18 .h3 {
+	font-size: 30px;
+}
+.homepage-18 h4, .homepage-18 .h4 {
+	font-size: 20px;
+}
+.homepage-18 h4 a:hover, .homepage-18 .h4 a:hover {
+	text-decoration: none;
+}
+.homepage-18 .fancy-heading .quote-three .h1 {
+	margin-left: 100px;
+	float: left;
+}
+.homepage-18 .new-product-wrap {
+	background: #fff;
+}
+.homepage-18 .new-products .new-product-wrap {
+	background: #fff;
+}
+.homepage-18 .popular-products .new-product-wrap {
+	background: none;
+}
+.homepage-18 .items-wrap {
+	background: #fff;
+	margin-bottom: 60px;
+}
+.homepage-18 .slider .hero-banner {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+.homepage-18 #slider {
+	position: relative;
+}
+.homepage-18 #slider .slides > li {
+	position: relative;
+	margin-bottom: 0;
+	background: #ebebeb;
+}
+.homepage-18 .hero-banner > .container {
+	display: table;
+	height: 100%;
+	vertical-align: middle;
+	position: relative;
+}
+.homepage-18 .hero-text {
+	display: table;
+	height: 100%;
+	vertical-align: middle;
+	width: 100%;
+}
+.homepage-18 .slider .inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+.image-frame {
+	position: absolute;
+	bottom: -33px;
+	right: 0;
+}
+.image-frame:after {
+	content: '';
+	width: 655px;
+	height: 500px;
+	border: 4px solid #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.homepage-18 .quote-three {
+	max-width: none;
+}
+.homepage-18 .fancy-heading {
+	margin-bottom: 100px;
+}
+.homepage-18 .fancy-heading .quote-three .h2 {
+	font-size: 120px;
+	line-height: 0.8;
+	font-style: 300;
+	text-transform: none;
+}
+.homepage-18 .fancy-heading .h1 {
+	font-size: 30px;
+}
+.homepage-18 .fancy-heading .h2 em {
+	display: inline-block;
+	height: 55px;
+	position: relative;
+	top: -35px;
+	font-style: normal;
+}
+.homepage-18 .btn-sale {
+	background: #ffffff;
+	color: #1d2025;
+	display: inline-block;
+	height: auto;
+	line-height: 1;
+	padding: 8px;
+	vertical-align: top;
+	padding-left: 30px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+.homepage-18 .btn-sale {
+}
+.homepage-18 .btn-sale i {
+	background: #ebebeb;
+	display: inline-block;
+	height: 38px;
+	line-height: 0.8;
+	margin-left: 35px;
+	padding-top: 10px;
+	text-align: center;
+	width: 40px;
+}
+.homepage-18 .fancy-heading .h2 em, .homepage-18 .offer-caption em {
+	font-family: "Damion";
+}
+.homepage-18 .flex-direction-nav .flex-prev, .homepage-18 .flex-direction-nav .flex-next {
+	position: static;
+	height: 49px;
+	width: 49px;
+	display: inline-block;
+	background: #f6f6f6;
+	overflow: hidden;
+	text-indent: -999px;
+}
+.homepage-18 .flex-direction-nav li {
+	display: inline-block;
+	margin: 1px 1px 0;
+}
+.homepage-18 .flex-direction-nav .flex-prev, .homepage-18 .flex-direction-nav .flex-next {
+	background-image: url(../img/pre-icon.png);
+	background-position: 21px 21px;
+	color: transparent;
+	background-repeat: no-repeat;
+}
+.homepage-18 .flex-direction-nav .flex-next {
+	background-image: url(../img/next-icon.png);
+}
+.homepage-18 #slider .flex-direction-nav {
+	bottom: 0;
+	top: auto;
+	left: 0;
+	list-style: outside none none;
+	margin: 0 auto;
+	max-width: 1170px;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	width: 100%;
+	z-index: 10;
+}
+.catalog-description h5 a {
+	font-family: inherit;
+}
+/* new-products
+ -----------------------------------------*/
+.new-products {
+	background: #f6f6f6;
+	padding: 78px 0 53px;
+}
+.new-products .catalog-description {
+	padding: 18px 18px 26px;
+}
+.product-sale-header h2 {
+	float: left;
+	margin-right: 20px;
+}
+.product-sale-header .style-line {
+	display: block;
+	overflow: hidden;
+	background: #e3e3e4;
+	margin: 21px 0;
+	height: 1px;
+	width: 80%
+}
+.product-sale-header .pagination {
+	float: right;
+	padding-top: 0;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+.new-products .catalog-wrap {
+	border: none;
+	background: #fff;
+}
+.new-products .pagination li:first-child a, .new-products .pagination li:last-child a {
+	background: #ebebeb;
+}
+.new-products .pagination li:first-child a:hover, .new-products .pagination li:last-child a:hover {
+	color: #fff;
+}
+.new-products .catalog-price {
+	font-weight: bold;
+}
+.catalog-wrap .h4 {
+	line-height: 1;
+}
+.new-product-slider .owl-wrapper-outer {
+	margin: 0;
+}
+.new-product-slider .owl-item {
+	float: left;
+	padding: 0 15px
+}
+.new-product-slider {
+	position: relative;
+}
+.new-product-slider .owl-buttons {
+	position: absolute;
+	right: 11px;
+	top: -66px;
+}
+.homepage-18 .owl-buttons > div {
+	background-color: #ebebeb;
+	background-repeat: no-repeat;
+	background-position: center 18px;
+}
+.homepage-18 .owl-buttons > div.owl-prev {
+	background-image: url(../img/pre-icon.png);
+}
+.homepage-18 .owl-buttons > div.owl-next,.homepage-18 .owl-buttons > div.owl-prev {
+	background-image: url(../img/next-icon.png);
+	background-position: 21px 21px;
+}
+.homepage-18 .denim-collection {
+	position: relative;
+}
+.homepage-18 .denim-collection:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background: #f6f6f6;
+}
+.homepage-18 .denim-collection figure {
+	overflow: visible;
+}
+.homepage-18 .denim-collection .rect {
+	left: 11px;
+}
+/* Offer collection
+ ---------------------------------------*/
+.offer-fig {
+	float: left;
+	position: relative;
+}
+.offer-fig > img {
+	width: 100%;
+	display: block;
+	min-height: 350px;
+}
+.offer-fig.offer-one {
+	width: 30.2%;
+}
+.offer-fig.offer-two {
+	width: 30.7%
+}
+.offer-fig.offer-three {
+	width: 60.9%
+}
+.offer-fig.offer-four {
+	float: right;
+	width: 39.1%;
+}
+.offer-fig.offer-four > img {
+	min-height: 814px;
+}
+.offer-collection {
+	background: #f6f6f6;
+	padding-bottom: 80px;
+}
+.next-btn {
+	height: 49px;
+	width: 49px;
+	background: #f6f6f6;
+	display: inline-block;
+	text-align: center;
+	padding-top: 12px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: #000
+}
+.homepage-18 .next-btn:hover {
+	color: #fff;
+}
+.offer-fig h3 {
+	position: absolute;
+	top: 35px;
+	text-transform: uppercase;
+	right: 24px;
+}
+.offer-fig.offer-four h3 {
+	color: #fff;
+}
+.homepage-18 .btn-sale:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.homepage-18 .btn-sale:hover i {
+	background: #fff;
+}
+/* Denim Collection
+ --------------------------------------*/
+.denim-collection {
+	background: url(../img/jeans-bg.jpg) right top no-repeat #ebebeb;
+}
+.offer-caption .h1 {
+	color: #ffffff;
+	display: block;
+	font-size: 120px;
+	font-style: normal;
+	line-height: 1;
+	margin-bottom: 50px;
+}
+.offer-caption .h1 span {
+	display: block;
+	font-family: "PT Sans Narrow";
+	font-size: 30px;
+	font-weight: 500;
+	margin-left: 100px;
+	margin-top: -10px;
+	text-transform: uppercase;
+}
+.homepage-18 .offer-caption {
+	padding-top: 60px;
+	padding-left: 30px;
+	color: #fff
+}
+.homepage-18 .offer-caption .btn-sale {
+	font-family: "Pt Sans Narrow";
+	font-size: 20px;
+	line-height: 1;
+	padding: 8px 8px 8px 25px;
+	vertical-align: middle;
+}
+.homepage-18 .offer-caption .btn-sale i {
+	line-height: 0.8;
+	height: 35px;
+	padding-top: 8px;
+}
+.rect {
+	border: 4px solid #ffffff;
+	height: 272px;
+	left: 0;
+	position: absolute;
+	top:10%;
+	width: 100%;
+}
+/* Most Popular
+ -----------------------------------------------*/
+.most-popular .catalog-wrap .h4 {
+	min-height: 40px;
+}
+.most-popular .catalog-wrap {
+	margin-bottom: 65px;
+}
+.most-popular {
+	padding-bottom: 28px;
+}
+/* Sale App
+ --------------------------------------*/
+.sale-app {
+	background: #eaeaea;
+}
+.sale-app .btn {
+	display: inline-block;
+	width: auto;
+	font-size: 20px;
+}
+.sale-app-info {
+	padding-top: 98px;
+}
+.homepage-18 .sale-app-info h2 {
+	margin-bottom: 28px;
+	font-size: 80px;
+	text-transform: none;
+}
+.homepage-18 .sale-app-info h2, .homepage-18 .sale-app-info h2 a {
+	font-family: "Damion";
+}
+.homepage-18 h2 a, .homepage-18 .h2 a {
+	font-size: inherit;
+	text-transform: none;
+	font-weight: normal;
+	float: none;
+}
+.homepage-18 h2 a:hover, .homepage-18 .h2 a:hover {
+	text-decoration: none;
+}
+.homepage-18 .get-sale-app figure {
+	position: relative;
+	overflow: hidden;
+}
+.homepage-18 .get-sale-app figure img {
+	display: block;
+	width: 100%;
+	max-width: inherit;
+}
+.homepage-18 .get-sale-app .img-big {
+	max-width: 426px;
+	float: right;
+	background: url(../img/apps-img-auto1.png) no-repeat center top;
+	background-size: 100% auto;
+}
+.homepage-18 .get-sale-app .img-big figure {
+	display: block;
+	padding: 53px 46px 0 53px;
+}
+.homepage-18 .get-sale-app .img-small {
+	max-width: 202 px;
+	position: absolute;
+	top: 113px;
+	left: 64px;
+	background: url(../img/apps-img-auto2.png) no-repeat center top;
+	background-size: 100% auto;
+}
+.homepage-18 .get-sale-app .img-small figure {
+	display: block;
+	padding: 57px 27px 0 26px;
+}
+.homepage-18 .get-sale-app {
+	padding-right: 0;
+	padding-top: 30px;
+}
+/* Subscription
+ ----------------------------------------*/
+.homepage-18 .subscription h2 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
+.homepage-18 .subscription {
+	padding: 60px 0 55px
+}
+.homepage-18 .subscription-input {
+	font-size: 18px;
+}
+.homepage-18 .subscription-field .btn-sale {
+	padding: 11px 8px 7px 30px;
+	background: #e1e1e1;
+}
+.homepage-18 .subscription-field .btn-sale i {
+	height: 30px;
+	width: 30px;
+	background: #f0f0f0;
+	padding-top: 4px;
+}
+.homepage-18 .subscription-field .btn-sale i span {
+	font-size: 12px;
+}
+
+.popular-products .product-sale-header .style-line
+{width:72%;}

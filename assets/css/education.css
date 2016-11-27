@@ -1,0 +1,803 @@
+/* HomePage 2
+ ======================================================*/
+.homepage-2 {
+	font-family: "PT Sans Narrow", sans-serif;
+	overflow-x: hidden;
+}
+.homepage-2 h1, .homepage-2 h2, .homepage-2 h3, .homepage-2 h4, .homepage-2 h5, .homepage-2 h6, .homepage-2 .h1, .homepage-2 .h2, .homepage-2 .h3, .homepage-2 .h4, .homepage-2 .h5, .homepage-2 .h6 {
+	color: #22272e;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.2;
+}
+.homepage-2 h1, .homepage-2 .h1 {
+	font-size: 60px;
+}
+.homepage-2 h2, .homepage-2 .h2 {
+	font-size: 45px;
+}
+.homepage-2 h3, .homepage-2 .h3 {
+	font-size: 30px;
+	line-height: 1.3;
+}
+.homepage-2 h4, .homepage-2 .h4 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.homepage-2 #slider {
+	width: 100%;
+	overflow: hidden;
+	background: url(../img/slider-img2.jpg) repeat center top;
+	background-size: cover;
+}
+.homepage-2 .slider {
+	padding: 251px 0 0 0;
+	position: relative;
+	width: 100%;
+	max-height: 813px;
+	z-index: 999;
+}
+.homepage-2 .slider ul {
+	list-style: none;
+}
+.homepage-2 .slider .slides > li+ li {
+	display: none;
+}
+.homepage-2 .slider #home-slider li {
+	position: relative;
+}
+.homepage-2 .slider #home-slider figure {
+	margin: 0 -100px 0 0;
+	float: right;
+}
+.homepage-2 .slider #home-slider figure img {
+	margin: auto;
+	display: block;
+	max-width: inherit;
+}
+.homepage-2 .slider .hero-banner {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: auto;
+	height: 100%;
+}
+.homepage-2 .slider .hero-text {
+	padding: 60px 0 0 10px;
+	position: relative;
+}
+.homepage-2 .slider span {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'PT Sans Narrow';
+	font-weight: 700;
+	color: #fff;
+	display: block;
+}
+.homepage-2 .slider .title {
+	font-size: 100px;
+	line-height: 85px;
+}
+.homepage-2 .slider em {
+	font-size: 70px;
+	color: #fff;
+	font-family: 'Damion';
+	color: #fff;
+	float: right;
+	line-height: 50px;
+	padding-right: 115px;
+	font-style: normal;
+}
+.homepage-2 .slider .hero-text a {
+	margin-top: 20px;
+	display: inline-block;
+}
+.homepage-2 .slider #home-carousel {
+	position: absolute;
+	bottom: 50px;
+	left: 0px;
+	width: 350px;
+}
+.homepage-2 .slider #home-carousel li {
+	margin-right: 5px;
+}
+.homepage-2 .slider .flex-prev, .slider .flex-next {
+	position: absolute;
+	left: -60px;
+	top: 50%;
+	margin-top: -31px;
+	text-indent: -9999px;
+	display: block;
+	width: 49px;
+	height: 48px;
+	background: url(../img/icons2.png) no-repeat;
+	z-index: 9999;
+	cursor: pointer;
+}
+.homepage-2 .slider .flex-prev {
+	background-position: 8px -90px;
+}
+.homepage-2 .slider .flex-next {
+	left: auto;
+	right: -60px;
+	background-position: 8px -120px;
+}
+.homepage-2 #recent-crousel div.owl-next {
+	background-image: url(../img/icons2.png);
+	background-position: 12px -60px;
+}
+/*
+ 1.2) Org Info Section
+ -----------------------------*/
+.homepage-2 .org-info {
+	padding-bottom: 97px;
+	width: 100%;
+}
+.homepage-2 .org-info .org-title {
+	padding: 50px 20px 20px;
+	text-align: center;
+}
+.homepage-2 .org-info p {
+	padding-top: 33px;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: Lato;
+	color: #6b6b70;
+}
+.homepage-2 .org-info .services {
+	text-align: center;
+	overflow: hidden;
+}
+.homepage-2 .org-info .services .one, .homepage-2 .org-info .services .two, .homepage-2 .org-info .services .three, .homepage-2 .org-info .services .four {
+	margin: 30px 0 0;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 30px;
+}
+.homepage-2 .org-info h4 {
+	text-transform: uppercase;
+}
+.homepage-2 .org-info i {
+	margin: 30px 0;
+	display: block;
+	width: 100%;
+	min-height: 70px;
+}
+.homepage-2 .org-info i img {
+	max-width: inherit;
+}
+.homepage-2 .org-info .services .one:after, .homepage-2 .org-info .services .two:after, .homepage-2 .org-info .services .three:after, .homepage-2 .org-info .services .four:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 5px;
+	width: 100%;
+	content: '';
+}
+.homepage-2 .org-info .services .one:after {
+	background: #18ad75;
+}
+.homepage-2 .org-info .services .two:after {
+	background: #92ec94
+}
+.homepage-2 .org-info .services .three:after {
+	background: #fea93c;
+}
+.homepage-2 .org-info .services .four:after {
+	background: #ff397a;
+}
+.homepage-2 .org-info .services > div > div:hover h4 {
+	color: #fff;
+}
+.homepage-2 .org-info .services .one:hover {
+	background: #17ad76;
+}
+.homepage-2 .org-info .services .two:hover {
+	background: #91ec93;
+}
+.homepage-2 .org-info .services .three:hover {
+	background: #ffa93a;
+}
+.homepage-2 .org-info .services .four:hover {
+	background: #ff397a;
+}
+.homepage-2 .org-info .shine i {
+	min-height: 70px;
+	position: relative;
+	width: 70px;
+	display: inline-block;
+}
+.homepage-2 .org-info .shine img.hover {
+	opacity: 0;
+	left: 3px;
+	top: 3px;
+}
+.homepage-2 .org-info .shine i > img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.homepage-2 .org-info .shine:hover img {
+	opacity: 0;
+	left: 3px;
+	top: 3px;
+}
+.homepage-2 .org-info .shine:hover img.hover {
+	opacity: 1;
+}
+.homepage-2 .org-info .services .one .svg path {
+	fill: #17ad76 !important;
+}
+.homepage-2 .org-info .services > div > div:hover .svg path {
+	fill: #fff !important;
+}
+.homepage-2 .org-info .services > div > div:hover img {
+	-webkit-filter: brightness(0) invert(1);
+	-ms-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+/*
+ 1.3) Event Info Section
+ -----------------------------*/
+.homepage-2 .event-info {
+	position: relative;
+	width: 100%;
+	background: repeat center top;
+	background: url(../img/event-bg2.png) repeat-x center top;
+}
+.homepage-2 .event-info .bg {
+	background: url(../img/event-bg2.png) repeat-x center bottom;
+}
+.homepage-2 .event-info figure {
+	margin-top: -8%;
+	overflow: hidden;
+}
+.homepage-2 .event-info .text {
+	padding: 60px 0 48px;
+	text-align: center;
+	background: #fff;
+}
+.homepage-2 .event-info p {
+	font-size: 18px;
+	font-family: lato;
+	color:#6b6b70;
+}
+.homepage-2 .event-info .btn-default {
+	margin-top: 36px;
+	display: inline-block;
+}
+.homepage-2 .event-info .parallax-group {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.homepage-2 .event-info .p-1 {
+	position: absolute;
+	top: 24px;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	background: url(../img/parallax-img/parallax-img.png) 0 0 no-repeat;
+	display: block;
+}
+.homepage-2 .event-info .p-2 {
+	position: absolute;
+	top: 26%;
+	left: 7%;
+	width: 60px;
+	height: 60px;
+	background: url(../img/parallax-img/img-1.png) 0 0 no-repeat;
+	display: block;
+}
+.homepage-2 .event-info .p-3 {
+	position: absolute;
+	top: 30%;
+	left: -43px;
+	width: 60px;
+	height: 60px;
+	background: url(../img/parallax-img/img-2.png) 0 0 no-repeat;
+	display: block;
+}
+.homepage-2 .event-info .p-4 {
+	position: absolute;
+	top: 0px;
+	right: 5%;
+	width: 60px;
+	height: 60px;
+	background: url(../img/parallax-img/img-4.png) 0 0 no-repeat;
+	display: block;
+}
+.homepage-2 .event-info .p-5 {
+	position: absolute;
+	top: 24%;
+	right: 5%;
+	width: 60px;
+	height: 60px;
+	background: url(../img/parallax-img/img-5.png) 0 0 no-repeat;
+	display: block;
+}
+.homepage-2 .event-info .p-6 {
+	position: absolute;
+	top: 48%;
+	right: 0;
+	width: 60px;
+	height: 60px;
+	background: url(../img/parallax-img/img-6.png) 0 0 no-repeat;
+	display: block;
+}
+.homepage-2 .event-info .p-7 {
+	position: absolute;
+	top: 49%;
+	left: 7%;
+	width: 70px;
+	height: 70px;
+	background: url(../img/parallax-img/img-3.png) 0 0 no-repeat;
+	display: block;
+}
+/*
+ 1.4) Recent Info Section
+ -----------------------------*/
+.homepage-2 .recent-info {
+	padding: 38px 0;
+	width: 100%;
+	overflow: hidden;
+}
+.homepage-2 #home-slider .flex-direction-nav {
+	display: none;
+}
+.homepage-2 .recent-info .zoom:hover .text {
+	background: #f7f7f7;
+}
+.homepage-2 .recent-info .owl-wrapper {
+	position: relative;
+}
+.homepage-2 .recent-info .owl-carousel {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-top: -25px;
+}
+.homepage-2 .recent-info .owl-item {
+	float: left;
+	position: relative;
+	padding: 0 15px;
+}
+.homepage-2 .recent-info .owl-controls {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: auto;
+	padding: 0 50px;
+	overflow: hidden;
+}
+.homepage-2 .recent-info .owl-buttons {
+	top: 0;
+}
+.homepage-2 .recent-info .owl-pagination {
+	padding: 0 20px;
+	list-style: none;
+	overflow: hidden;
+}
+.homepage-2 .recent-info .owl-page {
+	float: left;
+}
+.homepage-2 .recent-info .owl-numbers {
+	padding: 0 5px;
+	display: block;
+	line-height: 48px;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow';
+	color: #22272e;
+	cursor: pointer;
+}
+.homepage-2 .recent-info .owl-prev, .recent-info .owl-next {
+	background: url("../img/icons2.png") no-repeat 12px -29px #f6f6f6;
+	cursor: pointer;
+	display: table;
+	height: 48px;
+	left: 0;
+	position: absolute;
+	text-indent: -9999px;
+	top: 0;
+	width: 49px;
+}
+.homepage-2 .recent-info .owl-next {
+	left: auto;
+	right: 0px;
+	background-position: 12px 19px;
+}
+.homepage-2 .recent-info .owl-wrapper-outer {
+	border-top: 1px solid #eaebec;
+	margin: 0;
+	margin-top: 66px;
+	overflow: hidden;
+}
+.homepage-2 .recent-info figure {
+	margin-top: 20px;
+}
+.homepage-2 .recent-info figure img {
+	width: 100%;
+}
+.homepage-2 .recent-info .text {
+	padding: 30px 15px;
+	margin: -68px 50px 0;
+	text-align: center;
+	position: relative;
+	z-index: 99;
+	background: #fff;
+}
+.homepage-2 .recent-info h3 a {
+	color: #22272e;
+}
+.homepage-2 .recent-info h3 a:hover {
+	text-decoration: none;
+}
+.homepage-2 .btn-primary:hover {
+	text-decoration: none;
+}
+.homepage-2 .recent-info .date {
+	padding: 0 15px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 31px;
+	display: inline-block;
+	font-family: 'PT Sans Narrow';
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+.homepage-2 .recent-info .more {
+	padding: 20px 0;
+	text-align: center;
+	border-top: 1px solid #eaebec;
+}
+.homepage-2 .recent-info .more a{
+	position:relative;
+	}
+/*
+ 1.5) Goal Info Section
+ -----------------------------*/
+.homepage-2 .goals-info {
+	overflow: hidden;
+	width: 100%;
+	background: #f2f2f2;
+}
+.homepage-2 .goals-info figure img {
+	display: block;
+	margin: auto;
+}
+.homepage-2 .goals-info .text {
+	padding: 50px 0 20px;
+}
+.homepage-2 .goals-info .intro {
+	padding: 0 0 36px 38px;
+	margin: 50px 0 20px;
+	position: relative;
+	border-bottom: 1px solid #eaebec;
+}
+.homepage-2 .goals-info .intro:after {
+	position: absolute;
+	top: 7px;
+	left: -2px;
+	width: 3px;
+	height: 53%;
+	content: "";
+}
+.homepage-2 .goals-info .text p {
+	font-size: 18px;
+	font-family: 'Lato';
+}
+.homepage-2 .goals-info .btn-primary {
+	font-family: 'Lato';
+	font-weight: 900;
+	font-size: 13px;
+}
+/*
+ 1.6) Team Info Section
+ -----------------------------*/
+.homepage-2 .team-info h2 {
+	margin-bottom: 0;
+}
+.homepage-2 .team-info {
+	padding: 97px 0 70px;
+	width: 100%;
+	background: #fff;
+}
+.homepage-2 .team-info .team {
+	overflow: hidden;
+}
+.homepage-2 .team-info .owl-carousel {
+	padding-top: 55px;
+	margin: 41px 15px 0 15px;
+	position: relative;
+	width: 100%;
+	border-top: 1px solid #eaebec;
+}
+.homepage-2 .team-info .owl-buttons {
+	position: absolute;
+	top: -96px;
+	right: 34px;
+}
+.homepage-2 .team-info.aerrows .owl-buttons{
+	top: -64px;
+}
+.homepage-2 .team-info .owl-prev, .homepage-2 .team-info .owl-next {
+	margin: 0 1px;
+	text-indent: -9999px;
+	display: inline-block;
+	width: 49px;
+	height: 48px;
+	background: #f2f2f2 url(../img/icons2.png) no-repeat;
+	cursor: pointer;
+}
+.homepage-2 .team-info .owl-prev {
+	background-position: 12px -29px;
+}
+.homepage-2 .team-info .owl-next {
+	background-position: 12px -59px;
+}
+.homepage-2 .team-info .text {
+	padding: 20px 10px;
+}
+.homepage-2 .team-info h4 {
+	font-size: 22px;
+}
+.homepage-2 .team-info h4 a {
+	color: #22272e;
+}
+.homepage-2 .team-info h4 a:hover {
+	text-decoration: none;
+}
+.homepage-2 .team-info span {
+	font-size: 15px;
+}
+.homepage-2 .team-info .owl-item {
+	float: left;
+	text-align: center;
+}
+.homepage-2 .team-info figure {
+	overflow: hidden;
+	width: 165px;
+	height: 167px;
+	margin: 0 auto 12px;
+	position: relative;
+}
+.homepage-2 .team-info figure img {
+	max-width: inherit;
+}
+.homepage-2 .team-info span {
+	padding: 15px;
+	display: block;
+	font-family: "Lato", sans-serif;
+	color: #2B2B2B;
+}
+.homepage-2 .team-info .owl-wrapper-outer {
+	width: 100%;
+}
+.homepage-2 .team-info .social-icons {
+	list-style: none;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.homepage-2 .team-info .social-icons li {
+	float: none;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	border-radius: 100%;
+	margin: 0 4px;
+}
+.homepage-2 .team-info .social-icons a {
+	color: #fff;
+	font-size: 18px;
+	width: 42px;
+	height: 42px;
+	display: table;
+	cursor: pointer;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.homepage-2 .team-info .social-icons a:hover, .homepage-2 .team-info .social-icons a:focus {
+	text-decoration: none;
+}
+.homepage-2 .team-info .social-icons i {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+.homepage-2 .team-info .info {
+	width: 100%;
+	padding: 20px;
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	z-index: 999;
+	margin-bottom: -41px;
+}
+.homepage-2 .effect-3 .share-icon:after {
+	background: #fff;
+}
+.homepage-2 .team-info .info li {
+	transform: translateY(250%);
+	-webkit-transform: translateY(250%);
+}
+.homepage-2 .team-info .info li:nth-child(1) {
+	animation: icon-animation-back 0.4s ease-in-out 0.3s backwards;
+	-webkit-animation: icon-animation-back 0.4s ease-in-out 0.3s backwards;
+}
+.homepage-2 .team-info .info li:nth-child(2) {
+	animation: icon-animation-back 0.4s ease-in-out 0.2s backwards;
+	-webkit-animation: icon-animation-back 0.2s ease-in-out 0.2s backwards;
+}
+.homepage-2 .team-info .info li:nth-child(3) {
+	animation: icon-animation-back 0.4s ease-in-out 0s backwards;
+	-webkit-animation: icon-animation-back 0.4s ease-in-out 0s backwards;
+}
+.homepage-2 .team-info .item:hover li:nth-child(1) {
+	animation: icon-animation 0.4s linear 0s forwards;
+	-webkit-animation: icon-animation 0.4s linear 0s forwards;
+}
+.homepage-2 .team-info .item:hover li:nth-child(2) {
+	animation: icon-animation 0.4s linear 0.1s forwards;
+	-webkit-animation: icon-animation 0.4s linear 0.1s forwards;
+}
+.homepage-2 .team-info .item:hover li:nth-child(3) {
+	animation: icon-animation 0.4s linear 0.2s forwards;
+	-webkit-animation: icon-animation 0.4s linear 0.2s forwards;
+}
+ @keyframes icon-animation-back {
+0% {
+transform:translateY(0);
+opacity:1;
+}
+80% {
+transform:translateY(-150%);
+opacity:0;
+}
+100% {
+transform:translateY(150%);
+opacity:0;
+}
+}
+ @-webkit-keyframes icon-animation-back {
+0% {
+-webkit-transform:translateY(0);
+opacity:1;
+}
+80% {
+-webkit-transform:translateY(-150%);
+opacity:0;
+}
+100% {
+-webkit-transform:translateY(150%);
+opacity:0;
+}
+}
+ @keyframes icon-animation {
+0% {
+transform:translateY(150%);
+}
+90% {
+transform:translateY(-10%);
+}
+100% {
+transform:translateY(0);
+}
+}
+ @-webkit-keyframes icon-animation {
+0% {
+-webkit-transform:translateY(150%);
+}
+80% {
+-webkit-transform:translateY(-10%);
+}
+100% {
+-webkit-transform:translateY(0);
+}
+}
+/*
+ 1.8) Subscription Info Section
+ -----------------------------*/
+.homepage-2 .subscription {
+	width: 100%;
+	background: #00bb75 url(../img/event-bg.png) repeat center bottom;
+	padding: 0 0;
+}
+.homepage-2 .subscription .bg {
+	background: url(../img/line.jpg) repeat-x center top;
+}
+.homepage-2 .subscription .about-me {
+	width: 100%;
+	overflow: hidden;
+	background: #fff url(../img/book-bg.png) no-repeat right top;
+	display: table;
+}
+.homepage-2 .subscription figure {
+	width: 100%;
+	height: 241px;
+	overflow: hidden;
+}
+.homepage-2 .subscription figure img {
+	max-width: inherit;
+	float: left;
+}
+.homepage-2 .subscription .text {
+	padding-left: 38px;
+	margin: 72px 0 50px;
+	text-align: left;
+	position: relative;
+}
+.homepage-2 .subscription .txt {
+	padding-left: 0px;
+	float: none;
+	display: table-cell;
+	vertical-align: bottom;
+}
+.homepage-2 .subscription .subscription-heading {
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+}
+.homepage-2 .subscription .text:after {
+	position: absolute;
+	top: 15px;
+	left: -2px;
+	width: 3px;
+	height: 80%;
+	content: "";
+}
+.homepage-2 .subscription .sub-me {
+	padding: 42px 0;
+	overflow: hidden;
+}
+.homepage-2 .subscription h2 {
+	color: #fff;
+}
+.homepage-2 .subscription-field {
+	margin-top: 20px;
+	position: relative;
+}
+.homepage-2 .subscription-input {
+	background: #fff;
+	border: none;
+	float: left;
+	font-size: 18px;
+	height: 48px;
+	padding: 0 190px 0 18px;
+	width: 100%;
+	font-family: "Lato", sans-serif;
+}
+.homepage-2 .subscription .btn-default {
+	border: none;
+	font-family: 'PT Sans Narrow', sans-serif;
+	width: 170px;
+	height: 48px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 16px;
+	text-align: center;
+}
+.homepage-2 .btn-primary:hover, .homepage-2 .btn-primary:focus, .homepage-2 .btn-primary:active {
+	background: transparent;
+}
+.homepage-2 .btn-effect .arrow-right {
+    position: absolute;
+    top: 0;
+    right: -63px;
+}
+.homepage-2 .goals-info .btn-primary{
+	    color: #2b343f;
+		position:relative;
+	}

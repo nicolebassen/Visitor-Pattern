@@ -1,0 +1,484 @@
+/* Homepage 15
+ ================================================================*/
+.homepage-15, .homepage-15 h1, .homepage-15 .h1, .homepage-15 h2, .homepage-15 .h2, .homepage-15 h3, .homepage-15 .h3, .homepage-15 h4, .homepage-15 .h4, .music-news .img-description > h3, .music-news .date {
+	font-family: "PT Sans Narrow";
+}
+.homepage-15 .resto-info {
+	background: rgba(168, 77, 108, 0.8);
+	padding: 25px 0;
+	position: absolute;
+	bottom:0;
+	width:100%;
+	z-index: 100;
+}
+.homepage-15 .resto-info .buy-tickets .btn-default
+{font-size: 30px;
+padding: 0 25px;}
+/*
+ 1.1) Banner Section
+ -----------------------------*/
+.homepage-15 #slider {
+	width: 100%;
+	position: relative;
+}
+.homepage-15 .banner-slider {
+	position: relative;
+	width: 100%;
+}
+.homepage-15 .banner-slider ul {
+	list-style: none;
+}
+.homepage-15 .banner-slider li {
+	overflow: hidden;
+}
+.homepage-15 .banner-slider img {
+	margin: auto;
+	display: block;
+	max-width: inherit;
+}
+.homepage-15 .banner-slider .layer1 {
+	font-size: 70px;
+	color: #fff;
+	display: block;
+	font-family: 'Damion';
+	font-style: normal;
+	line-height: 0.6;
+	padding-left: 70px;
+}
+.homepage-15 .banner-slider .layer2 {
+	font-size: 140px;
+	color: #fff;
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: 700;
+	white-space: nowrap;
+	letter-spacing: 0.02em;
+	font-family: 'PT Sans Narrow';
+}
+.homepage-15 h2, .homepage-15 .h2 {
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+}
+.homepage-15 h4, .homepage-15 .h4 {
+	font-size: 28px;
+}
+.homepage-15 p {
+	font-family: 'Lato', sans-serif;
+}
+.homepage-15 .resto-info .label {
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 300;
+	padding: 0;
+	display: inline-block;
+	padding-top: 10px;
+}
+.homepage-15 .resto-info .btn-basic {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #fff;
+}
+.homepage-15 .resto-info .buy-tickets {
+	text-align: right;
+}
+.homepage-15 .buy-tickets .btn-default {
+    display: inline-block;
+    font-weight: 300;
+    height: auto;
+    line-height: 2.0;
+    margin-left: 25px;
+    width: auto;
+    font-size: 21px;
+    padding: 0 12px;
+    font-family: PT Sans Narrow;
+}
+.homepage-15 .buy-tickets .btn-effect i {
+	margin-left: 10px;
+}
+/* Meet Our team
+ ----------------------------------*/
+.music-team {
+	background: #f2f2f2;
+	padding-bottom: 180px;
+	padding-top: 96px;
+}
+.band-member .bottom {
+	margin-top: 30px;
+}
+.band-member figure {
+	position: relative;
+	overflow: visible;
+	cursor: pointer;
+}
+.band-member figcaption {
+	position: absolute;
+	color: #22272e;
+	font-family: "Damion", sans-serif;
+	font-size: 28px;
+}
+.band-member figcaption span {
+	display: block;
+	line-height: 1
+}
+.band-member figcaption span+ span {
+	margin-left: 10px;
+}
+.band-member figcaption strong {
+	display: inline-block;
+	font-weight: 300;
+}
+.band-member figcaption img {
+	position: absolute;
+}
+.band-member .left figcaption {
+	bottom: 35px;
+	left: -102px;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+}
+.band-member .left figcaption img {
+	left: 82px;
+	top: -34px;
+	transform: rotate(21deg);
+	-webkit-transform: rotate(21deg);
+}
+.band-member .top figcaption {
+	right: 20px;
+	top: -81px;
+	transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+}
+.band-member .top figcaption img {
+	left: -60px;
+	top: -5px;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+}
+.band-member .bottom figcaption {
+	bottom: -90px;
+	right: 39px;
+	transform: rotate(-24deg);
+	-webkit-transform: rotate(-24deg);
+}
+.band-member .bottom figcaption img {
+	left: -56px;
+	top: -33px;
+	transform: rotate(22deg);
+	-webkit-transform: rotate(22deg);
+}
+.band-member .right figcaption {
+	bottom: 56px;
+	right: -74px;
+	transform: rotate(16deg);
+	-webkit-transform: rotate(16deg);
+}
+.band-member .right figcaption img {
+	right: 27px;
+	top: -51px;
+	transform: rotate(-19deg);
+	-webkit-transform: rotate(-19deg);
+}
+/* Discography
+ ----------------------------------------*/
+.album-section {
+	padding-bottom: 72px;
+	padding-top: 98px;
+}
+.album-cover {
+	position: relative;
+	margin-bottom: 27px;
+	padding-top: 4px;
+}
+.album-cover figcaption {
+	height: 100%;
+	left: 0;
+	padding: 18px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.album-cover figcaption strong {
+	border: 3px solid #ffffff;
+	color: #ffffff;
+	display: block;
+	font-size: 28px;
+	height: 100%;
+	line-height: 1;
+	padding: 95px 20px 0;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.album-info h4 span {
+	color: #8f8f93;
+}
+.buy-widget .price {
+	display: inline-block;
+	font-size: 20px;
+	line-height: 1.1;
+	padding: 4px 17px;
+	background: #f2f2f2;
+}
+.buy-widget .to-cart {
+	color: #ffffff;
+	display: inline-block;
+	line-height: 1.4;
+	padding: 0px 7px;
+	margin-left: -4px;
+}
+.album-info .buy-widget .to-cart {
+	padding: 3px 7px;
+	vertical-align: top;
+}
+.song_widget, .song_widget .buy-widget {
+	display: inline-block;
+}
+.song_widget {
+	font-size: 20px;
+	color: #22272e;
+}
+.album-song-list li {
+	list-style: outside none none;
+	margin-bottom: 17px;
+	padding-bottom: 12px;
+	border-bottom:2px solid transparent;
+}
+.song-sno {
+	width: 42%;
+}
+.song-author {
+	width: 29.5%;
+}
+.song-sno.song_widget i, .song_widget .time-label, .song_widget .author-label {
+	color: #8f8f93
+}
+.song-sno.song_widget i {
+	border: 2px solid #dbdbdb;
+	border-radius: 100%;
+	font-size: 8px;
+	height: 23px;
+	line-height: 1.8;
+	margin-right: 19px;
+	padding: 2px 0 0 1px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	width: 23px;
+	color: #dbdbdb
+}
+.song_widget .s-no {
+	margin-right: 30px;
+}
+.song_widget .author-label {
+	margin-right: 32px;
+}
+.song-length {
+	margin: 0 0 0 21px;
+}
+.song-time .buy-widget {
+	float: right;
+}
+.song_widget.song-time {
+	width: 27.6%;
+}
+.homepage-15 .album-section h2 {
+	margin-bottom: 50px;
+}
+.song-pagination {
+	text-align: right;
+	margin-top: -100px;
+	margin-bottom: 63px;
+}
+.song-pagination li {
+	display: inline-block;
+	font-size: 20px;
+}
+.song-pagination li a {
+	display: block;
+	color: #9d9da1;
+	padding: 0px 10px
+}
+.song-pagination li.active a {
+	color: #fff
+}
+.song-pagination li a:hover {
+	text-decoration: none;
+}
+/* whats New
+ -----------------------*/
+.music-update {
+	background: url(../img/music-update-banner.jpg) center top no-repeat;
+	padding: 96px 0 68px;
+	min-height: 575px;
+}
+.music-update h2 {
+	color: #fff;
+}
+.music-news .img-description {
+	background: #fff;
+}
+.music-news figure {
+	float: left;
+}
+.music-news .img-description {
+	overflow: hidden;
+	padding:42px 30px 28px;
+	text-align: left;
+}
+.music-news .img-description p > a {
+	margin-left: 16px;
+}
+.music-news .date-no, .music-news .date {
+	font-size: 70px;
+	display: inline-block;
+	vertical-align: top
+}
+.music-news .date {
+	font-size: 20px;
+}
+.music-update .music-news .date{
+	margin-top:5px;
+}
+.music-news .date-no {
+	line-height: 0.8;
+	margin-right: 16px;
+	color: #22272e;
+}
+.music-news .img-description > h3 {
+	font-size: 28px;
+	font-weight: 300;
+	margin-bottom: 7px;
+	margin-top: 21px;
+}
+.music-news .img-description > p {
+	font-size: 17px;
+}
+#music-update-wrapper .owl-item {
+	float: left;
+	padding-right:15px;
+	margin-right:15px
+}
+#music-update-wrapper .owl-wrapper-outer {
+	margin-right: -15px;
+	overflow: hidden;
+}
+#music-update-wrapper {
+	position: relative;
+}
+#music-update-wrapper .owl-buttons > div {
+	overflow: hidden;
+	text-indent: -99px;
+	background-color: #e2e2e4;
+	cursor: pointer;
+	vertical-align: top
+}
+.music-news {
+	border: 2px solid transparent
+}
+/* Music News Update
+ -------------------------------------------*/
+.music-news-update {
+	padding-top: 96px;
+	background: #f2f2f2;
+}
+.music-twitter-widget {
+	padding-bottom: 23px;
+	padding-top: 45px;
+	background: #fff;
+	margin-bottom: 100px;
+}
+.music-twitter-widget blockquote {
+	border-left: 0 none;
+	color: #22272e;
+	font-size: 28px;
+	margin-left: -45px;
+	padding-left: 0;
+	text-transform: capitalize;
+	width: 90%;
+}
+.music-twitter-widget blockquote a:hover {
+	text-decoration: none;
+}
+.music-twitter-widget blockquote .time-ago {
+	color: #939393;
+	font-size: 20px;
+	margin-top: 18px;
+	display: block;
+	text-transform: none;
+}
+.twitter-logo {
+	text-align: center;
+}
+.twitter-logo .fa {
+	font-size: 45px;
+	margin-top: 17px;
+}
+.homepage-14 .game-update h2 {
+	margin-bottom: 44px;
+}
+.music-widget-wrap {
+	position: relative
+}
+.music-widget-wrap .flex-direction-nav {
+	position: absolute;
+	right: 0;
+	left: auto;
+	top: -89px;
+	width: 102px;
+	z-index: 1;
+}
+.music-widget-wrap .flex-direction-nav li {
+	display: inline-block;
+}
+.music-widget-wrap .flex-direction-nav li a {
+	position: static;
+	background-color: #e7e7e7;
+}
+.music-widget-wrap .flex-direction-nav li a.flex-next {
+	background-position: 12px -58px;
+}
+.music-widget-wrap .flex-direction-nav li:last-child {
+	float: right;
+}
+.homepage-15 .music-news-update h2 {
+	margin-bottom: 50px;
+}
+.homepage-15 .music-news-update .flex-direction-nav li a {
+	width: 49px;
+	height: 49px;
+	border-radius: 1px;
+	overflow: hidden;
+	display: inline-block;
+	text-indent: -99px;
+	background: url(../img/icons6.png) 12px -28px no-repeat;
+	background-color: #e7e7e7;
+}
+.homepage-15 .music-news-update .flex-direction-nav li a.flex-next {
+	background-position: 12px -58px;
+}
+/*Subscription
+ ----------------------------------------------*/
+.homepage-15 .subscription h2 {
+	font-size: 40px;
+	color: #fff;
+	text-transform: capitalize;
+}
+.homepage-15 .subscription {
+	padding: 60px 0 0;
+}
+.homepage-15 .subscription input {
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.tp-caption {
+    line-height: 0.3 !important;
+}
+.banner-content
+{margin-top: -30px;}
+
+

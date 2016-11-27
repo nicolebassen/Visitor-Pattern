@@ -1,0 +1,888 @@
+/* Homepage 4
+ ===================================================*/
+
+/*Global*/
+.homepage-4, .homepage-4 h1, .homepage-4 .h1, .homepage-4 h2, .homepage-4 .h2, .homepage-4 h3, .homepage-4 .h3, .homepage-4 h4, .homepage-4 .h4 {
+	font-family: 'Roboto Slab', sans-serif;
+}
+.homepage-4 {
+	font-size: 12px;
+	line-height: 1.5;
+	color: #828287;
+	font-weight: 400;
+	background: #fdfdfd;
+}
+.homepage-4 h1, .homepage-4 .h1 {
+	font-size: 45px;
+}
+.homepage-4 h2, .homepage-4 .h2 {
+	font-size: 45px;
+}
+.homepage-4 h3, .homepage-4 .h3 {
+	font-size: 25px;
+}
+.homepage-4 h4, .homepage-4 .h4 {
+	font-size: 18px;
+}
+.homepage-4 .btn-default {
+	padding: 0 20px;
+	display: block;
+	text-align: left;
+	height: 56px;
+	line-height: 56px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 700;
+	border: 0px none;
+	border-radius: 0px;
+	font-family: 'PT Sans Narrow';
+	text-transform: uppercase;
+}
+.homepage-4 .btn-primary {
+	padding: 0 10px;
+	display: block;
+	text-align: left;
+	height: 26px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+	border: 0px none;
+	border-radius: 0px;
+	font-family: 'PT Sans Narrow';
+	text-transform: uppercase;
+}
+.homepage-4 #slider {
+	position: relative;
+}
+.homepage-4 .banner-slider ul {
+	list-style: none;
+}
+.homepage-4 .banner-slider .layer1 {
+	font-size: 30px !important;
+	color: #fff;
+	display: block;
+	font-family: 'PT Sans Narrow';
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1;
+}
+.homepage-4 .banner-slider .layer2 {
+	font-size: 92px;
+	color: #fff;
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: 700;
+	white-space: nowrap;
+	letter-spacing: 0.02em;
+}
+.homepage-4 .banner-slider .layer3 {
+	font-size: 70px;
+	color: #fff;
+	display: block;
+	font-family: 'Damion';
+	font-style: normal;
+	line-height: 1;
+	text-align: right;
+	padding-right: 50px;
+}
+/*
+ 1.2) resto Info
+ -----------------------------*/
+.homepage-4 .resto-info {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: rgba(40,45,53,0.3);
+	z-index: 99;
+}
+.homepage-4 .resto-info .mid {
+	padding: 62px 0 50px;
+}
+.homepage-4 .resto-info .input-group {
+	width: 100%
+}
+.homepage-4 .resto-info .first {
+	padding-right: 0;
+}
+.homepage-4 .resto-info .second {
+	padding: 0 0 0 8px;
+}
+.homepage-4 .resto-info .third {
+	padding: 0 0 0 8px;
+}
+.homepage-4 .resto-info input[type="text"], .resto-info .dropdown-toggle {
+	padding: 13px 5px;
+	font-size: 20px;
+	border-radius: 0px;
+	box-shadow: none;
+	border: 0px;
+	height: auto;
+	background: #fff;
+}
+.homepage-4 .resto-info input[type="text"].form-control {
+	padding-left: 48px;
+}
+.homepage-4 .resto-info .input-group-addon {
+	font-size: 20px;
+	background: none;
+	border-radius: 0px;
+	border: 0px;
+	color: red;
+	height: 33px;
+	left: 0;
+	position: absolute;
+	top: 13px;
+	width: 48px;
+	z-index: 999
+}
+.homepage-4 .resto-info .btn-group, .resto-info .dropdown-toggle {
+	width: 100%;
+	text-align: left;
+}
+.homepage-4 .resto-info .dropdown-toggle {
+	padding-left: 20px;
+	position: relative;
+	font-family: 'Roboto Slab';
+}
+.homepage-4 .resto-info .caret {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	color: #000;
+	border-width: 5px;
+}
+.homepage-4 .resto-info .dropdown-menu {
+	width: 100%;
+}
+.homepage-4 .resto-info .dropdown-menu > li > a {
+	padding: 10px;
+}
+.homepage-4 .resto-info .btn-default {
+	font-size: 20px;
+	width: 100%;
+}
+/*
+ 1.3) food Info
+ -----------------------------*/
+.homepage-4 .food-info {
+	padding-bottom: 157px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+.homepage-4 .food-info:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 11px;
+	background: url(../img/yellow.png) repeat-x center bottom;
+}
+.homepage-4 .food-info .title {
+	padding: 114px 80px 41px;
+}
+.homepage-4 .food-info .inner {
+	margin: 20px 0;
+	border-top: 5px solid transparent;
+	background: #fff;
+}
+.homepage-4 .food-info .one {
+	border-color: #ffdb35;
+}
+.homepage-4 .food-info .two {
+	border-color: #ffa22b;
+}
+.homepage-4 .food-info .three {
+	border-color: #ff8331;
+}
+.homepage-4 .food-info .four {
+	border-color: #ff4c1c;
+}
+.homepage-4 .food-info h3 {
+	padding: 35px 0 40px;
+}
+.homepage-4 .food-info figure {
+	position: relative;
+	overflow: hidden;
+}
+.homepage-4 .food-info figure img {
+	max-width: inherit;
+	width: 100%;
+}
+.homepage-4 .food-info figure:before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: url(../img/food-overlay.png) no-repeat center bottom;
+	background-size: 100% auto;
+	z-index: 999;
+}
+.homepage-4 .food-info .joy {
+	padding: 38px 80px 41px;
+}
+.homepage-4 .food-info .btn-default {
+	display: inline-block;
+}
+.homepage-4 .food-info figure {
+	border-radius: 0 0 50% 50%;
+	margin: -41% -30% 0;
+	padding: 40% 30% 0;
+}
+.homepage-4 .food-info .inner {
+	overflow: hidden;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.homepage-4 .food-info .inner:hover h3 {
+	color: #fff;
+}
+.homepage-4 .food-info .one:hover {
+	background: #ffdb35;
+}
+.homepage-4 .food-info .two:hover {
+	background: #ffa22b;
+}
+.homepage-4 .food-info .three:hover {
+	background: #ff8331;
+}
+.homepage-4 .food-info .four:hover {
+	background: #ff4c1c;
+}
+.homepage-4 .link .btn.btn-primary:hover {
+	background: #ff4c1c;
+}
+/*
+ 1.4) service Info
+ -----------------------------*/
+.homepage-4 .service-info {
+	padding-bottom: 70px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	background: #fff url(../img/yellow.png) repeat-x center -750px;
+}
+.homepage-4 .service-info figure {
+	margin-top: -93px;
+	position: relative;
+}
+.homepage-4 .service-info figure:before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: url(../img/food-overlay.png) no-repeat center bottom;
+	background-size: 100% auto;
+	z-index: 999;
+}
+.homepage-4 .service-info .title {
+	padding: 50px 0 18px;
+	background: #fff;
+}
+.homepage-4 .service-info .sub-title {
+	padding-top: 9px;
+	display: block;
+	font-style: normal;
+	font-size: 22px;
+}
+.homepage-4 .service-info .inner {
+	padding: 25px 0;
+	vertical-align: top;
+	overflow: hidden;
+	background: #fff;
+}
+.homepage-4 .service-info .inner h3 {
+	padding: 0 77px;
+}
+.homepage-4 .service-info i {
+	margin-bottom: 28px;
+	display: block;
+}
+.homepage-4 .service-info p {
+	padding-top: 33px;
+}
+/*
+ 1.5) cook Info
+ -----------------------------*/
+.homepage-4 .cook-info {
+	position: relative;
+	width: 100%;
+	background: #fff url(../img/cook-info-bg.jpg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.homepage-4 .cook-info .inner {
+	padding: 105px 0 100px;
+}
+.homepage-4 .cook-info h2 {
+	font-size: 60px;
+	color: #fff;
+	/*text-shadow: 5px 2px 7px #000;*/
+}
+.homepage-4 .cook-info h3 {
+	padding: 0 35px;
+	margin-top: 33px;
+	position: relative;
+	color: #fff;
+	line-height: 1.4;
+	font-weight: 300;
+	/*text-shadow: 2px 2px 12px #000;*/
+}
+.homepage-4 .cook-info h3:after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	width: 3px;
+	height: 57px;
+}
+.homepage-4 .cook-info h3 span {
+	font-weight: 700;
+}
+.homepage-4 .cook-info .txt {
+	font-style: normal;
+	font-family: 'Damion';
+	font-size: 70px;
+	color: #fff;
+	display: block;
+	line-height: 1.4;
+	margin-left: -10px;
+	/*text-shadow: 1px 2px 4px #222;*/
+}
+/*
+ 1.6) choice Info
+ -----------------------------*/
+.homepage-4 .choice-info {
+	padding-bottom: 77px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.homepage-4 .choice-info:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 11px;
+	background: url(../img/yellow.png) repeat-x center bottom;
+}
+.homepage-4 .choice-info .title {
+	padding: 97px 0 38px;
+}
+.homepage-4 .choice-info .equal-block {
+	position: relative;
+}
+.homepage-4 .choice-info .inner {
+	padding: 25px 0 45px;
+}
+.homepage-4 .choice-info figure {
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+.homepage-4 .choice-info h4 {
+	padding: 3px 0 8px;
+}
+.homepage-4 .choice-info h4 a {
+	color: #22272e;
+}
+.homepage-4 .choice-info h4 a:hover {
+	text-decoration: none;
+}
+.homepage-4 .choice-info p {
+	line-height: 1.5;
+}
+.homepage-4 .choice-info .link {
+	padding: 12px 0;
+	overflow: hidden;
+	position: absolute;
+	left: 15px;
+	bottom: 0 !important;
+	background: none;
+	height: auto;
+	width: auto;
+}
+.homepage-4 .choice-info span {
+	float: left;
+	margin-right: 35px;
+	display: block;
+	line-height: 26px;
+	font-size: 18px;
+	color: #22272e;
+}
+.homepage-4 .choice-info .btn-primary {
+	float: left;
+}
+/*
+ 1.7) apps Info
+ -----------------------------*/
+.homepage-4 .apps-info {
+	padding: 100px 0 2px;
+	position: relative;
+	width: 100%;
+	background: #f2f2f2;
+}
+.homepage-4 .apps-info .container {
+	position: relative;
+}
+.homepage-4 .apps-info .title {
+	padding-bottom: 80px;
+	overflow: hidden;
+}
+.homepage-4 .apps-info p {
+	font-size: 17px;
+}
+.homepage-4 .apps-info h2 {
+	padding-bottom: 50px;
+}
+.homepage-4 .apps-info .btn {
+	float: left;
+	clear: left;
+	margin-top: 44px;
+	letter-spacing: 0.04em;
+	width: 220px;
+}
+.homepage-4 .apps-info .foto {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.homepage-4 .apps-info figure img {
+	display: block;
+	width: 100%;
+	max-width: inherit;
+}
+.homepage-4 .apps-info .frame-big {
+	max-width: 426px;
+	float: right;
+	background: url(../img/apps-img1.png) no-repeat center top;
+	background-size: 100% 100%;
+}
+.homepage-4 .apps-info .frame-big figure {
+	padding: 65px 55px 0 57px;
+	display: block;
+}
+.homepage-4 .apps-info .frame-small {
+	position: absolute;
+	bottom: 0px;
+	left: -3px;
+	max-width: 202px;
+	background: url(../img/apps-img2.png) no-repeat center top;
+	background-size: 100% 100%;
+}
+.homepage-4 .apps-info .frame-small figure {
+	padding: 59px 31px 0 29px;
+	display: block;
+}
+/*
+ 1.8) Subscription Section
+ -----------------------------*/
+.homepage-4 .subscription {
+	background: #ffdb35;
+	min-height: 122px;
+	padding-top: 41px;
+	padding-bottom: 53px;
+	text-align: center;
+}
+.homepage-4 .subscription h2 {
+	color: #fff;
+	padding-top: 13px;
+}
+.homepage-4 .subscription-field {
+	margin-top: 20px;
+}
+.homepage-4 .subscription-input {
+	background: #fff;
+	border: none;
+	float: left;
+	font-size: 18px;
+	height: 48px;
+	margin-right: -170px;
+	padding: 0 190px 0 18px;
+	width: 100%;
+	color: #7a7a81;
+	font-family: 'Lato';
+}
+.homepage-4 .subscription .btn-default {
+	border: none;
+	width: 170px;
+	height: 48px;
+	line-height: 48px;
+	position: relative;
+}
+.apps-info .right {
+	float: right;
+}
+/*homepage 4 one*/
+.tabsection {
+	margin: 116px 0 0 0;
+	padding: 0 0 21px 4px;
+	position: relative;
+}
+.tabsection .nav-tabs {
+	border-bottom: 5px solid #ff4c1c;
+	padding: 0 0 17px 0;
+}
+.tabsection li {
+	text-transform: uppercase;
+	font-family: PT Sans Narrow;
+	margin: 0 0 0 9px;
+}
+.tabsection li:first-child {
+	margin: 0;
+}
+.tabsection li.active > a {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: 1px solid transparent !important;
+	outline: none;
+	color: #fff !important;
+}
+.tabsection li.active > a:hover {
+	border: 1px solid transparent !important;
+	outline: none;
+}
+.tabsection .nav-tabs li > a {
+	font-size: 20px;
+	border: 1px solid transparent !important;
+	font-weight: bold;
+	letter-spacing: 0.6px;
+	padding: 13px 20px 15px 22px;
+	background: #ffffff;
+	outline: none;
+	color: #22272e;
+}
+.homepage-4-one .inner {
+	padding-bottom: 26px;
+	text-align: left;
+	margin-bottom: 3px !important;
+}
+.tabsection-content {
+	padding: 43px 0 0 0;
+}
+.homepage-4-one .food-info figure {
+	line-height: 182px;
+	min-height: 196px;
+	text-align: center;
+}
+.homepage-4-one .inner > h4 {
+	margin: 6px 0 7px 20px;
+}
+.homepage-4-one .inner > h4 a {
+	color: #1f2328;
+}
+.homepage-4-one .food-info figure img {
+	width: auto !important;
+}
+.homepage-4-one .inner > p {
+	margin: 0 0 0 20px;
+}
+.homepage-4-one .link {
+	background: transparent;
+	display: block;
+	width: auto;
+}
+.homepage-4-one .link > span {
+	float: left;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: 17px;
+}
+.homepage-4-one .btn-primary {
+	float: right;
+	margin-right: 59px;
+	margin-top: 19px;
+}
+.homepage-4-one .pagination {
+	padding-top: 5px;
+}
+.homepage-4-one .pagination li:first-child a, .homepage-4-one .pagination li:last-child a, .homepage-4-one .owl-buttons > div {
+	width: 52px;
+}
+.homepage-4-one .pagination > li > a, .homepage-4-one .pagination > li > span {
+	color: #22272e;
+}
+.homepage-4-one .food-info {
+	padding-bottom: 35px !important;
+}
+.homepage-4-one .food-info {
+	background: #f2f2f2;
+}
+.about-our-restaurent {
+	padding: 101px 0 110px;
+}
+.few-words {
+	padding: 0 0 0 3px;
+}
+.homepage-4-one h1 {
+	line-height: 1.1;
+	margin-bottom: 55px;
+}
+.few-words > p {
+	letter-spacing: 0.55px;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+.homepage-4-one .few-words .btn-default {
+	width: 38%;
+	margin-top: 54px;
+	font-size: 20px !important;
+}
+/*homepage 4 two*/
+.homepage-4-two .banner {
+	position: relative;
+}
+.homepage-4-two.homepage-4-two .banner .banner-image>img {
+	min-width: 1920px;
+}
+.homepage-4-two .food-info .title {
+	padding: 120px 0px 41px !important;
+	text-align: center;
+}
+.homepage-4-two .owl-buttons {
+	position: absolute;
+	width: 114%;
+	top: 38%;
+	left: -81px;
+}
+.homepage-4-two .owl-buttons > div.owl-prev {
+	border-radius: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0;
+	background-image: url(../img/arrow-prev.png) !important;
+	background-repeat: no-repeat !important;
+}
+.homepage-4-two .owl-buttons > div.owl-next {
+	border-radius: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-image: url(../img/arrow-next.png) !important;
+	background-repeat: no-repeat !important;
+	font-size: 0;
+}
+.homepage-4-two .food-info .inner {
+	margin: 10px 0 !important;
+}
+.homepage-4-two .owl-carousel .owl-wrapper-outer {
+	margin: 0 !important;
+}
+.homepage-4-two .food-info {
+	padding-bottom: 70px !important;
+	background: #f2f2f2;
+}
+.homepage-4-two .sushi h2 {
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 41px;
+}
+.homepage-4-two .sushi {
+	padding: 40px 0 29px 0;
+	border-bottom: 5px solid;
+	background: #ffffff;
+}
+.homepage-4-two .sort > span {
+	font-size: 20px;
+	display: inline-block;
+	margin: 11px 19px 0 2px;
+	color: #636567;
+}
+.homepage-4-two .btn-group, .homepage-4-two .btn-group-vertical {
+	vertical-align: top;
+	width: 271px;
+}
+.homepage-4-two .sort .btn {
+	border-radius: 0;
+	font-size: 20px !important;
+	width: 100%;
+	background-color: transparent;
+	padding: 12px 15px;
+	text-align: left;
+	letter-spacing: 0.5px;
+	border: 1px solid #bcbcbc;
+}
+.homepage-4-two .caret {
+	position: absolute;
+	right: 17px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.homepage-4-two .sort .dropdown-menu {
+	width: 100%;
+}
+.homepage-4-two .menu-icon, .homepage-4-two .squares {
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-color: #dedede;
+	text-align: center;
+	font-size: 0;
+}
+.homepage-4-two .menu-icon a {
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: 5px;
+	color: #fff;
+}
+.homepage-4-two .squares {
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	text-align: center;
+	font-size: 0;
+	vertical-align: top;
+}
+.homepage-4-two .squares a {
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: 5px;
+	color: #fff;
+}
+.icon-wrap {
+	text-align: right;
+}
+.food-items ul {
+	list-style-type: none;
+	margin: 0 0 49px;
+	font-size: 0;
+}
+.food-items ul li {
+}
+.food-items ul li .food-block {
+	background: #ffffff;
+	padding: 30px 0 23px 36px;
+	margin: 0 0 31px;
+	overflow: hidden;
+}
+.food-items {
+	padding: 70px 0 114px;
+	background: #f2f2f2;
+}
+.sweet-food {
+	width: 30%;
+	float: left;
+}
+.food-text {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+	padding: 35px 15px 0 44px;
+	float: left;
+}
+.food-text > h3 {
+	font-size: 18px !important;
+	font-weight: 200;
+	margin-bottom: 8px;
+	text-transform: none;
+}
+.food-text > h3 a {
+	color: #1f2328;
+}
+.food-text > p {
+	line-height: 1.5;
+	margin-bottom: 27px;
+}
+.price {
+	background: #f2f2f2;
+	display: inline-block;
+	font-size: 18px;
+	padding: 2px 9px 2px 10px;
+}
+.homepage-4-two .to-cart {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 20px;
+	height: 31px;
+	padding: 0 0 0 4px;
+	vertical-align: top;
+	width: 31px;
+	margin-left: -3px;
+}
+.homepage-4-two .show-more {
+	width: 138px;
+	height: 56px;
+	display: block;
+	margin: 0 auto;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: pt sans narrow;
+	padding: 13px 0 0;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+ul.food-grid li {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.food-items ul.food-grid li {
+	padding: 0 23px 0 0;
+}
+.food-items ul.food-grid li:nth-child(2n) {
+	margin-right: 0 !important;
+	padding: 0;
+}
+ul.food-grid .food-text {
+	width: 60%;
+	padding: 0 15px 0 24px;
+}
+ul.food-grid .sweet-food {
+	display: block;
+	width: 38%;
+}
+ul.food-grid .sweet-food img {
+	width: 100%;
+}
+.homepage-4 .second .btn.dropdown-toggle {
+	min-height: 55px;
+}
+.homepage-4 .btn-default {
+	height: 55px;
+}
+.load-item {
+	display: none;
+}
+.banner-image figure > img {
+	min-width: 1920px;
+}
+.food-delivery .banner {
+	padding-top: 134px;
+}
+
+.homepage-4-two .food-info .inner {
+	cursor: pointer;
+}
+ul.food-grid li.load-item {
+	display: none;
+}
+ul.food-grid li.load-block {
+	display: inline-block
+}
+
+.homepage-4-two .sort .btn .select-text
+{font-family: 'Roboto Slab', sans-serif;}
+
+.homepage-4 .subscription, .homepage-4 .link a.btn.btn-primary {
+	background:#ffdb35 !important;
+}
+.homepage-4 .subscription-field .btn{
+	background:#ffa22b !important;
+}

@@ -1,0 +1,560 @@
+/* HomePage 11
+ ================================================*/
+
+.homepage-11 h1, .homepage-11 .h1 {
+	font-size: 90px;
+}
+.homepage-11 h3, .homepage-11 .h3 {
+	font-size: 24px;
+	font-weight: 600;
+}
+.homepage-11 h2, .homepage-11 .h2 {
+	font-size: 45px;
+}
+.homepage-11 .quote p:before, .send-photo, .blog-comment, .homepage-11 .img-description .date, .homepage-11 .img-description h3, .custom-file .upload-btn, .homepage-11 h1, .homepage-11 .h1, .homepage-11 h2, .homepage-11 .h2, .homepage-11 h3, .homepage-11 .h3, .homepage-11 h4, .homepage-11 .h4, .homepage-11 .pagination li a, .homepage-11 .resto-info .btn-default {
+	font-family: "PT Sans Narrow";
+}
+.homepage-11 .client-popular-quote p span {
+	font-size: 120px;
+}
+.homepage-11 p {
+	font-size: 18px;
+}
+.homepage-11 {
+	font-size: 18px;
+}
+/* Banner Slider
+ --------------------------------------------------*/
+
+.homepage-11 #slider {
+	width: 100%;
+	position: relative;
+}
+.homepage-11 .banner-slider {
+	position: relative;
+	width: 100%;
+}
+.homepage-11 .banner-slider ul {
+	list-style: none;
+}
+.homepage-11 .banner-slider li {
+	overflow: hidden;
+}
+.homepage-11 .banner-slider img {
+	margin: auto;
+	display: block;
+	max-width: inherit;
+}
+.homepage-11 .banner-slider .layer1 {
+	font-size: 70px;
+	color: #fff;
+	display: block;
+	font-family: 'Damion';
+	font-style: normal;
+	line-height: 0.6;
+	padding-left: 70px;
+}
+.homepage-11 .banner-slider .layer2 {
+	font-size: 140px;
+	color: #fff;
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: 700;
+	white-space: nowrap;
+	letter-spacing: 0.02em;
+	font-family: 'PT Sans Narrow';
+}
+/*
+ 1.2) resto Info
+ -----------------------------*/
+.homepage-11 .resto-info {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: rgba(40,45,53,0.3);
+	z-index: 999;
+}
+.homepage-11 .resto-info .mid {
+	padding: 57px 0 40px;
+}
+.homepage-11 .resto-info .input-group {
+	width: 100%
+}
+.homepage-11 .resto-info .form-field {
+	margin-bottom: 3px;
+}
+.homepage-11 .resto-info input[type="text"], .resto-info .dropdown-toggle {
+	padding: 13px 15px;
+	font-size: 20px;
+	border-radius: 0px;
+	box-shadow: none;
+	border: 0px;
+	height: auto;
+	background: #fff;
+}
+.homepage-11 .resto-info input[type="text"].form-control {
+	padding-right: 48px;
+	padding-left: 20px;
+}
+.homepage-11 .resto-info .input-group-addon {
+	font-size: 20px;
+	background: none;
+	border-radius: 0px;
+	border: 0px;
+	color: red;
+	height: 33px;
+	right: 0;
+	position: absolute;
+	top: 13px;
+	width: 48px;
+	z-index: 9;
+	color: #282d35;
+	pointer-events: none;
+}
+.homepage-11 .resto-info .input-box .ui-datepicker-trigger {
+	opacity: 0;
+	z-index: 999;
+}
+.homepage-11 .resto-info .btn-group, .resto-info .dropdown-toggle {
+	width: 100%;
+	text-align: left;
+}
+.homepage-11 .resto-info .dropdown-toggle {
+	padding-left: 20px;
+	position: relative;
+}
+.homepage-11 .resto-info .caret {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	color: #000;
+	border-width: 5px;
+}
+.homepage-11 .resto-info .dropdown-menu {
+	width: 100%;
+	border: 0px;
+	z-index: 1000;
+}
+.homepage-11 .resto-info .dropdown-menu > li > a {
+	padding: 10px;
+}
+.homepage-11 .resto-info .dropdown-menu > li > a:hover {
+	color: #000;
+}
+.homepage-11 .resto-info .btn-default {
+	font-size: 24px;
+	width: 100%;
+	height: 56px;
+}
+.homepage-11 .resto-info .date-field {
+	width: 61%;
+	float: left;
+	padding-right: 12px;
+}
+.homepage-11 .resto-info .time-field {
+	width: 39%;
+	float: right;
+}
+.homepage-11 .resto-info .caret {
+	right: 11px
+}
+.homepage-11 .resto-info {
+	background: rgba(40,89,116,0.7);
+}
+.input-text, .req {
+	position: relative;
+	display: inline-block;
+}
+.input-text:after, .req i {
+	content: "*";
+	font-size: 14px;
+	position: absolute;
+	right: -12px;
+	top: 0;
+}
+.req i {
+	right: 120px;
+	top: 6px;
+	font-size: 20px;
+}
+.req:focus i {
+	display: none;
+}
+.req textarea {
+	resize: none;
+	height: 125px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #828287;
+	font-family: "Oxygen", sans-serif;
+}
+.instruction strong, .instruction h4 {
+	font-weight: normal;
+	color: #fff;
+	margin-bottom: 9px;
+	display: block;
+}
+.instruction h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.instruction h4 i {
+	margin-right: 5px;
+	font-weight: 300;
+}
+.instruction .custom-file .upload-btn {
+	background: none;
+	padding: 0;
+}
+.instruction .custom-file input[type="file"] {
+	padding: 0;
+	position: absolute;
+	margin: 0;
+}
+.instruction .custom-file {
+	margin-bottom: 0px;
+}
+/*service-col
+ ------------------*/
+.service-col {
+	background: #f6f4f4;
+	padding: 112px 0 110px;
+}
+.service-col .org-info {
+	width: auto;
+}
+.service-col .org-info h3 {
+	font-family: "PT Sans Narrow";
+	position: relative;
+	padding-left: 45px;
+	text-align: left;
+	margin-left: 0;
+	text-transform: uppercase;
+}
+.service-col .org-info h3 i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 32px;
+	height: auto;
+	margin-top: 7px;
+}
+.service-desc-box {
+	padding: 52px 36px;
+	background: #ffffff;
+}
+.org-info .services > .service-list-box {
+	margin-top: 0;
+}
+.icon-box-image .service-block p img {
+	display: inline;
+	margin-left: 10px;
+}
+.service-desc-box .org-info .services {
+	padding-bottom: 0;
+}
+.org-info.icon-box-image .services .service-desc-box p {
+	margin: 0;
+}
+.contact-info-widget {
+	color: #fff;
+	padding: 52px 34px 30px;
+}
+.contact-info-widget h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 50px;
+	font-size: 35px
+}
+.contact-info-widget li {
+	font-family: "PT Sans Narrow";
+	font-weight: 600;
+	list-style: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 33px;
+	margin-bottom: 32px;
+}
+.contact-info-widget ul li:last-child {
+	margin-bottom: 0;
+}
+.contact-info-widget li i {
+	position: absolute;
+	left: 0;
+	top: 7px;
+}
+.contact-info-widget li a {
+	color: #fff;
+}
+.contact-info-widget li time {
+	display: block;
+}
+.imp-info {
+	display: block;
+	margin-top: 10px;
+}
+/* Repair Quote
+ ------------------*/
+.repair-quote {
+	background: url(../img/banner-mech.jpg) center right no-repeat #172635;
+	color: #fff;
+	min-height: 384px;
+	padding-top: 106px;
+}
+.repair-quote .h1 {
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	line-height: 0.7;
+	font-weight: bold;
+}
+.repair-quote .h1 span {
+	font-family: 'Damion';
+	text-transform: lowercase;
+	font-weight: 400;
+}
+.send-photo {
+	color: #607892;
+	font-size: 30px;
+	display: block;
+	margin-bottom: 35px;
+}
+.custom-file {
+	position: relative;
+}
+.custom-file input[type="file"] {
+	opacity: 0;
+	cursor: pointer;
+	max-width: 212px
+}
+.custom-file .upload-btn {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	pointer-events: none;
+	color: #fff;
+	padding: 10px 21px;
+}
+.custom-file .upload-btn i {
+	margin-right: 20px
+}
+/* faq-article
+ ---------------*/
+.faq-article {
+	background: #f6f4f4;
+}
+.homepage-11 .faq-article h2 {
+	margin-bottom: 40px;
+}
+.homepage-11 .panel-title a {
+	font-family: "Lato", sans-serif;
+}
+.homepage-11 .panel-title a span, .homepage-11 .quote p {
+	font-family: "PT Sans Narrow";
+}
+.homepage-11 .quote p {
+	font-size: 30px;
+	padding-left: 45px;
+	position: relative;
+}
+.homepage-11 .quote p:before {
+	content: " “ ";
+	font-size: 80px;
+	left: 10px;
+	position: absolute;
+	top: -8px;
+}
+.homepage-11 .client-intro h4 {
+	font-family: "Lato", sans-serif;
+	margin-bottom: 0;
+}
+.homepage-11 .pagination li:first-child a, .homepage-11 .pagination li:last-child a {
+	background: #dedede;
+	height: 40px;
+	width: 40px;
+	padding-top: 6px;
+}
+.homepage-11 .pagination > li > a, .homepage-11 .pagination > li > span {
+	padding: 9px 3px;
+}
+.homepage-11 .pagination a i {
+	color: #fff;
+}
+/*recent-blog-post
+ --------------------*/
+.homepage-11 .img-description h3 {
+	font-weight: 400;
+	font-size: 30px;
+}
+.homepage-11 .img-description .date {
+	font-size: 16px;
+}
+.blog-comment {
+	float: right;
+	font-weight: 600;
+	color: #8f8f92;
+}
+.blog-comment:hover {
+	text-decoration: none;
+}
+.blog-comment i {
+	margin-right: 10px;
+}
+.recent-blog-post {
+	padding-top: 103px;
+}
+.recent-blog-post h2 {
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #eaebec;
+}
+.homepage-11 .recent-blog-post h2 {
+	padding-right: 114px;
+}
+.blog-post-header .pagination {
+	padding-top: 10px;
+}
+.homepage-11 .pagination li:first-child a, .homepage-11 .pagination li:last-child a {
+	margin: 0;
+	border-radius: 0;
+}
+.homepage-11 .owl-carousel .owl-wrapper-outer {
+	margin: 0;
+	overflow: hidden;
+}
+.short-article-slider .owl-item {
+	float: left;
+}
+.short-article-slider .blog-section {
+	margin: 0 10px 100px;
+}
+/*
+ Subscription Section
+ -----------------------------*/
+.map-global {
+	text-align: center;
+	height: 290px;
+	position: relative;
+}
+.homepage-11 .subscription {
+	min-height: 122px;
+	padding-top: 61px;
+	padding-bottom: 53px;
+}
+.homepage-11 .subscription h2 {
+	color: #fff;
+	font-size: 40px;
+}
+.homepage-11 .subscription-input {
+	background: #fff;
+	border: none;
+	float: left;
+	font-size: 18px;
+	height: 48px;
+	margin-right: -170px;
+	padding: 0 190px 0 18px;
+	width: 100%;
+}
+.homepage-11 .subscription .btn-default {
+	border: none;
+	width: 170px;
+	height: 48px;
+	position: relative;
+}
+.homepage-11 .btn-primary.btn-basic:hover, .homepage-6 .btn-primary.btn-basic:focus {
+	background: none;
+	color: #2b343f;
+	text-decoration: none;
+}
+.homepage-11 .btn-primary.btn-basic {
+	height: auto;
+	line-height: 1;
+	font-family: 'Lato';
+	font-weight: 800;
+	font-size: 13px;
+}
+.homepage-11 .owl-carousel .owl-wrapper-outer {
+	margin: 0;
+}
+.homepage-11 .news-info .text {
+	padding-bottom: 40px;
+}
+.homepage-11 .news-info .owl-controls {
+	position: absolute;
+	top: -52px;
+	right: 15px;
+}
+.homepage-11 .news-info h3 {
+	padding-bottom: 35px;
+}
+.homepage-11 .news-info .owl-buttons {
+	top: 0;
+}
+.homepage-11 .resto-info .btn-group input[type="text"] {
+	padding: 13px 17px;
+	font-family: "Oxygen", sans-serif;
+}
+.homepage-11 .faq-article-sec h4 a .collapse-btn {
+	background-color: #dedede;
+}
+/*
+ mechanic-hover
+ -----------------------------*/
+
+.homepage-11 .short-article-slider.owl-carousel {
+	position: relative;
+}
+.homepage-11 .owl-buttons {
+	top: -121px;
+	
+}
+.homepage-11 .owl-buttons > div{
+	height:41px;
+	width: 41px;
+}
+.homepage-11 .owl-buttons > div.owl-prev {
+	background: url(../img/pre-icon-1.png) center center no-repeat #dedede;
+}
+.homepage-11 .owl-buttons > div.owl-next {
+	background: url(../img/next-icon-1.png) center center no-repeat #dedede;
+}
+.vehicle .svg {
+	width: 32px;
+	height: 23px;
+}
+.tool .svg {
+	width: 27px;
+	height: 26px;
+}
+.homepage-11 .subscription .btn {
+	font-family: "PT Sans Narrow";
+	font-size: 20px;
+}
+.homepage-11 .service-col .org-info .service-list-box, .homepage-11 .blog-section {
+	border-top: 3px solid;
+}
+.contact-info-widget span {
+	display: block;
+}
+
+.homepage-8.none .banner-slider .layer1
+{padding-left: 85px !important;}
+
+.homepage-8.none .banner-content
+{margin-top: -40px;}
+
+.map-global
+{overflow: visible;}
+
+.service-desc-box .arrow-right
+{margin-left: 5px;}
+
+.homepage-11 .repair-quote .h1
+{line-height: 0.7;}

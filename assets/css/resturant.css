@@ -1,0 +1,541 @@
+/* Homepage 7
+ =======================================================*/
+
+.homepage-7 h1, .homepage-7 h2, .homepage-7 h3, .homepage-7 h4, .homepage-7 h5, .homepage-7 h6, .homepage-7 .h1, .homepage-7 .h2, .homepage-7 .h3, .homepage-7 .h4, .homepage-7 .h5, .homepage-7 .h6 {
+	color: #22272e;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.2;
+}
+.homepage-7 h1, .homepage-7 .h1 {
+	font-size: 60px;
+}
+.homepage-7 h2, .homepage-7 .h2 {
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.homepage-7 h3, .homepage-7 .h3 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.homepage-7 h4, .homepage-7 .h4 {
+	font-size: 18px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+}
+.homepage-7 p {
+	font-size: 18px;
+	line-height: 1.7;
+	color: #6b6b70;
+}
+.homepage-7 .curve {
+	display: block;
+	line-height: 1;
+}
+.homepage-7 .mark {
+	padding: 0;
+	background: none;
+}
+/*
+ 1.1) Banner Section
+ -----------------------------*/
+
+.homepage-7 .btn {
+	font-family: "PT Sans Narrow", sans-serif;
+}
+.homepage-7 #slider {
+	width: 100%;
+}
+.homepage-7 .slider {
+	position: relative;
+	width: 100%;
+}
+.homepage-7 .slider ul {
+	list-style: none;
+}
+.homepage-7 .slider li {
+	position: relative;
+	overflow: hidden;
+}
+.homepage-7 .slider .slides > li + li {
+	display: none;
+}
+.homepage-7 .slider .slider img {
+	margin: auto;
+	display: block;
+	max-width: inherit;
+}
+.homepage-7 .slider .hero-banner {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+.homepage-7 .slider .hero-text {
+	position: relative;
+	display: table;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+.homepage-7 .slider .container, .slider .row {
+	display: table;
+	height: 100%;
+}
+.homepage-7 .slider .img-style {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.homepage-7 .slider .text {
+	display: table-cell;
+	vertical-align: middle;
+}
+.homepage-7 .slider .inner {
+	margin-top: 60px;
+	position: relative;
+	z-index: 999;
+	text-align: center;
+}
+.homepage-7 .slider .inner.active {
+	z-index: 99;
+}
+.homepage-7 .slider h2 {
+	font-size: 200px;
+	color: #fff;
+	line-height: 0.8;
+	font-family: 'Damion', sans-serif;
+	text-transform: none;
+}
+.homepage-7 .slider h2 i {
+	display: block;
+	font-size: 30px;
+	line-height: 1;
+	vertical-align: top;
+	position: relative;
+}
+.homepage-7 .slider span {
+	display: block;
+	font-size: 22px;
+	color: #fff;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.homepage-7 .banner {
+	position: relative;
+}
+.homepage-7 .banner .carousel {
+	padding: 0 50px;
+	margin: -160px auto 53px;
+	max-width: 480px;
+}
+.homepage-7 .banner .carousel .flex-viewport {
+	z-index: 99;
+}
+.homepage-7 .carousel ul {
+	list-style: none;
+	z-index: 9;
+}
+.homepage-7 .carousel .slides li {
+	overflow: hidden;
+}
+.homepage-7 .carousel .slides figure {
+	margin: 0 4px;
+	width: 87px;
+	border-radius: 50%;
+	border: 4px solid rgba(0,0,0,0);
+	overflow: hidden;
+}
+.homepage-7 .carousel .slides li img {
+	margin: auto;
+	width: 100%;
+}
+.homepage-7 .carousel .slides li.flex-active-slide figure {
+	border-color: #fff;
+}
+.homepage-7 .carousel .flex-prev, .carousel .flex-next {
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	text-indent: -9999px;
+	background-image: url(../img/icons7.png);
+	background-repeat: no-repeat;
+	z-index: 100;
+}
+.homepage-7 .carousel .flex-prev {
+	left: 0px;
+	background-position: 11px 13px;
+}
+.homepage-7 .carousel .flex-next {
+	right: 0px;
+	background-position: 12px -17px;
+}
+/*
+ 1.2) Company Info
+ -----------------------------*/
+.homepage-7 .company-info {
+	padding: 93px 0 107px;
+	position: relative;
+	width: 100%;
+	background: #f2f2f2;
+	text-align: center;
+}
+.homepage-7 .company-info .title {
+	margin: 0 auto 34px;
+	max-width: 500px;
+}
+.homepage-7 .company-info h1 {
+	text-transform: uppercase;
+}
+.homepage-7 .company-info .title p {
+	padding-top: 15px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.homepage-7 .company-info .gallery img {
+	margin-top: 30px;
+}
+.homepage-7 .company-info .btn {
+	margin-top: 61px;
+	display: inline-block;
+	font-size: 16px;
+	padding: 0 28px;
+}
+/*
+ 1.2) Dishes Info
+ -----------------------------*/
+.homepage-7 .dishes-info {
+	padding: 54px 0 13px;
+	position: relative;
+	width: 100%;
+}
+.homepage-7 .dishes-info h2 {
+	margin-top: 42px;
+	text-transform: none;
+}
+.homepage-7 .dishes-info .text {
+	padding-left: 38px;
+	margin: 48px 0;
+	position: relative;
+	max-width: 565px;
+}
+.homepage-7 .dishes-info .text:after {
+	content: "";
+	position: absolute;
+	top: 7px;
+	left: 0px;
+	width: 3px;
+	height: 85%;
+}
+.homepage-7 .dishes-info p {
+	font-size: 18px;
+}
+.homepage-7 .dishes-info figure img {
+	margin: auto;
+	display: block;
+}
+.homepage-7 .dishes-info .right {
+	float: right;
+}
+/*
+ 1.2) menus Info
+ -----------------------------*/
+.homepage-7 .menus-info {
+	position: relative;
+	width: 100%;
+}
+.homepage-7 .menus-info .pattern {
+	background: url(../img/story-img7.jpg) no-repeat center center;
+	height: 499px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.homepage-7 .menus-info .inner {
+	padding: 96px 40px 93px;
+	margin: -340px auto 0;
+	text-align: center;
+	background: url(../img/pattern-2.png) no-repeat center top;
+	background-size: 100% 100%;
+}
+.homepage-7 .menus-info h2 {
+	padding-bottom: 40px;
+}
+.homepage-7 .menus-info h3 {
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+.homepage-7 .menus-info .menus {
+	width: 100%;
+	margin: auto;
+	display: table;
+	position: relative;
+}
+.homepage-7 .menus-info ul {
+	list-style: none;
+}
+.homepage-7 .menus-info .list {
+	padding: 21px 0 5px;
+	display: table;
+	width: 100%;
+	border-top: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.homepage-7 .menus-info .text {
+	padding-right: 50px;
+	width: auto;
+	text-align: left;
+	overflow: hidden;
+}
+.homepage-7 .menus-info p {
+	padding-top: 10px;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.homepage-7 .menus-info .price {
+	float: right;
+	width: 120px;
+	font-size: 18px;
+	text-align: right;
+	line-height: 1.2;
+	padding: 0;
+	background: transparent;
+}
+.homepage-7 .menus-info .price cite {
+	padding-left: 15px;
+	margin-left: 10px;
+	font-weight: 700;
+	font-style: normal;
+	background: url(../img/line.jpg) no-repeat left center;
+	border-left:1px solid #e0e0e0;
+}
+.homepage-7 .menus-info .flex-prev, .menus-info .flex-next {
+	position: absolute;
+	top: 0px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(../img/icons7.png) no-repeat 12px 14px;
+}
+.homepage-7 .menus-info .flex-prev {
+	left: 0;
+}
+.homepage-7 .menus-info .flex-next {
+	right: 0;
+	background-position: 12px -16px;
+}
+.homepage-7 .menus-info .inner {
+	max-width: 1110px;
+	padding: 96px 0 93px;
+	background-size: 100% auto;
+}
+.homepage-7 .menus-info .menus {
+	max-width: 555px;
+}
+.homepage-7 .aboutus-info .flex-prev, .homepage-7 .menus-info .flex-prev {
+	left: -197px;
+}
+.homepage-7 .aboutus-info .flex-next, .homepage-7 .menus-info .flex-next {
+	right: -197px;
+}
+/*
+ 1.2) aboutus Info
+ -----------------------------*/
+.homepage-7 .aboutus-info {
+	position: relative;
+	width: 100%;
+	background: #f2f2f2;
+}
+.homepage-7 .aboutus-info .inner {
+	padding: 93px 0 44px;
+}
+.homepage-7 .aboutus-info h2 {
+	text-align: center;
+}
+.homepage-7 .aboutus-info .about {
+	padding: 62px 0;
+	position: relative;
+	max-width: 555px;
+	margin: auto;
+	display: table;
+}
+.homepage-7 .aboutus-info ul {
+	list-style: none;
+}
+.homepage-7 .about-map-info .flex-direction-nav {
+	top: 50%;
+	margin-top: -50px;
+}
+.homepage-7 .aboutus-info .mid {
+	padding-left: 38px;
+}
+.homepage-7 .aboutus-info h3 {
+	font-family: 'Damion', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+}
+.homepage-7 .aboutus-info span {
+	font-size: 15px;
+}
+.homepage-7 .aboutus-info .text {
+	margin-bottom: 25px;
+	position: relative;
+}
+.homepage-7 .aboutus-info .text:after {
+	content: "";
+	position: absolute;
+	top: 7px;
+	left: -38px;
+	width: 3px;
+	height: 93%;
+}
+.homepage-7 .aboutus-info p {
+	font-size: 20px;
+	line-height: 1.5;
+}
+.homepage-7 .aboutus-info .flex-prev, .aboutus-info .flex-next {
+	position: absolute;
+	top:89px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url(../img/icons7.png) no-repeat 12px 14px;
+	z-index: 100
+}
+.homepage-7 .aboutus-info .flex-next {
+	background-position: 12px -16px;
+}
+/*
+ 1.2) map Info
+ -----------------------------*/
+.map-info {
+	position: relative;
+	width: 100%;
+	min-height: 396px;
+	background: url(../img/map-7.jpg) no-repeat center top;
+}
+.homepage-7 .map-info .marker {
+	position: absolute;
+	top: 75px;
+	left: 50%;
+	margin-left: -125px;
+}
+.map-info-inner {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 390px;
+}
+/*
+ 1.8) Subscription Info Section
+ -----------------------------*/
+.homepage-7 .subscription {
+	width: 100%;
+	margin-top: 20px;
+}
+.homepage-7 .subscription .about-me {
+	background: #fff;
+	position: relative;
+	margin: 0 15px;
+}
+.homepage-7 .subscription figure {
+	width: 100%;
+	overflow: hidden;
+}
+.homepage-7 .subscription figure img {
+	max-width: inherit;
+	float: left;
+	width: 100%;
+}
+.homepage-7 .subscription .txt {
+	margin: 61px 15px;
+	display: table;
+}
+.homepage-7 .subscription .heading {
+	padding-left: 20px;
+}
+.homepage-7 .subscription .heading:after {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 3px;
+	height: 100px;
+	content: "";
+}
+.homepage-7 .subscription .text {
+	padding-top: 10px;
+}
+.homepage-7 .subscription h3 {
+	text-transform: none;
+}
+.homepage-7 .subscription .text h3 {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #32373d;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+.homepage-7 .subscription .text span {
+	padding-top: 10px;
+	font-size: 18px;
+	display: block;
+}
+.homepage-7 .subscription .sub-me {
+	padding: 42px 0;
+	overflow: hidden;
+}
+.homepage-7 .subscription h2 {
+	color: #fff;
+	text-transform: none;
+}
+.homepage-7 .subscription-field {
+	margin-top: 14px;
+	position: relative;
+}
+.homepage-7 .subscription-input {
+	background: #fff;
+	border: none;
+	float: left;
+	font-size: 18px;
+	height: 48px;
+	padding: 0 190px 0 18px;
+	width: 100%;
+	color: #7a7a81;
+}
+.homepage-7 .subscription .btn-default {
+	border: none;
+	width: 170px;
+	height: 48px;
+	position: relative;
+	top: 0px;
+	right: 0px;
+}
+.homepage-7 .company-info .right {
+	float: right;
+}
+.homepage-7 .subscription .about-me {
+	display: table;
+	margin: -177px 0 0;
+}
+.homepage-7 .subscription {
+	margin-top: 0;
+	text-align: left;
+}
+.homepage-7 .subscription .gap {
+	padding-left: 0;
+}
+.homepage-7 .menus h4:hover {
+	cursor: pointer;
+}

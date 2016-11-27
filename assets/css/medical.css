@@ -1,0 +1,1433 @@
+/* Homepage 22
+ ------------------------------------------------------*/
+
+.homepage-22 {
+	background-color: #f6f6f6;
+}
+.homepage-22 #home-slider .flex-control-paging {
+	display: none;
+}
+.homepage-22 h1, .homepage-22 h2, .homepage-22 h3, .homepage-22 h4, .homepage-22 h5, .homepage-22 h6, .homepage-22 .h1, .homepage-22 .h2, .homepage-22 .h3, .homepage-22 .h4, .homepage-22 .h5, .homepage-22 .h6 {
+	color: #22272e;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.2;
+}
+.homepage-22 h1, .homepage-22 .h1 {
+	font-size: 50px;
+}
+.homepage-22 h2, .homepage-22 .h2 {
+	font-size: 45px;
+}
+.homepage-22 h3, .homepage-22 .h3 {
+	font-size: 30px;
+	line-height: 1.3;
+}
+.homepage-22 h4, .homepage-22 .h4 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.homepage-22 #slider {
+	width: 100%;
+	overflow: hidden;
+}
+.homepage-22 .slider {
+	position: relative;
+	width: 100%;
+	max-height: 813px;
+	z-index: 999;
+}
+.homepage-22 .slider ul {
+	list-style: none;
+}
+.homepage-22 .slider .slides > li+ li {
+	display: none;
+}
+.homepage-22 .slider #home-slider li {
+	position: relative;
+	margin-bottom: 0;
+}
+.homepage-22 .slider #home-slider figure {
+	float: right;
+	margin: 40px 0 29px;
+	text-align: right;
+}
+.homepage-22 .slider #home-slider figure img {
+	margin: auto;
+	display: inline-block;
+	max-width: inherit;
+}
+
+.homepage-22 .slider .hero-banner {
+	display: table;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	width: 100%;
+}
+.homepage-22 .slider .hero-text {
+	display: table-cell;
+	padding: 0px 0 0 10px;
+	position: relative;
+}
+.homepage-22 .slider span {
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+	display: block;
+	width: 95%
+}
+.homepage-22.medical-first .slider span {
+	text-transform: uppercase;
+}
+.homepage-22.medical-first .slider .title {
+	margin-bottom: 32px;
+}
+.homepage-22 .slider .title {
+	font-size: 100px;
+	line-height: 85px;
+}
+.homepage-22.three .slider .title {
+	line-height: 1.2;
+}
+
+.homepage-22 .slider em {
+	font-size: 70px;
+	color: #fff;
+	font-family: 'Damion';
+	color: #fff;
+	float: right;
+	line-height: 50px;
+	padding-right: 115px;
+	font-style: normal;
+}
+.homepage-22 .slider .hero-text a {
+	margin-top: 20px;
+	display: inline-block;
+}
+.homepage-22 .slider #home-carousel {
+	bottom: 50px;
+	left: 50%;
+	margin-left: -575px;
+	position: absolute;
+	width: 360px
+}
+.homepage-22 .slider #home-carousel li {
+	margin-right: 5px;
+}
+.homepage-22 .slider .flex-prev, .slider .flex-next {
+	position: absolute;
+	left: -60px;
+	top: 50%;
+	margin-top: -31px;
+	text-indent: -9999px;
+	display: block;
+	width: 49px;
+	height: 48px;
+	background: url(../img/icons2.png) no-repeat;
+	z-index: 9999;
+	cursor: pointer;
+}
+.homepage-22 .slider .flex-prev {
+	background-position: 8px -90px;
+}
+.homepage-22 .slider .flex-next {
+	left: auto;
+	right: -60px;
+	background-position: 8px -120px;
+}
+.homepage-22 #recent-crousel div.owl-next {
+	background-image: url(../img/icons2.png);
+	background-position: 12px -60px;
+}
+.homepage-22 .btn-primary:hover {
+	background: none;
+	text-decoration: none;
+	color: #2b343f;
+}
+.homepage-22 #home-carousel figure img {
+	border: 2px solid transparent;
+}
+.homepage-22.three #slider {
+	background: url(../img/slider-img22.jpg) repeat center top;
+	background-size: cover;
+}
+.homepage-22.three .slider .hero-banner {
+	top: 0;
+	transform: translateY(0%);
+	-webkit-transform: translateY(0%);
+}
+
+.homepage-22.three .slider .hero-text {
+	display: block;
+	width: 49%;
+	padding-top: 110px;
+}
+/*
+ 1.2) clinic  intro
+ -----------------------------*/
+.homepage-22 .goals-info {
+	overflow: hidden;
+	width: 100%;
+	padding: 47px 0 74px;
+	background: #fff;
+}
+.homepage-22 .goals-info figure img {
+	display: block;
+	margin: auto;
+}
+.homepage-22 .goals-info .text {
+	padding: 50px 0 20px;
+}
+.homepage-22 .goals-info .intro {
+	padding: 0 0 36px 38px;
+	margin: 50px 0 20px;
+	position: relative;
+	border-bottom: 1px solid #eaebec;
+}
+.homepage-22 .goals-info .intro:after {
+	position: absolute;
+	top: 7px;
+	left: -2px;
+	width: 3px;
+	height: 64%;
+	content: "";
+}
+.homepage-22 .goals-info .text p {
+	font-size: 18px;
+}
+.homepage-22 .goals-info .btn-primary {
+	font-family: 'Lato';
+	font-weight: 900;
+	font-size: 13px;
+	letter-spacing: none;
+}
+.homepage-22 .goals-info figure {
+	margin-right: -55px;
+	padding-left: 69px;
+	padding-top: 73px;
+}
+/* Medical Info
+ ------------------------*/
+.homepage-22 .event-info {
+	position: relative;
+	width: 100%;
+	background: url(../img/medical-banner.jpg) center top no-repeat;
+	border-bottom: 1px solid #ebebeb;
+}
+.homepage-22 .event-info figure {
+	margin-top: 0;
+	min-height: 242px;
+	overflow: hidden;
+}
+.homepage-22 .med-services-section figure {
+	min-height: 274px;
+	background: #fff;
+}
+.homepage-22 .event-info .text {
+	padding: 98px 100px 48px;
+	text-align: center;
+	background: #fcfcfc;
+	height: 227px;
+	overflow: visible;
+}
+.homepage-22 .event-info .text h2 {
+	margin-bottom: 37px;
+}
+.homepage-22 .event-info .btn-default {
+	margin-top: 10px;
+	display: inline-block;
+}
+.homepage-22 .event-info p {
+	font-size: 20px;
+}
+.homepage-22 .event-section {
+	padding-bottom: 168px;
+}
+.med-services-section figure i {
+	display: inline-block;
+	height: 94px;
+	margin: 55px 0 20px;
+	overflow: hidden;
+	width: 100%;
+}
+.med-services-section figure i svg {
+	height: 287px;
+	vertical-align: top;
+	width: 404px;
+}
+.med-services-section figcaption {
+	color: #2b343f;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1;
+	padding: 0 12% 20px;
+	text-align: center;
+}
+.med-services-section figcaption > small {
+	color: inherit;
+	display: block;
+	font-size: inherit;
+	line-height: 1.4;
+}
+.med-services-section {
+	padding-bottom: 98px;
+}
+/* Best Professionals
+ ------------------------------------*/
+
+.med-team {
+	padding: 96px 0 109px;
+	text-align: center;
+}
+.homepage-22 .med-team h2 {
+	margin-bottom: 73px;
+}
+.med-team-slider .slide-wrap {
+	float: left;
+}
+.med-team-slider .slide-wrap > figure {
+	margin-bottom: 37px;
+}
+.med-team-caption > h3 {
+	font-size: 22px;
+	color: #2b343f;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+}
+.med-team-caption > h3 > span {
+	color: #7a7a81;
+	display: block;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 1.5;
+	margin-bottom: 22px;
+	margin-top: 14px;
+	padding: 0 44px;
+}
+.rating-star .fa-star {
+	color: #ececec
+}
+.rating-star .rated .fa-star {
+	color: #3b4e67;
+	font-size: 18px;
+}
+.med-team-caption {
+	border-bottom: 1px solid #ededed;
+	padding-bottom: 32px;
+	margin-bottom: 23px;
+}
+.homepage-22 .btn-primary {
+	font-family: "Lato", sans-serif;
+}
+.med-team-slider .owl-item {
+	float: left;
+}
+.med-team-slider {
+	position: relative;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.med-team-slider .owl-buttons, .med-testimony-wrapper .owl-buttons {
+	top: 153px;
+	width: 100%;
+}
+.med-team-slider .owl-buttons > div, .med-testimony-wrapper .owl-buttons > div {
+	background-color: #eeeeee;
+}
+.med-team-slider .owl-buttons .owl-prev, .med-testimony-wrapper .owl-buttons .owl-prev {
+	float: left;
+	margin-left: -94px;
+}
+.med-team-slider .owl-buttons .owl-next, .med-testimony-wrapper .owl-buttons .owl-next {
+	float: right;
+	margin-right: -94px;
+}
+.med-team .btn {
+	display: inline-block;
+	width: auto;
+}
+.med-testimony-wrapper .owl-buttons {
+	top: 109px;
+}
+/*
+ Subscription Info Section
+ -----------------------------*/
+.homepage-22 .subscription {
+	width: 100%;
+	padding: 0;
+}
+.homepage-22 .subscription .bg {
+	background: url(../img/line-22.jpg) repeat-x center top;
+}
+.homepage-22 .subscription .about-me {
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+	display: table;
+	max-width: 1140px;
+}
+.homepage-22 .subscription figure {
+	width: 100%;
+	overflow: hidden;
+	max-width: 393px;
+}
+.homepage-22 .subscription figure img {
+	float: left;
+	width: 440px;
+}
+.homepage-22 .subscription .text {
+	margin: 38px 0 0;
+	padding: 16px 0 49px 39px;
+	position: relative;
+	text-align: left;
+}
+.homepage-22 .subscription .text h3 {
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+.homepage-22 .subscription .txt {
+	padding: 0px;
+	float: none;
+	display: table-cell;
+	vertical-align: bottom;
+}
+.homepage-22 .subscription .subscription-heading {
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 0;
+}
+.homepage-22 .subscription .text:after {
+	position: absolute;
+	top: 15px;
+	left: -2px;
+	width: 3px;
+	height: 80%;
+	content: "";
+}
+.homepage-22 .subscription .sub-me {
+	padding: 42px 0 48px;
+	overflow: hidden;
+}
+.homepage-22 .subscription h2 {
+	color: #fff;
+	font-weight: 500;
+	font-family: 'Lato', sans-serif;
+}
+.homepage-22 .subscription-field {
+	margin-top: 10px;
+	position: relative;
+}
+.homepage-22 .subscription-input {
+	background: #fff;
+	border: none;
+	float: left;
+	font-size: 18px;
+	height: 48px;
+	padding: 0 190px 0 18px;
+	width: 100%;
+}
+.homepage-22 .subscription .btn-default {
+	border: none;
+	width: 170px;
+	height: 48px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.homepage-22 .subscription-heading {
+	position: relative;
+}
+.heart-med-big {
+	height: 255px;
+	position: absolute;
+	right: -48px;
+	width: 283px;
+}
+/* Testimonials
+ -----------------------------------*/
+.testimonial-sec {
+	text-align: center;
+	padding: 96px 0;
+	position: relative;
+}
+.homepage-22 .testimonial-sec h2 {
+	color: #2b343f;
+	margin-bottom: 53px;
+}
+.med-testimony {
+	padding: 45px;
+	background: #fff;
+	max-width: 364px;
+	text-align: left;
+}
+.med-testimony blockquote {
+	color: #7a7a81;
+	font-size: 20px;
+	border-left: none;
+	line-height: 1.4;
+	margin-bottom: 20px;
+	padding: 0;
+}
+.med-testimony blockquote i {
+	display: inline-block;
+	font-family: "open sans";
+	font-size: 50px;
+	font-style: normal;
+	height: 17px;
+	line-height: 1;
+	margin-top: -2px;
+	vertical-align: top;
+	width: 18px;
+}
+.med-testimony strong {
+	color: #424145;
+	font-size: 14px;
+	font-size: 500;
+}
+.med-testimony-wrapper .owl-item {
+	float: left;
+}
+.med-testimony-wrapper .owl-wrapper-outer {
+	margin: 0;
+}
+.med-testimony-wrapper {
+	position: relative;
+}
+/*Gifted label*/
+.gifted-label {
+	background: #eeeeee;
+	padding: 15px 0;
+}
+.gifted-label-wrapper {
+	font-size: 22px;
+}
+.gifted-share-box {
+	float: right;
+}
+.gifted-label-wrapper .btn {
+	width: auto;
+	display: inline-block;
+}
+.gifted-adv, .gifted-share-box > span {
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 50px;
+	vertical-align: middle;
+}
+.gifted-label-wrapper .social-network li {
+	background: #fff;
+}
+.homepage-22 .med-services-section figure:hover figcaption, .homepage-22 .med-services-section figure:hover .med-price {
+	color: #fff !important;
+}
+.homepage-22 .btn-primary .arrow-right {
+	margin-top: 0;
+	vertical-align: middle;
+}
+.medical-first .btn-primary .arrow-right{
+	vertical-align: top;
+}
+.homepage-22 .med-services-section figure:hover .svg path {
+	fill: #fff !important;
+}
+.homepage-22 .social-network li:hover a {
+	color: #fff;
+}
+#main-med-table.clicked-med td:not(.white_bg) * {
+	opacity: 0;
+	background-color: #fff !important;
+}
+#main-med-table.clicked-med tr td:first-child {
+	opacity: 1 !important;
+}
+/* Homepage 22-One
+ ===============================================*/
+
+.homepage-22.one .slider .title {
+	font-size: 95px;
+	line-height: 1.4;
+}
+.homepage-22.one .slider span {
+	max-width: 83%;
+	display: block;
+	text-transform: none;
+}
+.homepage-22 .section-label {
+	font-size: 28px;
+	line-height: 1.4;
+	padding-left: 40px;
+	border-left: 3px solid;
+	margin-bottom: 60px;
+}
+.homepage-22.three .section-label {
+	font-weight: 600;
+}
+.homepage-22.one #slider {
+	height: 813px !important;
+}
+/* Medical Shop  */
+
+.medical-shop {
+	padding: 96px 0 12px;
+}
+.medical-shop .h1 {
+	margin-bottom: 56px;
+}
+.med-product-box {
+	display: table;
+	height: 353px;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+.med-product-box .med-fig {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+.med-price {
+	font-size: 18px;
+	display: block;
+	margin: 20px 0;
+}
+/* Med Promo Banner
+ ------------------------------*/
+.medical-shop {
+	padding: 96px 0 0 12px;
+}
+.med-promo-banner {
+	background-image: url(../img/med-promo-banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 113px 0;
+}
+.med-promo-banner p {
+	font-size: 18px;
+	 color: #121213;;
+}
+.med-promo-banner .btn {
+	width: auto;
+	display: inline-block;
+}
+.med-promo-banner figure, .med-promo-banner article {
+	float: left;
+	padding: 0 15px;
+}
+.med-promo-banner article {
+	float: none;
+	overflow: hidden;
+}
+#home-slider .flex-direction-nav {
+	display: none;
+}
+/* Homepage 22(2)
+ ==============================================*/
+.homepage-22.two .medical-table {
+	padding-top: 110px;
+}
+.filter-tab li {
+	display: inline-block;
+	color: #6b6b70;
+	background: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-left: 3.4px;
+	font-weight: bold;
+	padding: 14px 28px;
+	cursor: pointer;
+}
+.filter-tab li:first-child {
+	margin-left: 0;
+}
+.filter-tab li.active, .filter-tab li:hover {
+	color: #fff;
+}
+.medical-table tbody td {
+	width: 145px;
+	height: 134px;
+	vertical-align: middle;
+	text-align: center;
+	border: 2px solid #fff
+}
+.medical-table tbody td.non-bg {
+	background: #fff;
+}
+.medical-table tbody td strong, .medical-table tbody td small {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.medical-table tbody td small {
+	font-size: 14px;
+}
+.medical-table tbody td strong {
+	margin-top: 4px;
+}
+.medical-table h1 {
+	margin-bottom: 65px;
+}
+.filter-tab {
+	margin-bottom: 43px;
+}
+.week-day {
+	color: #2b343f;
+	font-size: 22px;
+	padding-bottom: 33px;
+	text-align: center;
+}
+.medical-table tbody tr td:first-child {
+	font-size: 18px;
+	border-color: transparent;
+}
+.medical-table {
+	padding-bottom: 45px;
+}
+.category-gallry .pagination {
+	margin-bottom: 10px;
+}
+.category-gallry .pagination li:first-child a, .category-gallry .pagination li:last-child a {
+	background: #ebebeb;
+	padding-left: 8px;
+	padding-top: 7px;
+}
+.category-gallry .pagination li:first-child a .arrow-right {
+	transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	width: 29px
+}
+.category-gallry .pagination .arrow-right .svg path {
+	fill: #99999b !important;
+}
+.category-gallry .pagination a:hover .arrow-right .svg path {
+	fill: #fff !important;
+}
+/* Real Estate Two
+ ============================================*/
+
+.homepage-10.real-estate-two .form-field input[type="search"] {
+	font-family: 'PT Sans Narrow';
+}
+.real-estate-two .property-details {
+	padding-top: 229px;
+}
+.real-estate-two .head h1 {
+	margin-bottom: 16px;
+}
+.real-estate-two .head strong, .real-estate-two .slider-cont strong {
+	font-size: 22px;
+	font-weight: 400;
+	padding: 0px 0px 0px 11px;
+	display: inline-block;
+	color: #ffffff;
+}
+.real-estate-two .slider-cont > span {
+	width: 54%;
+	color: #6b6b70;
+	font-family: lato;
+	background: #f0f0f0;
+	padding: 16px 20px;
+	float: left;
+}
+.real-estate-two .slider-cont strong {
+	width: 46%;
+	float: left;
+}
+.real-estate-two .head strong span, .real-estate-two .slider-cont strong span, .real-estate-two .slider-cont strong small {
+	background: #0c79c5;
+	padding: 2px 8px 2px 10px;
+	display: inline-block;
+	margin-left: 5px;
+}
+.homepage-10.real-estate-two .slider-cont strong span {
+	padding-left: 20px;
+	padding-right: 20.54px;
+	margin-left: 18px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.real-estate-two .slider-wrap {
+	margin-top: 105px;
+	position: relative;
+	overflow: hidden;
+}
+.real-estate-two #slider {
+	margin-bottom: 0;
+	border: none;
+}
+.real-estate-two .slider-cont strong {
+	background: #0c79c5;
+	padding: 12px 0 11px 21px;
+	position: relative;
+}
+.real-estate-two .slider-cont strong span, .real-estate-two .slider-cont strong small {
+	margin-left: 0px;
+	display: inline;
+	background: #69c1ff;
+	padding: 13px 0 13px;
+	font-size: 20px;
+	color: #fefefe;
+}
+.real-estate-two .slider-cont strong small {
+	padding-right: 10px;
+}
+.real-estate-two .features-wrap, .real-estate-two .video, .real-estate-two .map {
+	margin-bottom: 100px;
+	position: relative;
+}
+.real-estate-two .property-subpart {
+	padding: 21px 0;
+	border-bottom: 1px solid #dcdcdc;
+}
+.real-estate-two .control a {
+	background: url(../img/video-btn.png) no-repeat;
+	height: 47px;
+	width: 47px;
+	position: absolute;
+	left: 0;
+	top: 57%;
+	right: 0;
+	margin: 0 auto;
+}
+.real-estate-two .video iframe {
+	border: 0 none;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+}
+.real-estate-two .property-subpart li {
+	list-style: none;
+	float: left;
+	position: relative;
+	margin-bottom: 0;
+	padding: 0 16px 0 22px;
+	margin-bottom: 0;
+	margin-right: 16px;
+	border-right: 1px solid #d7d7d7;
+}
+.real-estate-two .property-subpart li:last-child {
+	border-right: none;
+	margin-right: 0;
+}
+.real-estate-two .property-subpart li a:hover, .property-subpart-wrap .print a:hover {
+	text-decoration: none;
+}
+.real-estate-two .property-subpart li a i {
+	background: url(../img/area.jpg) center center no-repeat;
+	height: 14px;
+	width: 14px;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+.real-estate-two .property-subpart li a .bedroom {
+	background: url(../img/bedroom.jpg) center center no-repeat;
+}
+.real-estate-two .property-subpart li a .bathroom {
+	background: url(../img/bathroom.jpg) center center no-repeat;
+}
+.real-estate-two .property-subpart li a .garage {
+	background: url(../img/garage.jpg) center center no-repeat;
+}
+.property-subpart-wrap {
+	position: relative;
+}
+.property-subpart-wrap .print {
+	position: absolute;
+	top: 22px;
+	right: 0;
+}
+.property-subpart-wrap .print-icon {
+	position: relative;
+	padding-left: 25px;
+	display: block;
+}
+.property-subpart-wrap .print-icon:after {
+	background: url(../img/print.png) center center no-repeat;
+	height: 14px;
+	width: 14px;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.real-estate-two .property-subpart li a strong, .real-estate-two .property-subpart li a span, .real-estate-two .cont-info li strong, .real-estate-two .cont-info li span, .real-estate-two .tele-cont span, .real-estate-two .tele-cont strong, .property-subpart-wrap .print a {
+	font-family: lato;
+	font-weight: 400;
+	font-size: 14px;
+	color: #6b6b70;
+}
+.real-estate-two .cont-info li strong, .real-estate-two .cont-info li span {
+	font-size: 16px;
+	float: left
+}
+.real-estate-two .cont-info li strong {
+	min-width: 193px;
+	max-width: 193px;
+}
+.real-estate-two .property-subpart li a span, .real-estate-two .cont-info li span, .real-estate-two .tele-cont strong {
+	color: #22272e;
+	font-weight: 600;
+}
+.real-estate-two .cont-info li span {
+	width: 73.58%;
+}
+.real-estate-two .cont-info li {
+	list-style: none;
+	padding: 10px 0;
+	border-top: 1px solid #dcdcdc;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+.real-estate-two .cont-info li:last-child {
+	border-bottom: 1px solid #dcdcdc;
+}
+.real-estate-two .cont-info {
+	margin-bottom: 98px;
+}
+.real-estate-two .cont-info span {
+	margin-left: 0px;
+}
+.real-estate-two .property-description {
+	margin-top: 25px;
+}
+.real-estate-two .property-info-wrap p {
+	margin-bottom: 23px;
+	font-family: lato;
+	font-weight: 400;
+	color: #828287;
+}
+.real-estate-two .features {
+	background: #f0f0f0;
+	padding: 30px;
+}
+.real-estate-two .features li {
+	float: left;
+	list-style: none;
+	margin-right: 107px;
+}
+.real-estate-two .features li span {
+	display: block;
+	padding-left: 16px;
+	position: relative;
+	font-family: lato;
+	color: #6b6b70;
+	margin-bottom: 7px;
+}
+.real-estate-two .features-wrap h2, .real-estate-two .video h2, .real-estate-two .map h2, .real-estate-two .contact h2, .real-estate-two .similar-prperty h2 {
+	font-size: 40px;
+	margin-bottom: 62px;
+}
+.real-estate-two .features li span i {
+	background: url(../img/right-arrow.png) center center no-repeat;
+	position: absolute;
+	left: 0;
+	top: 7px;
+	display: inline-block;
+	height: 8px;
+	width: 4px;
+}
+.real-estate-two .sale-rent-info {
+	margin-top: 106px;
+	margin-bottom: 100px;
+}
+.homepage-10.real-estate-two .auto-tab-list li {
+	padding: 20px 41.40px;
+	border-left: 1px solid #ffffff;
+}
+.homepage-10.real-estate-two .auto-tab-list li:first-child {
+	border-left: none;
+}
+.homepage-10.real-estate-two .rent-description img {
+	height: 215px;
+}
+.real-estate-two .form-field .btn-group {
+	position: relative;
+}
+.real-estate-two .form-field .btn-group i.fa-search {
+	position: absolute;
+	top: 19px;
+	right: 9px;
+	font-size: 20px;
+	color: #000000;
+	padding: 0 5px 5px;
+	background-color: #fff;
+}
+.real-estate-two.homepage-10 .sale-rent-info .resto-info {
+	position: static;
+}
+.real-estate-two .mid {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.real-estate-two .sale-rent-info .auto-tab-list {
+	margin-bottom: 50px;
+	top: 0;
+}
+.real-estate-two .rent-description img {
+	width: 100%;
+}
+.real-estate-two .property-header > span {
+	display: block;
+}
+.real-estate-two .propertyimg-nav ul li {
+	width: 20%;
+}
+.real-estate-two #carousel {
+	transform: rotate(90deg);
+	transform-origin: 50% 196% 0;
+	-webkit-transform: rotate(90deg);
+	-webkit-transform-origin: 50% 196% 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 115px;
+	width: 60%;
+	border: none;
+	background: #fdfdfd;
+}
+.real-estate-two #carousel .slides.propertyimg-nav > li {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	border-right: 1px solid #ffffff;
+}
+.real-estate-two .flexslider:hover .flex-direction-nav .flex-next {
+	opacity: 1;
+	right: 19px;
+}
+.real-estate-two .flexslider:hover .flex-direction-nav .flex-prev {
+	left: 63px;
+	opacity: 1;
+}
+.real-estate-two .flex-direction-nav {
+	bottom: 0;
+	height: 100%;
+	left: auto;
+	right: -57px;
+	top: auto;
+	width: 57px;
+	background: #f2f2f2;
+}
+.real-estate-two .flex-direction-nav .flex-next {
+	bottom: 30px;
+	right: 19px;
+	text-align: right;
+	top: auto;
+}
+.real-estate-two .flex-direction-nav a {
+	opacity: 1;
+}
+.real-estate-two .flex-control-paging {
+	display: none;
+}
+.real-estate-two #slider .flex-direction-nav {
+	display: none;
+}
+.real-estate-two .flex-direction-nav .flex-prev {
+	background: url(../img/up-arrow.png) center center no-repeat red;
+	height: 49px;
+	width: 48px;
+	font-size: 0;
+	left: 63px;
+}
+.real-estate-two .flex-nav-next {
+	position: absolute;
+	bottom: 24px;
+	right: -15px;
+	left: auto;
+	border-bottom: 1px solid red;
+}
+.real-estate-two .flex-nav-prev {
+	position: absolute;
+	bottom: -65px;
+	right: 32px;
+	left: auto;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+}
+.real-estate-two .flex-direction-nav .flex-next {
+	background: url(../img/down-arrow.png) center center no-repeat;
+	height: 49px;
+	width: 48px;
+	font-size: 0;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+}
+.real-estate-two .flex-direction-nav a:before, .real-estate-two .flex-direction-nav a:after {
+	display: none;
+}
+.real-estate-two #map-view {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.real-estate-two .map-wrap {
+	padding-top: 46%;
+	position: relative;
+	margin-bottom: 70px;
+}
+.real-estate-two .contact-link li {
+	list-style: none;
+	float: left;
+}
+.real-estate-two .contact-link li {
+	height: 50px;
+	width: 50px;
+	background: #f2f2f2;
+	margin-right: 2px;
+	position: relative;
+}
+.real-estate-two .contact-link li a i {
+	position: absolute;
+	left: 0;
+	top: 18px;
+	right: 0;
+	margin: 0 auto;
+	height: 16px;
+	width: 18px;
+	color: #9d9e9f;
+}
+.real-estate-two .fb-contact {
+	background-position: -51px 0px;
+}
+.real-estate-two .twitter-contact {
+	background-position: -96px -2px;
+}
+.real-estate-two .cont-info-wrap {
+	background: #f0f0f0;
+	padding: 36px 25px 38px 36px;
+	margin-bottom: 108px;
+}
+.real-estate-two .cont-img {
+	float: left;
+}
+.real-estate-two .contact-info {
+	float: left;
+	padding: 0 0 0 30px;
+	width: 75%;
+}
+.real-estate-two .contact-info h3 {
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 14px;
+}
+.real-estate-two .tele-cont {
+	text-align: left;
+	padding-left: 26px;
+}
+.real-estate-two .social-link {
+	padding-bottom: 13px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.real-estate-two .social-link li {
+	list-style: none;
+	float: left;
+	margin-right: 41px;
+}
+.real-estate-two .ui-widget-content {
+	background: #ffffff;
+}
+.real-estate-two .social-link li i {
+	color: #0c79c5;
+	font-size: 20px;
+	display: block;
+	padding-right: 0;
+}
+.real-estate-two .tele-cont span, .real-estate-two .tele-cont strong {
+	display: block;
+}
+.real-estate-two .cont-description {
+	padding: 23px 0 28px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.real-estate-two .cont-description p {
+	font-family: lato;
+	margin-bottom: 48px;
+	color: #828287;
+}
+.real-estate-two .cont-description .btn, .real-estate-two form .btn {
+	font-size: 20px;
+	width: 205px;
+	position: relative;
+	color: #ffffff;
+}
+.real-estate-two form .btn {
+	width: 146px;
+}
+.real-estate-two .cont-description .btn i, .real-estate-two form .btn i {
+	position: absolute;
+	right: 8px;
+	top: -7px;
+}
+.real-estate-two form {
+	padding-top: 30px;
+}
+.real-estate-two form input {
+	width: 226px;
+	border: none;
+	outline: none;
+}
+.real-estate-two form textarea {
+	margin-bottom: 50px;
+}
+.real-estate-two form input, .real-estate-two form textarea {
+	text-transform: capitalize;
+	font-family: Lato;
+	font-size: 20px;
+	color: #828287;
+	padding-left: 15px;
+}
+.real-estate-two form input.name {
+	margin-right: 30px;
+}
+.homepage-10.real-estate-two .auto-tab-list li a {
+	font-size: 24px;
+	font-weight: 700;
+}
+.homepage-10.real-estate-two .form-field .btn-group input {
+	font-weight: 400;
+	color: #828287;
+}
+.homepage-10.real-estate-two .price-meter-wrap span.meter-label {
+	font-weight: 400;
+	font-family: Lato;
+}
+.homepage-10.real-estate-two .sale-rent-info .btn.btn-default.btn-effect {
+	font-family: 'PT Sans Narrow';
+	color: #ffffff;
+}
+.real-estate-two .property-widget .caption {
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+.real-estate-two .property-header span {
+	color: #6b6b70;
+}
+.real-estate-two .rent-description {
+	margin-bottom: 0;
+}
+.real-estate-two .property-widget li {
+	margin-bottom: 4px;
+}
+.real-estate-two .property-widget ul {
+	margin-bottom: 12px;
+}
+.real-estate-two .property-widget h3 {
+	margin-bottom: 5px;
+}
+.real-estate-two .property-widget li .avl-no {
+	font-weight: 600;
+}
+.real-estate-two .property-widget {
+	padding-left: 34px;
+	padding-right: 34px;
+	margin-bottom: 0px;
+}
+.real-estate-two .rent-box {
+	margin-bottom: 36px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.homepage-22-three .subscription h2 {
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 1024px) {
+	.homepage-22-three .subscription h2 {
+		line-height: 50px;
+		margin-bottom: 20px !important;
+	}
+	.homepage-22-three .form-group .fa {
+		font-size: 28px;
+	}
+	.homepage-22-three .form-group .rating-number {
+		left: 50%;
+		position: absolute;
+		top: 28%;
+		font-size: 11px;
+		color: #6b6b70;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+	}
+	.homepage-22-three .form-group a {
+		color: #f9c31e;
+		margin-left: 10px;
+		position: relative
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.homepage-22-three .room-detail .div-block {
+		float: none;
+		font-size: 18px;
+		width: 100%;
+	}
+	.homepage-22-three .price-section {
+		width: 100%;
+		text-align: center;
+	}
+	.homepage-22-three h2, .homepage-22-three .h2 {
+		font-size: 30px !important;
+	}
+	.homepage-22-three .wishes-section .wisher-name h3 {
+		font-size: 21px !important;
+	}
+	.homepage-22-three .rating-list {
+		width: 100% !important;
+		display: block;
+	}
+	.homepage-22-three .rating-box {
+		width: 100% !important;
+		display: block;
+	}
+	.homepage-22-three h2, .homepage-22-three .h2 {
+		margin: 50px 0 30px 0;
+	}
+	.homepage-22-three .subscription {
+		margin-top: 50px;
+	}
+	.homepage-22.three .slider .hero-banner {
+		width: 100%;
+		max-width: 50%
+	}
+	.homepage-22.three .slider span {
+		text-transform: capitalize;
+	}
+	.homepage-12 {
+		font-size: 12px;
+	}
+	.homepage-12 .about-us {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.hotel-choose-us .icon-box-wrap {
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.homepage-18 .denim-collection::before {
+		background: transparent;
+	}
+}
+
+@media only screen and (max-width: 1338px) and (min-width: 1197px) {
+	.homepage-22-three .flexslide .flex-next {
+		right: 14px;
+	}
+	.homepage-22-three .flexslide .flex-prev {
+		left: 14px;
+	}
+}
+
+@media only screen and (max-width: 1137px) and (min-width: 989px) {
+	.homepage-22-three .flexslide .flex-next {
+		right: 14px;
+	}
+	.homepage-22-three .flexslide .flex-prev {
+		left: 14px;
+	}
+}
+
+@media only screen and (max-width: 918px) {
+	.homepage-22-three .flexslide .flex-next {
+		right: 14px;
+	}
+	.homepage-22-three .flexslide .flex-prev {
+		left: 14px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	#no-more-tables table, #no-more-tables thead, #no-more-tables tbody, #no-more-tables th, #no-more-tables td, #no-more-tables tr {
+		display: block;
+	}
+	#no-more-tables thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	#no-more-tables tr {
+		border: 1px solid #ccc;
+	}
+	#no-more-tables td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+		white-space: normal;
+		text-align: left;
+		width: 100%;
+		padding-top: 15px;
+	}
+	#no-more-tables tr td:first-child {
+		font-weight: bold;
+		height: auto;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		padding-left: 0;
+		text-align: center;
+	}
+	#no-more-tables td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align: left;
+		font-weight: bold;
+	}
+	#no-more-tables td:before {
+		color: #7a7a81;
+		content: attr(data-title);
+		padding-top: 40px;
+		text-transform: capitalize;
+		font-size: 18px;
+	}
+	#no-more-tables td.light-bg:before, #no-more-tables td.dark-bg:before {
+		color: #fff;
+	}
+	.filter-tab li:first-child {
+		margin-left: 3px;
+	}
+	.filter-tab li {
+		margin: 5px 3px;
+		padding: 11px 21px;
+	}
+}
+[class^="homepage-"] .btn-default.btn.btn-basic:hover, [class^="homepage-"] .btn-default.btn.btn-primary:hover {
+	background-color: transparent;
+}
+[class^="homepage-"] h2 > a, [class^="homepage-"] .h2 > a, [class^="homepage-"] h3 > a, [class^="homepage-"] .h3 > a, [class^="homepage-"] h4 > a, [class^="homepage-"] .h4 > a, [class^="homepage-"] h5 > a, [class^="homepage-"] .h5 > a {
+	font-family: inherit;
+	font-weight: inherit;
+}
+.btn-primary .arrow-right {
+	margin-top: 0;
+	vertical-align: middle;
+}
+
+
+.heart-med-big .svg path
+{stroke:transparent !important}
