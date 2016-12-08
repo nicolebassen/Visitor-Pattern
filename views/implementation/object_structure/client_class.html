@@ -1,0 +1,23 @@
+<pre>
+    <code>
+    public class ValidationClient {
+
+        public static void main(String[] args) {
+
+            AbstractField nicoleEmail = new EmailAddress("Nbassen@mail.greenriver.edu");
+            AbstractField johnEmail = new EmailAddress("Johnsmith@gmail.com");
+
+            // Validates the syntax of the e-mail address
+            IVisitor regexVisitor = new RegexVisitor();
+
+            // Validates that the e-mail address is unique
+            IVisitor uniqueEntityVisitor = new UniqueEntityVisitor();
+
+            // Performs the operations from the regex visitor and unique entity visitor
+            nicoleEmail.accept(regexVisitor).accept(uniqueEntityVisitor);
+            johnEmail.accept(regexVisitor).accept(uniqueEntityVisitor);
+
+        }
+    }
+    </code>
+</pre>

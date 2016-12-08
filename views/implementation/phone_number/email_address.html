@@ -1,0 +1,27 @@
+<pre>
+    <code>
+    public class EmailAddress extends AbstractField {
+
+        private boolean required;
+        private String emailAddress;
+
+        public EmailAddress(String emailAddress) {
+            this.emailAddress = emailAddress;
+        }
+
+        @Override
+        public void accept(IVisitor visitor) {
+            visitor.visit(this);
+        }
+
+        public String getEmailAddress() {
+            return this.emailAddress;
+        }
+
+        public String toString() {
+            return this.emailAddress;
+        }
+
+    }
+    </code>
+</pre>
